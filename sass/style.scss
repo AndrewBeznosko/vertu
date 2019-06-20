@@ -2,3 +2,39 @@
 @import "fonts";
 @import "toha";
 @import "andre";
+
+
+.btn {
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0 15px;
+    width: 318px;
+    max-width: 100%;
+    height: 30px;
+    line-height: 30px;
+    font-weight: 600;
+    font-size: 12px;
+    border-radius: 3px;
+    -webkit-transition: all .4s;
+    transition: all .4s
+}
+
+.btn,.btn:hover {
+    text-decoration: none
+}
+
+.btn-blue {
+    background: #557faf;
+    color: #fff
+}
+
+.btn-blue:hover {
+    background: #224a7c
+}

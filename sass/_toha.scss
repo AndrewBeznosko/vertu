@@ -1,3 +1,79 @@
 /* Welcome to Compass. Use this file to define print styles.
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" /> */
+
+.profile-settings5 .container {
+	width: 895px;
+	padding: 0 15px;
+	margin: 0 auto;
+	font-family: 'Montserrat';
+}
+.two-blocks_title {
+	margin-bottom: 100px;
+}
+
+.title.margin-big {
+	margin: 100px 0;
+}
+
+.title.margin-sm {
+	margin-bottom: 35px;
+}
+
+.profile-settings5 .two-blocks_wrapp {
+	& > .two-blocks:first-of-type {
+		margin-bottom: 125px;
+	}
+
+	& > .two-blocks {
+		margin-bottom: 185px;
+	}
+} 
+
+.two-blocks {
+	display: flex;
+
+	&.align-items-center {
+		align-items: center;
+	}
+
+	&:not(.reverse)>div:first-of-type {
+		margin-right: 50px;
+	}
+
+	&.reverse {
+		flex-direction: row-reverse;
+
+		>div:first-of-type {
+			margin-left: 50px;
+		}
+	}
+
+	.text {
+		font-size: 16px;
+		line-height: 1.75;
+		color: #828282;
+		font-weight: 500;
+
+		.btn {
+			margin-top: 25px;
+		}
+
+		.text-title {
+			font-size: 24px;
+			color: #4F4F4F;
+			line-height: 130%;
+			margin-bottom: 20px;
+		}
+	}
+
+	.image {
+		min-width: 485px;
+		flex-basis: 485px;
+		box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+
+		img {
+			width: 100%;
+		}
+	}
+}
