@@ -77,3 +77,23 @@
 		}
 	}
 }
+
+.lSAction>a {
+	width: 28px;
+	height: 28px;
+	background-size: cover;
+	background-position: center!important;
+
+	&:hover svg path {
+		fill:#dbdbdb;
+	}
+}
+
+.lSAction>a.lSNext {
+	transform: rotate(180deg);
+	right: 10px;
+}
+
+.lSAction>a.lSPrev {
+	left: 10px;
+}
