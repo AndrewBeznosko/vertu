@@ -1,12 +1,59 @@
 /* Welcome to Compass. Use this file to define print styles.
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" /> */
-
+body.profile-settings5 {
+	background-color: #f4f4f4;
+}
 .profile-settings5 .container {
 	width: 895px;
 	padding: 0 15px;
 	margin: 0 auto;
 	font-family: 'Montserrat';
+}
+
+.success-block {
+	width: 500px;
+	margin: 60px auto 25px auto;
+	display: flex;
+	align-items: center;
+	font-weight: 600;
+	font-size: 28px;
+	line-height: 130%;
+	color: #58B58B;
+
+	img {
+		margin-right: 30px;
+	}
+}
+.about-person {
+	display: flex;
+	align-items: center;
+	.image {
+		min-width: 250px;
+		height: 250px;
+		border: 3px solid #58B58B;
+		border-radius: 50%;
+		overflow: hidden;
+		position: relative;
+		background-color: #E5DADA;
+		margin-right: 35px;
+		img {
+			position: absolute;
+			bottom: 0;
+		}
+	}
+
+	.text {
+		font-weight: 500;
+		font-size: 20px;
+		line-height: 33px;
+		color: #828282;
+		.bigger {
+			font-size: 24px;
+			line-height: 29px;
+			margin-bottom: 25px;
+		}
+	}
 }
 .two-blocks_title {
 	margin-bottom: 100px;
@@ -78,6 +125,7 @@
 	}
 }
 
+//slider styles
 .lSAction>a {
 	width: 28px;
 	height: 28px;
