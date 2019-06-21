@@ -89,7 +89,8 @@ h1.title {
     overflow: hidden;
     position: relative;
 
-    img {
+    .lSSlideOuter,
+    & > img {
         display: inline-block;
         position: absolute;
         width: 100%;
