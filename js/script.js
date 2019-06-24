@@ -17,10 +17,16 @@ $(document).ready(function() {
         showBackButton: false,
         enablePagination: false,
         saveState: true,
-        // startIndex: 1,
+        startIndex: 2,
         onStepChanging: function(event, currentIndex, newIndex) {
             form.validate().settings.ignore = ":disabled,:hidden";
             return form.valid();
+            console.log('ну привет');
+            if (form.children("div").steps("getCurrentIndex") == 0) {
+                $("body").css("background-color","#fff");
+            } else {
+                $("body").css("background-color","#F4F4F4");
+            }
         },
         onFinishing: function(event, currentIndex) {
             form.validate().settings.ignore = ":disabled";
