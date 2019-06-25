@@ -1364,16 +1364,39 @@ fieldset {
             display: flex;
             flex-wrap: wrap;
 
-            li.empty {
+            li {
                 display: block;
-                width: 84px;
-                height: 30px;
-                background: #FFFFFF;
-                border: 1px dashed #D6D6D6;
                 box-sizing: border-box;
                 border-radius: 3px;
                 margin-right: 20px;
                 margin-bottom: 17px;
+
+                &.empty {
+                    width: 84px;
+                    height: 30px;
+                    border: 1px dashed #D6D6D6;
+                    background: #FFFFFF;
+                }
+
+                &.selected {
+                    background: #60C09E;
+                    border: 1px solid #60C09E;
+                    color: #F0F0F0;
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 13px;
+                    line-height: 130%;
+                    text-align: center;
+                    padding: 6px 10px 7px 18px;
+                }
+
+                .close {
+                    display: inline-block;
+                    margin-left: 25px;
+                    padding-left: 5px;
+                    cursor: pointer;
+                }
             }
         }
     }
@@ -1443,6 +1466,7 @@ fieldset {
             display: -ms-flex;
             display: flex;
             flex-wrap: wrap;
+            margin-bottom: -17px;
 
             li {
                 display: block;
@@ -1460,6 +1484,23 @@ fieldset {
                 text-align: center;
                 color: #828282;
                 padding: 6px 18px 7px;
+                cursor: pointer;
+
+                &.selected,
+                &:hover {
+                    background: #60C09E;
+                    border-color: #60C09E;
+                    color: #F0F0F0;
+                }
+
+                &.selected {
+                    cursor: not-allowed;
+                    pointer-events: none;
+
+                    .close {
+                        display: none;
+                    }
+                }
             }
         }
 
@@ -1470,5 +1511,29 @@ fieldset {
             margin: 27px 0;
         }
 
+        .save_btn {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 15px;
+            line-height: 18px;
+            text-align: center;
+            color: #FFFFFF;
+            background: #557FAF;
+            box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.07);
+            border-radius: 3px;
+            padding: 10px 23px 11px;
+            text-decoration: none;
+            display: inline-block;
+
+            &.disable {
+                cursor: not-allowed;
+                pointer-events: none;
+                background: #E0E0E0;
+                box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.07);
+                border-radius: 3px;
+                color: #fff;
+            }
+        }
     }
 }

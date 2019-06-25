@@ -18,6 +18,7 @@ $(document).ready(function() {
         enablePagination: false,
         saveState: true,
         startIndex: 1,
+        transitionEffect: "slideLeft",
         // forceMoveForward: true,
         onStepChanging: function(event, currentIndex, newIndex) {
             form.validate().settings.ignore = ":disabled,:hidden";
@@ -87,11 +88,52 @@ $(document).ready(function() {
 
     function ifMoreFive() {
         countGoalList = $('.js_checklist li').length;
-        if(countGoalList >= 5) {
+        if (countGoalList >= 5) {
             $(".js_add_goal").hide();
         } else {
             $(".js_add_goal").show();
         }
     }
 
+
+    // js select choose_tags
+    var selectWrapp = $('.js_select_tags');
+    var selectItems = $('.js_select_tags li');
+    var selectedWrapp = $('.js_selected_tags');
+    var selectedItems = $('.js_selected_tags li');
+
+    $(selectItems).on("click", function() {
+        $(this).addClass('selected').append("<span class='close'>X</span>");
+        var $this = $(this);
+        var $thisHtml = $(this).clone();
+
+        if (selectedWrapp.find('.empty').length !== 0) {
+            selectedWrapp.find('.empty:first').before($thisHtml).remove('.empty:first');
+        } else {
+            selectedWrapp.find('ul').append($thisHtml);
+        }
+
+        CheckSaveBtn();
+    });
+
+    function CheckSaveBtn() {
+        if (selectedWrapp.find('.selected').length >= 3) {
+            $('.save_btn').removeClass('disable');
+        } else {
+            $('.save_btn').addClass('disable');
+        }
+    }
+
+    function removeSelectedTag() {
+        $(document).on("click", "span.close" , function() {
+            console.log('был клик');
+            var parent = $(this).parent();
+            // selectWrapp.find(parent).removeClass('selected');
+            // console.log();
+            parent.remove();
+
+            CheckSaveBtn();
+        });
+    }
+    removeSelectedTag();
 });
