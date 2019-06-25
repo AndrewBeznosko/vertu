@@ -1,6 +1,7 @@
 /* ==========================================================================
    Chrome Frame prompt
    ========================================================================== */
+
 .chromeframe {
     margin: 0.2em 0;
     background: #ccc;
@@ -16,12 +17,13 @@
 /*
  * Image replacement
  */
+
 .ir {
     background-color: transparent;
     border: 0;
     overflow: hidden;
     /* IE 6/7 fallback */
-    *text-indent: -9999px;
+    *text-indent: -624.9375rem;
 }
 
 .ir:before {
@@ -33,6 +35,7 @@
 /*
  * Hide from both screenreaders and browsers: h5bp.com/u
  */
+
 .hidden {
     display: none !important;
     visibility: hidden;
@@ -40,20 +43,22 @@
 /*
  * Hide only visually, but have it available for screenreaders: h5bp.com/v
  */
+
 .visuallyhidden {
     border: 0;
     clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
+    height: 0.0625rem;
+    margin: -0.0625rem;
     overflow: hidden;
     padding: 0;
     position: absolute;
-    width: 1px;
+    width: 0.0625rem;
 }
 /*
  * Extends the .visuallyhidden class to allow the element to be focusable
  * when navigated to via the keyboard: h5bp.com/p
  */
+
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
     clip: auto;
@@ -66,6 +71,7 @@
 /*
  * Hide visually and from screenreaders, but maintain layout
  */
+
 .invisible {
     visibility: hidden;
 }
@@ -80,6 +86,7 @@
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
+
 .clearfix:after,
 .clearfix:before {
     content: " ";
@@ -95,6 +102,7 @@
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
  */
+
 .clearfix {
     *zoom: 1;
 }
@@ -145,7 +153,7 @@
 
     blockquote,
     pre {
-        border: 1px solid #999;
+        border: 0.0625rem solid #999;
         page-break-inside: avoid;
     }
 
@@ -181,6 +189,7 @@
 /**
  * Correct `inline-block` display not defined in IE 6/7/8/9 and Firefox 3.
  */
+
 audio,
 canvas,
 video {
@@ -192,6 +201,7 @@ video {
  * Prevent modern browsers from displaying `audio` without controls.
  * Remove excess height in iOS 5 devices.
  */
+
 audio:not([controls]) {
     display: none;
     height: 0;
@@ -200,6 +210,7 @@ audio:not([controls]) {
  * Address styling not present in IE 7/8/9, Firefox 3, and Safari 4.
  * Known issue: no IE 6 support.
  */
+
 [hidden] {
     display: none;
 }
@@ -210,6 +221,7 @@ audio:not([controls]) {
  * 1. Remove border when inside `a` element in IE 6/7/8/9 and Firefox 3.
  * 2. Improve image quality when scaled in IE 7.
  */
+
 img {
     border: 0;
     /* 1 */
@@ -219,6 +231,7 @@ img {
 /**
  * Correct overflow displayed oddly in IE 9.
  */
+
 svg:not(:root) {
     overflow: hidden;
 }
@@ -228,6 +241,7 @@ svg:not(:root) {
 /**
  * Address margin not present in IE 6/7/8/9, Safari 5, and Opera 11.
  */
+
 figure {
     margin: 0;
 }
@@ -237,15 +251,17 @@ figure {
 /**
  * Correct margin displayed oddly in IE 6/7.
  */
+
 form {
     margin: 0;
 }
 /**
  * Define consistent border, margin, and padding.
  */
+
 fieldset {
-    border: 1px solid #c0c0c0;
-    margin: 0 2px;
+    border: 0.0625rem solid #c0c0c0;
+    margin: 0 0.125rem;
     padding: 0.35em 0.625em 0.75em;
 }
 /**
@@ -253,13 +269,14 @@ fieldset {
  * 2. Correct text not wrapping in Firefox 3.
  * 3. Correct alignment displayed oddly in IE 6/7.
  */
+
 legend {
     border: 0;
     /* 1 */
     padding: 0;
     white-space: normal;
     /* 2 */
-    *margin-left: -7px;
+    *margin-left: -0.4375rem;
     /* 3 */
 }
 /**
@@ -268,6 +285,7 @@ legend {
  *    and Chrome.
  * 3. Improve appearance and consistency in all browsers.
  */
+
 button,
 input,
 select,
@@ -285,6 +303,7 @@ textarea {
  * Address Firefox 3+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
+
 button,
 input {
     line-height: normal;
@@ -295,6 +314,7 @@ input {
  * Correct `button` style inheritance in Chrome, Safari 5+, and IE 6+.
  * Correct `select` style inheritance in Firefox 4+ and Opera.
  */
+
 button,
 select {
     text-transform: none;
@@ -308,8 +328,8 @@ select {
  * 4. Remove inner spacing in IE 7 without affecting normal text inputs.
  *    Known issue: inner spacing remains in IE 6.
  */
-button, html input[type="button"],/* 1 */
-
+button, html input[type="button"],
+/* 1 */
 input[type="reset"],
 input[type="submit"] {
     -webkit-appearance: button;
@@ -322,6 +342,7 @@ input[type="submit"] {
 /**
  * Re-set default cursor for disabled elements.
  */
+
 button[disabled],
 html input[disabled] {
     cursor: default;
@@ -332,15 +353,16 @@ html input[disabled] {
  * 3. Remove excess padding in IE 7.
  *    Known issue: excess padding remains in IE 6.
  */
+
 input[type="checkbox"],
 input[type="radio"] {
     box-sizing: border-box;
     /* 1 */
     padding: 0;
     /* 2 */
-    *height: 13px;
+    *height: 0.8125rem;
     /* 3 */
-    *width: 13px;
+    *width: 0.8125rem;
     /* 3 */
 }
 /**
@@ -348,6 +370,7 @@ input[type="radio"] {
  * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
  *    (include `-moz` to future-proof).
  */
+
 input[type="search"] {
     -webkit-appearance: textfield;
     /* 1 */
@@ -360,6 +383,7 @@ input[type="search"] {
  * Remove inner padding and search cancel button in Safari 5 and Chrome
  * on OS X.
  */
+
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
     -webkit-appearance: none;
@@ -367,6 +391,7 @@ input[type="search"]::-webkit-search-decoration {
 /**
  * Remove inner padding and border in Firefox 3+.
  */
+
 button::-moz-focus-inner,
 input::-moz-focus-inner {
     border: 0;
@@ -376,6 +401,7 @@ input::-moz-focus-inner {
  * 1. Remove default vertical scrollbar in IE 6/7/8/9.
  * 2. Improve readability and alignment in all browsers.
  */
+
 textarea {
     overflow: auto;
     /* 1 */
@@ -388,6 +414,7 @@ textarea {
 /**
  * Remove most spacing between table cells.
  */
+
 table {
     border-collapse: collapse;
     border-spacing: 0;
@@ -395,6 +422,7 @@ table {
 /*
     Common
 */
+
 .tabcontrol,
 .wizard {
     display: block;
@@ -420,7 +448,6 @@ table {
     padding: 0;
 }
 /* Accessibility */
-
 .tabcontrol > .steps .current-info,
 .wizard > .steps .current-info {
     position: absolute;
@@ -435,6 +462,7 @@ table {
 /*
     Wizard
 */
+
 .wizard > .steps {
     position: relative;
     display: block;
@@ -463,19 +491,19 @@ table {
 .wizard > .steps a,
 .wizard > .steps a:active,
 .wizard > .steps a:hover {
-    width: 75px;
-    height: 75px;
+    width: 4.6875rem;
+    height: 4.6875rem;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    border: solid 3px #D6D6D6;
+    border: solid 0.1875rem #D6D6D6;
     background-color: #E5E5E5;
     box-sizing: border-box;
     font-family: Open Sans;
     font-style: normal;
     font-weight: 600;
-    font-size: 30px;
+    font-size: 1.875rem;
     line-height: 150%;
     color: #828282;
     text-decoration: none;
@@ -517,8 +545,8 @@ table {
         background-image: url("../img/check-green.svg");
         background-size: contain;
         display: block;
-        width: 33px;
-        height: 33px;
+        width: 2.0625rem;
+        height: 2.0625rem;
     }
 }
 
@@ -531,7 +559,7 @@ table {
 
 .wizard > .content > .body input {
     display: block;
-    border: 1px solid #ccc;
+    border: 0.0625rem solid #ccc;
 }
 
 .wizard > .content > .body input[type="checkbox"] {
@@ -540,7 +568,7 @@ table {
 
 .wizard > .content > .body input.error {
     background: rgb(251, 227, 228);
-    border: 1px solid #fbc2c4;
+    border: 0.0625rem solid #fbc2c4;
     color: #8a1f11;
 }
 
@@ -590,9 +618,9 @@ table {
     display: block;
     padding: 0.5em 1em;
     text-decoration: none;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
+    -webkit-border-radius: 0.3125rem;
+    -moz-border-radius: 0.3125rem;
+    border-radius: 0.3125rem;
 }
 
 .wizard > .actions .disabled a,
@@ -608,6 +636,7 @@ table {
 /*
     Tabcontrol
 */
+
 .tabcontrol > .steps {
     position: relative;
     display: block;
@@ -616,34 +645,34 @@ table {
 
 .tabcontrol > .steps > ul {
     position: relative;
-    margin: 6px 0 0;
-    top: 1px;
+    margin: 0.375rem 0 0;
+    top: 0.0625rem;
     z-index: 1;
 }
 
 .tabcontrol > .steps > ul > li {
     float: left;
-    margin: 5px 2px 0 0;
-    padding: 1px;
-    -webkit-border-top-left-radius: 5px;
-    -webkit-border-top-right-radius: 5px;
-    -moz-border-radius-topleft: 5px;
-    -moz-border-radius-topright: 5px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    margin: 0.3125rem 0.125rem 0 0;
+    padding: 0.0625rem;
+    -webkit-border-top-left-radius: 0.3125rem;
+    -webkit-border-top-right-radius: 0.3125rem;
+    -moz-border-radius-topleft: 0.3125rem;
+    -moz-border-radius-topright: 0.3125rem;
+    border-top-left-radius: 0.3125rem;
+    border-top-right-radius: 0.3125rem;
 }
 
 .tabcontrol > .steps > ul > li:hover {
     background: #edecec;
-    border: 1px solid #bbb;
+    border: 0.0625rem solid #bbb;
     padding: 0;
 }
 
 .tabcontrol > .steps > ul > li.current {
     background: #fff;
-    border: 1px solid #bbb;
+    border: 0.0625rem solid #bbb;
     border-bottom: 0 none;
-    padding: 0 0 1px;
+    padding: 0 0 0.0625rem;
     margin-top: 0;
 }
 
@@ -652,7 +681,7 @@ table {
     display: inline-block;
     border: 0 none;
     margin: 0;
-    padding: 10px 30px;
+    padding: 0.625rem 1.875rem;
     text-decoration: none;
 }
 
@@ -661,7 +690,7 @@ table {
 }
 
 .tabcontrol > .steps > ul > li.current > a {
-    padding: 15px 30px 10px;
+    padding: 0.9375rem 1.875rem 0.625rem;
 }
 
 .tabcontrol > .content {
@@ -670,8 +699,8 @@ table {
     width: 100%;
     height: 35em;
     overflow: hidden;
-    border-top: 1px solid #bbb;
-    padding-top: 20px;
+    border-top: 0.0625rem solid #bbb;
+    padding-top: 1.25rem;
 }
 
 .tabcontrol > .content > .body {
@@ -696,12 +725,12 @@ table {
 #steps_form input[type="url"],
 #steps_form textarea,
 #steps_form button[type="submit"] {
-    font: 400 12px/16px "Titillium Web", Helvetica, Arial, sans-serif;
+    font: 400 0.75rem/1rem "Titillium Web", Helvetica, Arial, sans-serif;
 }
 
 fieldset {
     border: medium none !important;
-    margin: 0 0 10px;
+    margin: 0 0 0.625rem;
     min-width: 100%;
     padding: 0;
     width: 100%;
@@ -713,10 +742,10 @@ fieldset {
 #steps_form input[type="url"],
 #steps_form textarea {
     width: 100%;
-    border: 1px solid #ccc;
+    border: 0.0625rem solid #ccc;
     background: #FFF;
-    margin: 0 0 5px;
-    padding: 10px;
+    margin: 0 0 0.3125rem;
+    padding: 0.625rem;
 }
 
 #steps_form input[type="text"]:hover,
@@ -727,11 +756,11 @@ fieldset {
     -webkit-transition: border-color 0.3s ease-in-out;
     -moz-transition: border-color 0.3s ease-in-out;
     transition: border-color 0.3s ease-in-out;
-    border: 1px solid #aaa;
+    border: 0.0625rem solid #aaa;
 }
 
 #steps_form textarea {
-    height: 100px;
+    height: 6.25rem;
     max-width: 100%;
     resize: none;
 }
@@ -742,9 +771,9 @@ fieldset {
     border: none;
     background: #4CAF50;
     color: #FFF;
-    margin: 0 0 5px;
-    padding: 10px;
-    font-size: 15px;
+    margin: 0 0 0.3125rem;
+    padding: 0.625rem;
+    font-size: 0.9375rem;
 }
 
 #steps_form button[type="submit"]:hover {
@@ -755,7 +784,7 @@ fieldset {
 }
 
 #steps_form button[type="submit"]:active {
-    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 0.0625rem 0.1875rem rgba(0, 0, 0, 0.5);
 }
 
 .copyright {
@@ -765,7 +794,7 @@ fieldset {
 #steps_form input:focus,
 #steps_form textarea:focus {
     outline: 0;
-    border: 1px solid #aaa;
+    border: 0.0625rem solid #aaa;
 }
 
 ::-webkit-input-placeholder {
@@ -786,9 +815,9 @@ fieldset {
 
 .actions li a,
 .steps > ul > li > a {
-    padding: 10px;
+    padding: 0.625rem;
     text-decoration: none;
-    margin: 1px;
+    margin: 0.0625rem;
     display: block;
     color: #777;
 }
@@ -803,7 +832,7 @@ fieldset {
     margin-top: 3.12500rem;
 
     .container {
-        max-width: 908px;
+        max-width: 56.75rem;
     }
 
     h1.title {
@@ -814,30 +843,30 @@ fieldset {
         background-color: #60C09E;
 
         .container {
-            max-width: 1100px;
+            max-width: 68.75rem;
             display: flex;
             width: 100%;
             justify-content: space-between;
             align-items: center;
-            padding: 48px 15px;
+            padding: 3rem 0.9375rem;
         }
 
         h3 {
             font-family: Montserrat;
             font-style: normal;
             font-weight: 600;
-            font-size: 28px;
+            font-size: 1.75rem;
             line-height: 150%;
             text-align: right;
             color: #F2F2F2;
-            margin-bottom: 12px;
+            margin-bottom: 0.75rem;
         }
 
         p {
             font-family: Montserrat;
             font-style: normal;
             font-weight: 600;
-            font-size: 24px;
+            font-size: 1.5rem;
             line-height: 150%;
             text-align: right;
             color: #F2F2F2;
@@ -849,8 +878,8 @@ fieldset {
     display: -webkit-flex;
     display: -ms-flex;
     display: flex;
-    max-width: 908px;
-    padding: 0 15px;
+    max-width: 56.75rem;
+    padding: 0 0.9375rem;
     margin: 0 auto;
 }
 
@@ -858,17 +887,17 @@ fieldset {
     position: relative;
 
     &:not(:last-of-type) {
-        padding-right: 58px;
+        padding-right: 3.625rem;
 
         &:after {
             content: '';
             position: absolute;
             top: 50%;
-            right: 25px;
+            right: 1.5625rem;
             transform: translateY(-50%);
             display: block;
-            width: 9px;
-            height: 15px;
+            width: 0.5625rem;
+            height: 0.9375rem;
             background-image: url("../img/arrow_right.svg");
             background-size: contain;
         }
@@ -878,13 +907,13 @@ fieldset {
 
 .registration_wrapp {
     position: relative;
-    padding-bottom: 153px;
+    padding-bottom: 9.5625rem;
 
     .ichac_img {
         position: absolute;
         bottom: 0;
-        right: -130px;
-        max-width: 308px;
+        right: -8.125rem;
+        max-width: 19.25rem;
         height: auto;
     }
 
@@ -986,7 +1015,7 @@ fieldset {
 
 .card.connect_bot {
     padding: 2.0625rem 2.5625rem;
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
 
     .title {
         font-family: Montserrat;
@@ -1014,24 +1043,24 @@ fieldset {
         display: flex;
         align-items: center;
         background: #FFFFFF;
-        border: 1px solid #D6D6D6;
+        border: 0.0625rem solid #D6D6D6;
         box-sizing: border-box;
-        border-radius: 5px;
-        padding: 21px 20px;
+        border-radius: 0.3125rem;
+        padding: 1.3125rem 1.25rem;
 
         &:not(:last-of-type) {
-            margin-bottom: 31px;
+            margin-bottom: 1.9375rem;
         }
 
         .img {
             display: block;
-            width: 75px;
-            height: 75px;
+            width: 4.6875rem;
+            height: 4.6875rem;
             border-radius: 50%;
             background-image: url("../img/tg_bot.svg");
             background-size: contain;
             background-color: #fff;
-            margin-right: 22px;
+            margin-right: 1.375rem;
             background-repeat: no-repeat;
             background-position: center;
         }
@@ -1048,7 +1077,7 @@ fieldset {
             font-family: Montserrat;
             font-style: normal;
             font-weight: 600;
-            font-size: 15px;
+            font-size: 0.9375rem;
             line-height: 150%;
             color: #000000;
             max-width: 13.75rem;
@@ -1087,5 +1116,141 @@ fieldset {
                 }
             }
         }
+    }
+}
+// .card.goallist
+
+.card.goallist {
+    .btn.btn-blue {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 0.9375rem;
+        text-align: center;
+        color: #FFFFFF;
+        padding: 0.1875rem 1.4375rem;
+    }
+
+    .hr {
+        border-top: 0.0625rem solid #D6D6D6;
+        display: block;
+        height: 0.0625rem;
+        margin: 1.875rem 0 1.5rem;
+    }
+
+    .checklist {
+        list-style: none;
+        padding: 0;
+
+        li {
+            margin-bottom: 1.25rem;
+
+            &:last-of-type {
+                margin-bottom: 1.0625rem;
+            }
+        }
+
+        label {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 0.8125rem;
+            line-height: 120%;
+            color: #828282;
+            display: inline-block;
+            width: 100%;
+            margin: 0 !important;
+            position: relative;
+
+            span {
+                margin-bottom: 0.5rem;
+                display: inline-block;
+            }
+
+            span.delete_btn {
+                margin: 0;
+                position: absolute;
+                right: 0.75rem;
+                bottom: 0.6875rem;
+                width: 0.890625rem;
+                height: 1.125rem;
+                background-image: url("../img/basket.svg");
+                background-size: contain;
+                background-repeat: no-repeat;
+                cursor: pointer;
+            }
+        }
+
+        input {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 0.8125rem;
+            line-height: 120%;
+            color: #828282;
+            padding: 0.625rem 0.9375rem;
+            background: #FFFFFF;
+            border: 0.0625rem solid #D6D6D6;
+            box-sizing: border-box;
+            box-shadow: 0 0 0.3125rem rgba(0, 0, 0, 0.07);
+            border-radius: 0.3125rem;
+            margin-top: 0.5rem;
+            display: inline-block;
+            width: 100%;
+            margin: 0 !important;
+        }
+
+        ::-webkit-input-placeholder {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 0.8125rem;
+            line-height: 153.59%;
+            color: #BDBDBD;
+        }
+
+        ::-moz-placeholder {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 0.8125rem;
+            line-height: 153.59%;
+            color: #BDBDBD;
+        }
+
+        :-ms-input-placeholder {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 0.8125rem;
+            line-height: 153.59%;
+            color: #BDBDBD;
+        }
+
+        :-moz-placeholder {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 0.8125rem;
+            line-height: 153.59%;
+            color: #BDBDBD;
+        }
+    }
+
+    .btn_add_goal {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 15px;
+        text-align: center;
+        color: #828282;
+        padding: 7px 15px;
+        background: #FFFFFF;
+        border: 1px solid #E0E0E0;
+        box-sizing: border-box;
+        border-radius: 3px;
+        cursor: pointer;
+        display: inline-block;
     }
 }

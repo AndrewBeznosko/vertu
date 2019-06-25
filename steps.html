@@ -30,6 +30,7 @@
                                 <h3>Тебе осталось зарегистрироваться на платформе SmartExpert, <br> которую я создал специально для твоего развития!</h3>
                                 <div class="registration_bts_wrapp">
                                     <p>Регистрируйся в один клик</p>
+                                    <input id="acceptTerms" name="acceptTerms" type="checkbox" class="required"> <label for="acceptTerms">I agree with the Terms and Conditions.</label>
                                     <div class="registration_bts">
                                         <a href="#" data-direction="next" class="js-next-step-btn"><img src="img/ic_ggl.svg" alt="ic_ggl">Google</a>
                                         <a href="#" data-direction="next" class="js-next-step-btn"><img src="img/ic_vk.svg" alt="ic_ggl">VKontakte</a>
@@ -80,28 +81,65 @@
                                 <div class="img"></div>
                                 <p>Подключить виртуального наставника в Telegram</p>
                                 <a href="#" class="btn">Установить Telegram</a>
-                                <a href="#" class="btn btn-blue">Подключить</a>
+                                <a href="#" class="btn btn-blue" data-direction="next" class="js-next-step-btn">Подключить</a>
                             </div>
                             <div class="bot_block vb">
                                 <div class="img"></div>
                                 <p>Подключить виртуального наставника в Viber</p>
                                 <a href="#" class="btn">Установить Viber</a>
-                                <a href="#" class="btn btn-blue">Подключить</a>
+                                <a href="#" class="btn btn-blue" data-direction="next" class="js-next-step-btn">Подключить</a>
                             </div>
                             <div class="bot_block fb">
                                 <div class="img"></div>
                                 <p>Подключить виртуального  наставника в Messenger</p>
                                 <a href="#" class="btn">Установить Messenger</a>
-                                <a href="#" class="btn btn-blue">Подключить</a>
+                                <a class="btn btn-blue" data-direction="next" class="js-next-step-btn">Подключить</a>
                             </div>
                         </div>
 
-                        <a href="#" data-direction="next" class="js-next-step-btn">следующая</a>
+                        <a href="#" data-direction="next" class="js-next-step-btn">следующая</a><br><br>
+
                     </div>
                 </section>
                 <h3>4</h3>
                 <section>
-                    <input id="acceptTerms" name="acceptTerms" type="checkbox" class="required"> <label for="acceptTerms">I agree with the Terms and Conditions.</label>
+                    <div class="container">
+                        <h1 class="title with_before">Супер! Ты определил основные направления своего развития</h1>
+                        <div class="about-person card">
+                            <div class="image">
+                                <img src="img/isaac.png">
+                            </div>
+                            <div class="text">
+                                <p class="bigger">Подключи наставника в удобном мессенджере</p>
+                                Чтобы я мог делиться с тобой ценными материалами, подключись к одному из предложенных мессенджеров. Это поможет тебе  ничего не упустить!
+                            </div>
+                        </div>
+
+                        <div class="goallist connect_bot card">
+                            <h4 class="title">Укажи от 2 до 5 целей, которые я помогу тебе достигать</h4>
+                            <h5 class="subtitle">Ты всегда сможешь изменить их в личном кабинете</h5>
+                            <ul class="checklist js_checklist">
+                                <li>
+                                    <label>
+                                        Цель №<span>1</span>
+                                        <input type="text" placeholder="Введите сюда свою цель" required>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label>
+                                        Цель №<span>2</span>
+                                        <input type="text" placeholder="Введите сюда свою цель" required>
+                                    </label>
+                                </li>
+                            </ul>
+                            <span class="btn btn_add_goal js_add_goal">Добавить цель</span>
+                            <div class="hr"></div>
+                            <a href="" class="btn btn-blue">Сохранить и продолжить</a>
+                        </div>
+
+                        <a href="#" data-direction="next" class="js-next-step-btn">следующая</a><br><br>
+
+                    </div>
                 </section>
             </div>
         </form>
