@@ -17,7 +17,8 @@ $(document).ready(function() {
         showBackButton: false,
         enablePagination: false,
         saveState: true,
-        startIndex: 3,
+        startIndex: 1,
+        // forceMoveForward: true,
         onStepChanging: function(event, currentIndex, newIndex) {
             form.validate().settings.ignore = ":disabled,:hidden";
             return form.valid();
@@ -40,6 +41,9 @@ $(document).ready(function() {
     $(document).delegate('.js-next-step-btn', 'click', function() {
         form.children("div").steps("next");
     });
+    $(document).delegate('.js-finish-step-btn', 'click', function() {
+        form.children("div").steps("finish");
+    });
 
 
 
@@ -60,6 +64,7 @@ $(document).ready(function() {
         );
         iconRemove();
         NumberingList();
+        ifMoreFive();
     });
     iconRemove();
 
@@ -68,6 +73,7 @@ $(document).ready(function() {
             $(this).closest('li').remove();
 
             NumberingList();
+            ifMoreFive();
         });
     }
 
@@ -77,6 +83,15 @@ $(document).ready(function() {
                 $(this).find('label span:first-of-type').text(i + 1);
             })
         })
+    }
+
+    function ifMoreFive() {
+        countGoalList = $('.js_checklist li').length;
+        if(countGoalList >= 5) {
+            $(".js_add_goal").hide();
+        } else {
+            $(".js_add_goal").show();
+        }
     }
 
 });
