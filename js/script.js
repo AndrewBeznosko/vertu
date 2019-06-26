@@ -19,7 +19,7 @@ $(document).ready(function() {
         saveState: true,
         startIndex: 0,
         transitionEffect: "slideLeft",
-        // forceMoveForward: true,
+        forceMoveForward: true,
         onStepChanging: function(event, currentIndex, newIndex) {
             form.validate().settings.ignore = ":disabled,:hidden";
             return form.valid();
