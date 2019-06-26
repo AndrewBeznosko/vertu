@@ -17,7 +17,7 @@ $(document).ready(function() {
         showBackButton: false,
         enablePagination: false,
         saveState: true,
-        startIndex: 1,
+        startIndex: 0,
         transitionEffect: "slideLeft",
         // forceMoveForward: true,
         onStepChanging: function(event, currentIndex, newIndex) {
