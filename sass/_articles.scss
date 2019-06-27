@@ -62,3 +62,9 @@
         margin: 41px 0;
     }
 }
+@media (max-width: 767.99px) {
+    .my_articles_page .title_wrapp .btn {
+        width: auto;
+        padding: 6px 15px 7px;
+    }
+}

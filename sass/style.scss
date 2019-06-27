@@ -441,3 +441,26 @@
         }
     }
 }
+
+@media (max-width: 767.99px) {
+    .custom_table__wrapper {
+        padding-bottom: 5px;
+        padding-right: 5px;
+    }
+
+    .custom_table {
+        overflow-x: auto;
+        box-shadow: inset -15px 0 1.5625rem -10px rgba(0,0,0,0.15);
+        border-radius: 8px;
+    }
+
+    .custom_table .tr>div.icon-delete,
+    .custom_table .tr>div.icon-edit {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .custom_table .tr>div.icon-edit {
+        padding-right: 30px;
+    }
+}
