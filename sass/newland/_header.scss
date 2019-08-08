@@ -1,0 +1,45 @@
+.navbar {
+    background: #58B58B;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+
+    .btn {
+        border-radius: 3px;
+        padding: 8px 22px;
+    }
+}
+
+.navbar a {
+    color: #fff;
+}
+
+.navbar-collapse {
+    padding: 0.5rem 1rem;
+}
+
+.navbar {
+    padding: 0;
+}
+@media (min-width: 768px) {
+    .navbar-expand-md {
+        align-items: initial;
+    }
+
+    .navbar-expand-md .navbar-nav .nav-link {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    background-color: #509b79;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.nav-link {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 120%;
+}
