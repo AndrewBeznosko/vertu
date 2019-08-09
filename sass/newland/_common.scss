@@ -29,6 +29,10 @@ body {
     opacity: 0.3;
 }
 
+.dubl_line.vertical {
+    transform: rotate(90deg);
+}
+
 .btn-primary {
     color: #FCFCFC;
     background-color: #557FAF;
@@ -81,4 +85,25 @@ h6 {
 .h1,
 h1 {
     font-size: 38px;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.sec_title {
+    text-align: center;
+
+    h2 {
+        margin: 33px 0 20px;
+    }
+
+    p {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 170%;
+        color: #828282;
+        margin: 0;
+    }
 }
