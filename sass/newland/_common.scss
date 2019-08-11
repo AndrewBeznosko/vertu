@@ -40,6 +40,7 @@ body {
 .dubl_stone_2 {
     transform: rotateX(-180deg) rotateY(-180deg);
 }
+
 .dubl_stone_3 {
     transform: rotateX(-180deg);
 }
@@ -59,6 +60,7 @@ body {
     color: #FCFCFC;
     background: #58B58B;
     border-color: #58B58B;
+    padding: 11px 44px;
 
     &:hover {
         background: #428c6b;
@@ -132,4 +134,102 @@ h2 {
 
 .embed-responsive {
     background-color: rgba(229, 229, 229, .5);
+}
+
+.slide_bg {
+    display: block;
+    width: 100%;
+    padding-top: 60.78%;
+    background-image: url("../img/slide_bg.svg");
+    box-shadow: 0 0 1.5625rem rgba(0,0,0,0.15);
+    background-size: cover;
+    border-radius: 0.25rem;
+    overflow: hidden;
+    position: relative;
+
+    & > img,
+    .lSSlideOuter {
+        display: inline-block;
+        position: absolute;
+        width: 99.8%;
+        height: auto;
+        top: 5.9%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+//slider styles
+
+.lSAction > a {
+    width: 1.75rem;
+    height: 1.75rem;
+    background-size: cover;
+    background-position: center!important;
+
+    &:hover svg path {
+        fill: #dbdbdb;
+    }
+
+    &.lSNext {
+        transform: rotate(180deg);
+        right: 0.625rem;
+    }
+
+    &.lSPrev {
+        left: 0.625rem;
+    }
+}
+
+.card_profile {
+    background: #FFFFFF;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    text-align: center;
+    padding: 51px 0 55px;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .icon {
+        display: block;
+        background-color: rgba(229, 229, 229, .5);
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: 4px solid #58B58B;
+        border-radius: 50%;
+        box-sizing: border-box;
+        width: 150px;
+        min-width: 150px;
+        height: 150px;
+        margin-bottom: 28px;
+    }
+
+    h3 {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 130%;
+        color: #4F4F4F;
+        margin-bottom: 15px;
+    }
+
+    p {
+        color: #828282;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 150%;
+        margin: 0;
+    }
+
+    i {
+        font-style: italic;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 170%;
+        text-align: center;
+        color: #828282;
+        margin-top: 38px;
+    }
 }

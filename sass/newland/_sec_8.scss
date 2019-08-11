@@ -1,3 +1,46 @@
 .sec_8 {
-    padding-top: 71px;
+    padding: 71px 0 10px;
+
+    @media (min-width: 1200px) {
+        .container {
+            max-width: 1195px;
+        }
+    }
+
+    .sec_title {
+        margin-bottom: 78px;
+    }
+
+    .screen_list {
+        h3 {
+            font-weight: 500;
+            font-size: 24px;
+            margin-bottom: 23px;
+        }
+
+        p {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 170%;
+            color: #828282;
+            margin-bottom: 40px;
+        }
+
+        .row {
+            margin-bottom: 93px;
+        }
+    }
+
+    .text {
+        margin-left: 9px;
+    }
+
+    .flex-row-reverse {
+        text-align: right;
+
+        .text {
+            margin-left: 0;
+            margin-right: 9px;
+        }
+    }
 }
