@@ -1,0 +1,62 @@
+.sec_12 {
+    padding: 31px 0 36px;
+    background: #333333;
+    @media (min-width: 1400px) {
+        .container {
+            max-width: 1264px;
+        }
+    }
+
+    ul {
+        padding: 0;
+        list-style: none;
+    }
+
+    h4 {
+        margin-bottom: 18px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 170%;
+        color: #fff;
+    }
+
+    li {
+        margin-bottom: 11px;
+
+        a {
+            font-weight: 500;
+            font-size: 13px;
+            line-height: 120%;
+            color: #BDBDBD;
+
+            &:hover {
+                text-decoration: underline;
+                color: #fff;
+            }
+        }
+    }
+
+    .table,
+    .table a {
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 120%;
+        color: #BDBDBD;
+    }
+
+    .table a:hover {
+        text-decoration: underline;
+        color: #fff;
+    }
+
+    select.form-control {
+        background: #454545;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 130%;
+        color: #BDBDBD;
+        border-color: #454545;
+    }
+}

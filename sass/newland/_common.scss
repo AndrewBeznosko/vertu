@@ -18,13 +18,7 @@ body {
     }
 }
 
-.btn {
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 130%;
-    border-radius: 5px;
-}
-
+// abcolute icons
 .abs_pic {
     position: absolute;
 }
@@ -33,6 +27,7 @@ body {
     opacity: 0.3;
 }
 
+.dubl_line_vertical,
 .dubl_line.vertical {
     transform: rotate(90deg);
 }
@@ -43,6 +38,15 @@ body {
 
 .dubl_stone_3 {
     transform: rotateX(-180deg);
+}
+// END absolute icons
+
+
+.btn {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 130%;
+    border-radius: 5px;
 }
 
 .btn-primary {
