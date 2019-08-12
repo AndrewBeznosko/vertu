@@ -68,3 +68,54 @@
         top: 18.5%;
     }
 }
+@media (max-width: 767.98px) {
+    .sec_1 {
+        overflow: hidden;
+        padding: 30px 0;
+
+        .undertitle {
+            font-size: 17px;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            margin-bottom: 80px;
+            padding: 12px 25px;
+            font-size: 16px;
+        }
+
+        .label {
+            font-size: 11px;
+            max-width: 300px;
+        }
+
+        .col-md-4 {
+            position: initial;
+        }
+
+        .col-md-8 {
+            z-index: 1;
+        }
+
+        .img_wrapp {
+            position: absolute;
+            top: 46%;
+            left: 103%;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .circle {
+            top: 72%;
+            left: 16%;
+            width: 38px;
+        }
+
+        .line-light,
+        .line {
+            display: none;
+        }
+    }
+}

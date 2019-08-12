@@ -54,3 +54,41 @@
         top: 40%;
     }
 }
+@media (max-width: 767.98px) {
+    .sec_3 {
+        padding: 15px 0 30px;
+        overflow: hidden;
+
+        h2 {
+            margin-top: 15px;
+        }
+
+        .btn {
+            padding: 12px 25px;
+            font-size: 16px;
+        }
+        // abs pic
+        .circle {
+            right: 6%;
+            bottom: 7%;
+            z-index: 1;
+        }
+
+        .circle_orange {
+            right: -45%;
+            top: 62%;
+            width: 220px;
+        }
+
+        .stone {
+            left: 47%;
+            top: -14%;
+            width: 300px;
+        }
+
+        .dubl_line {
+            left: -17%;
+            top: 46%;
+        }
+    }
+}

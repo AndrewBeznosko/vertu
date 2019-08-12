@@ -17,8 +17,8 @@ body {
         position: relative;
     }
 }
-
 // abcolute icons
+
 .abs_pic {
     position: absolute;
 }
@@ -27,8 +27,8 @@ body {
     opacity: 0.3;
 }
 
-.dubl_line_vertical,
-.dubl_line.vertical {
+.dubl_line.vertical,
+.dubl_line_vertical {
     transform: rotate(90deg);
 }
 
@@ -40,7 +40,6 @@ body {
     transform: rotateX(-180deg);
 }
 // END absolute icons
-
 
 .btn {
     font-weight: 600;
@@ -133,6 +132,19 @@ h2 {
         line-height: 170%;
         color: #828282;
         margin: 0;
+    }
+    @media (max-width: 767.98px) {
+        img {
+            height: 6px;
+        }
+
+        h2 {
+            margin: 5px 0 10px;
+        }
+
+        p {
+            font-size: 14px;
+        }
     }
 }
 
@@ -235,5 +247,17 @@ h2 {
         text-align: center;
         color: #828282;
         margin-top: 38px;
+    }
+}
+@media (max-width: 767.98px) {
+    body {
+        padding-top: 40px;
+    }
+
+    .h1,
+    .h2,
+    h1,
+    h2 {
+        font-size: 24px;
     }
 }

@@ -17,7 +17,14 @@
         p {
             min-height: 42px;
             font-weight: 600;
-            max-width: 250px; 
+            max-width: 250px;
         }
+    }
+
+    .abs_pic {
+        left: 50%;
+        top: 52%;
+        transform: translate(-50%, -50%); 
+        width: 113%;
     }
 }

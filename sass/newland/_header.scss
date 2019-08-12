@@ -43,3 +43,9 @@
     font-size: 15px;
     line-height: 120%;
 }
+@media (max-width: 767.98px) {
+    .navbar-brand {
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+}

@@ -4,6 +4,13 @@
     .sec_title {
         margin-bottom: 65px;
     }
+
+    .abs_pic {
+        left: 50%;
+        top: 52%;
+        transform: translate(-50%, -50%);
+        width: 113%;
+    }
 }
 
 .card_tarif {
