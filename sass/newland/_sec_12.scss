@@ -60,3 +60,12 @@
         border-color: #454545;
     }
 }
+@media (max-width: 767.98px) {
+    .sec_12 {
+        padding: 20px 0 10px;
+
+        .col-md-3:not(:last-of-type) {
+            margin-bottom: 15px;
+        }
+    }
+}
