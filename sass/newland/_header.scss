@@ -1,23 +1,39 @@
 .navbar {
     background: #58B58B;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    padding: 0;
 
     .btn {
         border-radius: 3px;
         padding: 8px 22px;
     }
-}
 
-.navbar a {
-    color: #fff;
+    .dropdown-toggle {
+        &::after {
+            display: none;
+        }
+
+        img {
+            margin-left: 5px;
+        }
+    }
+
+    a {
+        color: #fff;
+    }
 }
 
 .navbar-collapse {
     padding: 0.5rem 1rem;
 }
 
-.navbar {
-    padding: 0;
+.navbar-toggler-icon {
+    display: flex;
+    align-items: center;
+
+    img {
+        margin-left: auto;
+    }
 }
 @media (min-width: 768px) {
     .navbar-expand-md {
@@ -47,5 +63,9 @@
     .navbar-brand {
         padding-top: 6px;
         padding-bottom: 6px;
+    }
+
+    .navbar .btn {
+        margin-right: 15px;
     }
 }
