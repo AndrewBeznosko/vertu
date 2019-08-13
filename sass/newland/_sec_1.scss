@@ -52,20 +52,20 @@
             top: 16%;
         }
     }
-
+    // abs pic
     .circle {
-        top: 50%;
-        left: 47%;
+        top: 47%;
+        left: 44%;
     }
 
     .line {
-        right: 24%;
-        top: 13%;
+        right: 7%;
+        top: 6%;
     }
 
     .line-light {
-        right: 22.4%;
-        top: 18.5%;
+        right: 4.7%;
+        top: 12.5%;
     }
 }
 @media (max-width: 767.98px) {
@@ -113,8 +113,8 @@
             width: 38px;
         }
 
-        .line-light,
-        .line {
+        .line,
+        .line-light {
             display: none;
         }
     }

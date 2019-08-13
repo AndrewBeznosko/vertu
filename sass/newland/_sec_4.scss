@@ -2,6 +2,12 @@
     background: rgba(88, 181, 139, .1);
     padding: 78px 0 67px;
 
+    @media (min-width: 1200px) {
+        .container {
+            max-width: 1170px; 
+        }
+    }
+
     .sec_title {
         margin-bottom: 40px;
     }
