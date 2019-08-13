@@ -24,7 +24,28 @@
     .abs_pic {
         left: 50%;
         top: 52%;
-        transform: translate(-50%, -50%); 
+        transform: translate(-50%, -50%);
         width: 113%;
+    }
+}
+@media (max-width: 767.98px) {
+    .sec_9 {
+        padding: 30px 0 0;
+        overflow: hidden;
+
+        .card_profile {
+            padding: 15px;
+
+            i {
+                font-size: 14px;
+                text-align: left;
+                margin-top: 20px;
+                min-height: 230px;
+            }
+        }
+
+        .sec_title {
+            margin-bottom: 0;
+        }
     }
 }

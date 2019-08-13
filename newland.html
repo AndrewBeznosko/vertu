@@ -373,7 +373,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row flex-row-reverse align-items-center">
+                <div class="row flex-md-row-reverse align-items-center">
                     <div class="col-md-6">
                         <div class="slide_bg">
                             <img src="img/sec_8/slide_1.jpg">
@@ -407,7 +407,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row flex-row-reverse align-items-center">
+                <div class="row flex-md-row-reverse align-items-center">
                     <div class="col-md-6">
                         <div class="slide_bg">
                             <img src="img/sec_8/slide_1.jpg">
@@ -722,7 +722,13 @@
                 enableTouch: true,
                 enableDrag: true,
                 freeMove: true,
-                responsive: [],
+                responsive: [{
+                        breakpoint: 767.98,
+                        settings: {
+                            item: 1,
+                        }
+                    }
+                ]
 
             });
         });

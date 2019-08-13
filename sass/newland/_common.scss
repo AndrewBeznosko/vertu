@@ -16,6 +16,10 @@ body {
     .container {
         position: relative;
     }
+
+    @media (max-width: 767.98px) {
+        overflow: hidden;
+    }
 }
 // abcolute icons
 
