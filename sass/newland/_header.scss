@@ -6,6 +6,7 @@
     .btn {
         border-radius: 3px;
         padding: 8px 22px;
+        font-size: 13px;
     }
 
     .dropdown-toggle {
@@ -80,22 +81,22 @@
     }
 
     .navbar-expand-md .navbar-nav .nav-link {
-        padding-right: 20px;
-        padding-left: 20px;
+        padding-right: 16px;
+        padding-left: 16px;
     }
 }
 
 .navbar-brand {
     display: flex;
     align-items: center;
-    background-color: #509b79;
-    padding-left: 25px;
-    padding-right: 25px;
+    background-color: #ffffff;
+    padding-left: 10px;
+    padding-right: 15px;
 }
 
 .nav-link {
     font-weight: 600;
-    font-size: 15px;
+    font-size: 14px;
     line-height: 120%;
     padding: 1rem;
 
@@ -129,7 +130,7 @@
     }
 
     .dropdown-item {
-        padding: .25rem 1rem;
+        padding: 0.25rem 1rem;
     }
 
     .dropdown-menu::after {

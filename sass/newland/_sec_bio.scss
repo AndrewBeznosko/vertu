@@ -1,0 +1,92 @@
+.sec_bio {
+    padding: 65px 0 67px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.07);
+    background: #FFFFFF;
+
+    .card_transparent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 273px;
+    }
+
+    .icon_avatar {
+        background-size: cover;
+        width: 150px;
+        height: 150px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+        border-radius: 50%;
+        border: solid 4px #58B58B;
+    }
+
+    h5 {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 153.59%;
+        margin-top: 17px;
+        margin-bottom: 21px;
+    }
+
+    .soc_links_wrapp {
+        display: -webkit-flex;
+        display: -ms-flex;
+        display: flex;
+        justify-content: space-between;
+        max-width: 273px;
+        width: 100%;
+
+        .item {
+            display: block;
+            background: #ECECEC;
+            width: 40px;
+            height: 40px;
+            border-radius: 9px;
+            position: relative;
+
+            img {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+        }
+    }
+
+    .card {
+        padding: 29px 58px 38px 76px;
+        position: relative;
+
+        img {
+            position: absolute;
+            top: 29px;
+            left: 32px;
+        }
+    }
+
+    p {
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 153.59%;
+        color: #828282;
+        margin: 0;
+
+        &:not(:last-of-type) {
+            margin-bottom: 18px;
+        }
+    }
+    // abs pic
+    .circle {
+        left: -10%;
+        top: 11%;
+    }
+
+    .stone {
+        left: 89%;
+        top: -11%;
+    }
+
+    .circle_orange {
+        right: -7%;
+        top: 60%;
+    }
+}
