@@ -1,0 +1,39 @@
+.sec_my_articles {
+    padding: 84px 0 38px;
+
+    @media (min-width: 1200px) {
+        .container {
+            max-width: 928px;
+        }
+    }
+
+    .sec_title {
+        margin-bottom: 55px;
+    }
+
+    .tag_list {
+        margin-bottom: 41px;
+    }
+
+    .card_wrapp {
+        margin-bottom: 90px;
+        max-width: 438px;
+    }
+
+    // abs icons
+    .dubl_stone {
+        left: -7%;
+        top: 20%;
+    }
+
+    .dubl_line_down {
+        top: 7%;
+        left: 89%;
+        transform: rotateX(180deg) rotateY(180deg);
+    }
+
+    .circle_orange {
+        right: 76%;
+        top: 105%;
+    }
+}

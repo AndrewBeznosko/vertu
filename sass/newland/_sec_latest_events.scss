@@ -1,0 +1,30 @@
+.sec_latest_events {
+    background: #eaeff4;
+    padding: 83px 0 103px;
+
+    .sec_title {
+        margin-bottom: 50px;
+
+        h2 {
+            margin: 26px 0 20px;
+        }
+    }
+
+    .card_wrapp {
+        max-width: 543px;
+        margin-bottom: 30px;
+    }
+
+    .card {
+        padding: 20px 20px 30px;
+
+        p {
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 130%;
+            color: #828282;
+            margin-top: 24px;
+            margin-bottom: 0;
+        }
+    }
+}

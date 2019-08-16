@@ -1,0 +1,26 @@
+.sec_success_stories {
+    padding: 62px 0 150px;
+
+    .sec_title {
+        margin-bottom: 62px;
+    }
+    @media (min-width: 1200px) {
+        .container {
+            max-width: 1120px;
+        }
+    }
+
+    .card_wrapp {
+        margin-bottom: 30px;
+        max-width: 367px;
+    }
+
+    .card_profile {
+        padding: 41px 26px 60px;
+
+        i {
+            text-align: left;
+            min-height: 300px;
+        }
+    }
+}
