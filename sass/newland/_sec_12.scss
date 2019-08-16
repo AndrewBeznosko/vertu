@@ -61,7 +61,14 @@
     }
 
     .table td, .table th {
+        padding: 7px;
         padding-left: 0;
+    }
+
+    .soc_links_wrapp {
+        .item {
+            background: rgba(236, 236, 236, .1);
+        }
     }
 }
 @media (max-width: 767.98px) {
