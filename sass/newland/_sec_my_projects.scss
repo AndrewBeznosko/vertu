@@ -11,6 +11,7 @@
     .dubl_line {
     	left: -50px;
     	top: 35px;
+    	transform: rotate(180deg);
     }
     .dubl_line2 {
     	top: -55px;
@@ -255,7 +256,7 @@
 }
 @media (max-width: 767.98px) {
 	.sec_my_projects .card {
-		padding: 20px 15px;
+		padding: 20px;
 	}
 	.sec_my_projects .card .media {
 		flex-direction: column;
@@ -265,7 +266,7 @@
 		margin: 30px 0 0 0;
 	}
 	.sec_my_projects .card .media .media-image-abs_wrapp {
-		width: calc(100% + 30px);
+		width: calc(100% + 40px);
 		border-bottom: 1px solid #e9ecef;
 	}
 
@@ -277,6 +278,7 @@
 		font-size: 16px;
 		line-height: 25px;
 	}
+
 }
 
 .border-image {
