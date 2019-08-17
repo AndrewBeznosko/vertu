@@ -1,0 +1,49 @@
+.sec_offer {
+	background: #badfcf;
+	padding: 60px 0 70px 0;
+	.main-txt {
+		font-weight: 500;
+		font-size: 29px;
+		line-height: 130%;
+		color: #4F4F4F;
+		margin-bottom: 20px;
+	}
+
+	.btn-orange {
+		color: #fff;
+		text-transform: uppercase;
+		width: 280px;
+		text-align: center;
+		padding: 17px;
+	}
+}
+@media (min-width: 1200px) {
+	.sec_offer {
+		.container {
+			max-width: 1120px;
+		}
+	}
+}
+@media (max-width: 1200px) {
+	.sec_offer {
+		.main-txt {
+			font-size: 26px;
+		}
+	}
+}
+@media (max-width: 991.98px) {
+	.sec_offer {
+		.main-txt {
+			font-size: 23px;
+		}
+	}
+}
+
+@media (max-width: 767.98px) {
+	.sec_offer {
+		.main-txt {
+			font-size: 19px;
+			margin-top: 30px;
+		}
+	}
+}

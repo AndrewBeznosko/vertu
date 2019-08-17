@@ -8,6 +8,11 @@
         text-transform: uppercase;
         margin-bottom: 20px;
     }
+    @media (min-width: 1200px) {
+        .container {
+            max-width: 1120px;
+        }   
+    }
 
     .undertitle {
         font-weight: 600;
