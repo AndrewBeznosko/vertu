@@ -16,7 +16,6 @@ body {
     .container {
         position: relative;
     }
-
     @media (max-width: 767.98px) {
         overflow: hidden;
     }
@@ -286,5 +285,9 @@ h2 {
     h1,
     h2 {
         font-size: 24px;
+    }
+
+    br {
+        display: none;
     }
 }
