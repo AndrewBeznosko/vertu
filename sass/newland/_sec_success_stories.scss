@@ -23,4 +23,27 @@
             min-height: 300px;
         }
     }
+
+    .dubl_line {
+        left: 6%;
+        top: 11%;
+    }
+    .circle {
+        right: 10%;
+        top: 16%;
+    }
+    .circle_orange {
+        bottom: 10%;
+        left: 0;
+    }
+    .stone_orange {
+        left: -4%;
+        top: 28%;
+        transform: rotate(25deg);
+    }
+    .stone_orange_bottom {
+        right: -4%;
+        bottom: 8%;
+        transform: rotate(215deg);
+    }
 }

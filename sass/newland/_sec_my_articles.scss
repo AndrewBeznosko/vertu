@@ -21,19 +21,23 @@
     }
 
     // abs icons
-    .dubl_stone {
-        left: -7%;
-        top: 20%;
+    .dubl_line_vertical {
+        left: -16%;
+        top: 24%;
+        transform: rotate(-90deg);
     }
-
-    .dubl_line_down {
-        top: 7%;
-        left: 89%;
-        transform: rotateX(180deg) rotateY(180deg);
+    .dubl_line {
+        bottom: 19%;
+        right: -19%;
     }
-
+  
     .circle_orange {
-        right: 76%;
-        top: 105%;
+        right: -10%;
+        top: 10%;
+    }
+
+    .circle {
+        bottom: 17%;
+        left: -20%;
     }
 }

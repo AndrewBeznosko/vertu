@@ -18,8 +18,8 @@
     	right: -260px;
     }
     .cup {
-    	left: -70px;
-    	top: 500px;
+    	left: -160px;
+    	top: 450px;
     }
     .circle_orange {
     	right: -100px;
@@ -27,12 +27,24 @@
     }
     .brain {
     	right: 0;
-    bottom: 750px;
+    	bottom: 810px;
     }
     .card {
-    	padding: 25px;
+    	padding: 20px 25px;
     	margin-bottom: 40px;
     	position: relative;
+    	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    	border-radius: 8px;
+    	.margin-b-80 {
+    		margin-bottom: 80px;
+    		@media (min-width: 767px) {
+    		margin-bottom: 50px;
+    		}
+    	}
+    	
+    	.btn-blue {
+    		width: 152px;
+    	}
     	.media-image-abs_wrapp {
     		width: 220px;
     		flex-basis: 220px;
@@ -47,6 +59,12 @@
     	.media.vertical {
     		flex-direction: column;
     		position: relative;
+    		@media (min-width: 767px) {
+    			.card_title {
+	    			min-height: 45px;
+	    		}
+    		}
+    		
     		.media-body {
     			margin: 20px 0 0 0;
     			max-width: 100%;
@@ -120,9 +138,11 @@
     	}
     	.card_subtitle {
     		font-size: 13px;
+    		font-weight: 600;
     		line-height: 16px;
     		color: #bdbdbd;
     		margin: 0;
+    		margin-bottom: 5px;
     	}
     	.card_title {
     		font-size: 18px;
@@ -131,18 +151,15 @@
     		color: #4f4f4f;
     		text-transform: uppercase;
     		margin-bottom: 20px;
-
-    		@media (min-width: 767px) {
-    			min-height: 45px;
-    		}
     	}
 
     	&.with-date .b-card-body {
-    		margin: 40px 0;
+    		margin: 30px 0 20px 0;
     	}
 
     	.b-card-body {
     		margin: 15px 0;
+    		min-height: 100px;
     	}
 
     	.b-card-footer {
@@ -152,20 +169,25 @@
     		.counter {
  				color: #828282;
  				margin-right: auto;
+ 				font-weight: 500;
     		}
-
+    		.btn.margin-minus {
+    			margin-top: -30px;
+    		}
     		.views {
     			display: flex;
     			align-items: center;
     			color: #D85243;
     			margin-right: 60px;
     			margin-left: 10px;
+    			font-weight: 500;
     		}
     	}
 
     	.dropdown-divider {
     		margin: 15px 0;
     		width: 100%;
+    		border-color: #d6d6d6;
     	}
 
     }
@@ -181,6 +203,7 @@
     	.dubl_line_vertical {
 			left: -200px;
 			top: 50%;
+			transform: rotate(-90deg);
     	}
 
     	.circle2 {
@@ -211,7 +234,10 @@
 .date_wrap {
 	    display: flex;
 	.item {
-		margin-right: 12px;
+		&:first-child {
+			margin-right: 12px;	
+		}
+		
 		& > span {
 		    font-family: Montserrat;
 		    font-style: normal;
@@ -227,7 +253,7 @@
 		    border: 1px solid #d6d6d6;
 		    box-sizing: border-box;
 		    border-radius: 5px;
-		    padding: 6px 9px;
+		    padding: 3px 9px;
 		    font-size: 13px;
 		    text-align: center;
 
@@ -252,6 +278,13 @@
 		width: 220px;
 		bottom: 0;
 		left: 25px;
+	}
+	.pl-22 {
+		padding-left: 22px;
+	}
+
+	.pr-22 {
+		padding-right: 22px;
 	}
 }
 @media (max-width: 767.98px) {
@@ -279,6 +312,24 @@
 		line-height: 25px;
 	}
 
+	.sec_my_projects .card .btn-blue {
+		width: 100%;
+		margin-top: 10px;
+	}
+
+	.sec_my_projects .card .b-card-footer {
+		flex-wrap: wrap;
+	}
+
+	.sec_my_projects .card .b-card-footer .views {
+		margin-right: 0;
+	}
+	.sec_my_projects .card .date_wrap {
+		margin: 0 0 10px 10px;
+	}
+	.date_wrap .item:first-child {
+		margin-right: 7px;
+	}
 }
 
 .border-image {

@@ -14,13 +14,17 @@
 		text-transform: uppercase;
 		width: 280px;
 		text-align: center;
-		padding: 17px;
+		padding: 13px;
+		font-size: 20px;
 	}
 }
 @media (min-width: 1200px) {
 	.sec_offer {
 		.container {
 			max-width: 1120px;
+		}
+		.right-col {
+			padding-left: 40px;
 		}
 	}
 }
