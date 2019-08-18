@@ -7,9 +7,19 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        max-width: 273px;
-    }
+        max-width: 335px;
+        width: 100%;
 
+        @media (max-width: 991.98px) {
+            margin-bottom: 35px;
+        }
+    }
+    .btn-blue {
+        width: 100%;
+        margin-top: 35px;
+        font-size: 20px;
+        padding: 15px;
+    }
     .icon_avatar {
         background-size: cover;
         width: 150px;
@@ -28,7 +38,7 @@
     }
 
     .card {
-        padding: 29px 58px 38px 76px;
+        padding: 29px 50px 38px 76px;
         position: relative;
 
         img {
@@ -63,5 +73,20 @@
     .circle_orange {
         right: -7%;
         top: 60%;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .sec_bio .card {
+        padding: 25px 20px 35px 45px;
+    }
+    .sec_bio .card img {
+        position: absolute;
+        top: 30px;
+        left: 12px;
+        width: 23px;
+    }
+    .sec_bio .btn-blue {
+        font-size: 16px;
     }
 }
