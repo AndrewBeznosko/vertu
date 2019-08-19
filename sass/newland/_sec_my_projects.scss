@@ -143,11 +143,9 @@
                 position: relative;
                 padding-left: 15px;
                 font-weight: 500;
-
                 // &:not(:last-of-type) {
                 //     margin-bottom: 3px;
                 // }
-
                 &::before {
                     position: absolute;
                     content: '';
@@ -319,7 +317,7 @@
 }
 @media (max-width: 767.98px) {
     .sec_my_projects {
-        padding: 45px 0;
+        padding: 45px 0 0;
     }
 
     .sec_my_projects .card {
@@ -368,6 +366,21 @@
 
     .date_wrap .item:first-child {
         margin-right: 7px;
+    }
+
+    .card-with-table {
+        .table_wrapp {
+            box-shadow: none;
+            margin: 0 -18px -18px;
+
+            .btn-blue {
+                width: 152px;
+            }
+        }
+
+        .media {
+            text-align: center;
+        }
     }
 }
 

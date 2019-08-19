@@ -425,6 +425,27 @@ h2 {
         color: #A2A2A2;
     }
 }
+@media (max-width: 767.98px) {
+    .table_wrapp {
+        border-radius: 8px;
+        padding-bottom: 5px;
+        box-shadow: 0 0 25px rgba(0,0,0,0.15);
+        padding: 5px;
+        background: #FFFFFF;
+        z-index: 46;
+        display: block;
+
+        .table-responsive {
+            box-shadow: inset -15px 0 1.5625rem -10px rgba(0, 0, 0, 0.15);
+            border-radius: 8px;
+        }
+
+        .table tr td:last-of-type,
+        .table tr th:last-of-type {
+            padding-right: 20px;
+        }
+    }
+}
 
 .btn.btn-blue {
     background: #557FAF;
@@ -444,8 +465,7 @@ h2 {
 }
 
 .tag_list {
-    margin: 0 0 -5px;
-    margin-bottom: -11px;
+    margin: 0 0 -11px;
 
     span {
         font-weight: 600;

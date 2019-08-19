@@ -28,26 +28,37 @@
         left: 6%;
         top: 11%;
     }
+
     .circle {
         right: 10%;
         top: 16%;
     }
+
     .circle_orange {
         bottom: 10%;
         left: 0;
     }
+
     .stone_orange {
         left: -4%;
         top: 28%;
         transform: rotate(25deg);
     }
+
     .stone_orange_bottom {
         right: -4%;
         bottom: 8%;
         transform: rotate(215deg);
     }
-
     @media (max-width: 767.98px) {
         padding: 30px 0;
+
+        .card_profile {
+            padding: 30px 26px;
+
+            i {
+                min-height: 1px;
+            }
+        }
     }
 }
