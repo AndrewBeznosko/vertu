@@ -1,7 +1,7 @@
 body {
     background-color: #FBFBFB;
     font-family: 'Montserrat';
-    padding-top: 50px;
+    padding-top: 49px;
     color: #4f4f4f;
 }
 @media (min-width: 1200px) {
@@ -340,6 +340,10 @@ h2 {
     h1,
     h2 {
         font-size: 24px;
+    }
+
+    br {
+        display: none;
     }
 }
 

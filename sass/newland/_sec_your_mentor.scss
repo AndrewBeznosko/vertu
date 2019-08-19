@@ -39,18 +39,62 @@
             filter: drop-shadow(20px 20px 25px rgba(0, 0, 0, 0.3));
         }
     }
+
     .circle {
         bottom: 54%;
         left: -6%;
     }
+
     .dubl_line {
         bottom: 12%;
         right: 20%;
         transform: rotate(180deg);
     }
+
     .dubl_line_vertical {
         top: 31%;
         left: 36%;
         transform: rotate(90deg);
+    }
+    @media (max-width: 767.98px) {
+        padding: 30px 0 0;
+
+        .sec_title {
+            margin-bottom: 45px;
+
+            h2 {
+                font-size: 24px;
+                margin: 5px 0 10px;
+            }
+        }
+
+        .row {
+            flex-direction: column-reverse;
+        }
+
+        .img_wrapp {
+            height: 360px;
+
+            img {
+                max-width: 400px;
+            }
+        }
+
+        .btn-success {
+            border-radius: 2px;
+            padding: 10px;
+            margin: 25px 0 130px;
+            font-size: 18px;
+        }
+
+        .circle {
+            bottom: 40%;
+            left: -6%;
+        }
+
+        .dubl_line_vertical {
+            top: 68%;
+            left: 84%;
+        }
     }
 }

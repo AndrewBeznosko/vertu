@@ -60,9 +60,9 @@
         border-color: #454545;
     }
 
-    .table td, .table th {
-        padding: 7px;
-        padding-left: 0;
+    .table td,
+    .table th {
+        padding: 7px 7px 7px 0;
     }
 
     .soc_links_wrapp {
@@ -77,6 +77,11 @@
 
         .col-md-3:not(:last-of-type) {
             margin-bottom: 15px;
+        }
+
+        .soc_links_wrapp {
+            margin-bottom: 40px;
+            margin-top: 15px;
         }
     }
 }

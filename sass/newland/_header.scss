@@ -90,8 +90,7 @@
     display: flex;
     align-items: center;
     background-color: #ffffff;
-    padding-left: 10px;
-    padding-right: 15px;
+    padding: 3px 17px 5px 12px;
 }
 
 .nav-link {
@@ -107,8 +106,8 @@
 }
 @media (max-width: 767.98px) {
     .navbar-brand {
-        padding-top: 6px;
-        padding-bottom: 6px;
+        padding-top: 3px;
+        padding-bottom: 5px;
     }
 
     .navbar .btn {

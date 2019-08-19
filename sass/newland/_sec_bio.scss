@@ -7,19 +7,21 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        max-width: 335px;
+        max-width: 343px;
         width: 100%;
-
         @media (max-width: 991.98px) {
             margin-bottom: 35px;
         }
     }
+
     .btn-blue {
         width: 100%;
-        margin-top: 35px;
+        margin-top: 36px;
         font-size: 20px;
-        padding: 15px;
+        line-height: 24px;
+        padding: 13px 18px;
     }
+
     .icon_avatar {
         background-size: cover;
         width: 150px;
@@ -75,18 +77,24 @@
         top: 60%;
     }
 }
-
 @media (max-width: 767.98px) {
-    .sec_bio .card {
-        padding: 25px 20px 35px 45px;
-    }
-    .sec_bio .card img {
-        position: absolute;
-        top: 30px;
-        left: 12px;
-        width: 23px;
-    }
-    .sec_bio .btn-blue {
-        font-size: 16px;
+    .sec_bio {
+        padding: 30px 0;
+
+        .card {
+            padding: 15px;
+
+            img {
+                display: none;
+            }
+        }
+
+        p {
+            font-size: 14px;
+        }
+
+        .btn-blue {
+            font-size: 16px;
+        }
     }
 }
