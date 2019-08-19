@@ -465,6 +465,20 @@
                 </div>
             </div>
             <div class="sleder_wrapp row">
+                <span class="arrow-prev">
+                    <svg width="15" height="28" viewBox="0 0 15 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M14.0532 27.2416C14.4224 26.8724 14.4224 26.2724 14.0532 25.9032L2.26144 14.1346L14.0532 2.34284C14.4224 1.97363 14.4224 1.37366 14.0532 1.00445C13.684 0.635236 13.084 0.635236 12.7148 1.00445L0.276925 13.4423C0.0923196 13.6269 1.54154e-05 13.8577 1.54184e-05 14.1115C1.54211e-05 14.3423 0.0923197 14.5961 0.276925 14.7807L12.7148 27.2185C13.084 27.6108 13.684 27.6108 14.0532 27.2416Z"
+                            fill="#BDBDBD" />
+                    </svg>
+                </span>
+                <span class="arrow-next">
+                    <svg width="15" height="28" viewBox="0 0 15 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M14.0532 27.2416C14.4224 26.8724 14.4224 26.2724 14.0532 25.9032L2.26144 14.1346L14.0532 2.34284C14.4224 1.97363 14.4224 1.37366 14.0532 1.00445C13.684 0.635236 13.084 0.635236 12.7148 1.00445L0.276925 13.4423C0.0923196 13.6269 1.54154e-05 13.8577 1.54184e-05 14.1115C1.54211e-05 14.3423 0.0923197 14.5961 0.276925 14.7807L12.7148 27.2185C13.084 27.6108 13.684 27.6108 14.0532 27.2416Z"
+                            fill="#BDBDBD" />
+                    </svg>
+                </span>
                 <div class="sliderAuthors authors">
                     <div class="col-md-4 py-5 px-4">
                         <div class="card_profile">
@@ -710,7 +724,7 @@
                 responsive: [],
 
             });
-            $('.sliderAuthors').lightSlider({
+            var sliderAuthors = $('.sliderAuthors').lightSlider({
                 item: 3,
                 slideMargin: 0,
                 addClass: '',
@@ -724,7 +738,7 @@
                 pager: false,
                 pause: 3500,
                 keyPress: true,
-                controls: true,
+                controls: false, 
                 prevHtml: '<svg width="15" height="28" viewBox="0 0 15 28" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14.0532 27.2416C14.4224 26.8724 14.4224 26.2724 14.0532 25.9032L2.26144 14.1346L14.0532 2.34284C14.4224 1.97363 14.4224 1.37366 14.0532 1.00445C13.684 0.635236 13.084 0.635236 12.7148 1.00445L0.276925 13.4423C0.0923196 13.6269 1.54154e-05 13.8577 1.54184e-05 14.1115C1.54211e-05 14.3423 0.0923197 14.5961 0.276925 14.7807L12.7148 27.2185C13.084 27.6108 13.684 27.6108 14.0532 27.2416Z" fill="#BDBDBD"/></svg>',
                 nextHtml: '<svg width="15" height="28" viewBox="0 0 15 28" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14.0532 27.2416C14.4224 26.8724 14.4224 26.2724 14.0532 25.9032L2.26144 14.1346L14.0532 2.34284C14.4224 1.97363 14.4224 1.37366 14.0532 1.00445C13.684 0.635236 13.084 0.635236 12.7148 1.00445L0.276925 13.4423C0.0923196 13.6269 1.54154e-05 13.8577 1.54184e-05 14.1115C1.54211e-05 14.3423 0.0923197 14.5961 0.276925 14.7807L12.7148 27.2185C13.084 27.6108 13.684 27.6108 14.0532 27.2416Z" fill="#BDBDBD"/></svg>',
                 enableTouch: true,
@@ -733,10 +747,17 @@
                 responsive: [{
                     breakpoint: 767.98,
                     settings: {
+                        controls: true,
                         item: 1,
                     }
                 }]
+            });
+            $('.sleder_wrapp .arrow-prev').click(function() {
+                sliderAuthors.goToPrevSlide();
+            });
 
+            $('.sleder_wrapp .arrow-next').click(function() {
+                sliderAuthors.goToNextSlide();
             });
 
             // scrollToSection
@@ -776,12 +797,10 @@
                     }
                 });
 
-            $(document).ready(function() {
-                $('#play-video').on('click', function(ev) {
-                    ev.preventDefault();
-                    $("#video")[0].src = "http://www.youtube.com/embed/vMW2jl241QY?autoplay=1&origin=http://example.com";
-                    ev.preventDefault();
-                });
+            $('#play-video').on('click', function(ev) {
+                ev.preventDefault();
+                $("#video")[0].src = "http://www.youtube.com/embed/vMW2jl241QY?autoplay=1&origin=http://example.com";
+                ev.preventDefault();
             });
         });
     </script>
