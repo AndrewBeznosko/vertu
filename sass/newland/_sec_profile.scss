@@ -1,7 +1,12 @@
 .sec_profile {
-    background-color: #daede5;
-    padding: 53px 0 0;
+    padding: 98px 0 0;
     overflow: hidden;
+
+    .sec_title h2 {
+        font-size: 40px;
+        margin-bottom: 50px;
+        margin-top: 27px;
+    }
 
     h1 {
         font-size: 46px;
@@ -86,7 +91,7 @@
         justify-content: space-between;
         max-width: 566px;
         width: 100%;
-        margin-bottom: 52px;
+        margin-bottom: 115px;
     }
     // abs pic
     .circle {

@@ -1,0 +1,101 @@
+.sec_programm {
+    padding: 75px 0 141px;
+    background-color: #fbf3e9;
+
+    .sec_title {
+        margin-bottom: 40px;
+    }
+}
+
+.accordion {
+    max-width: 886px;
+    width: 100%;
+
+    & > .card {
+        background: #FFFFFF;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        margin-bottom: 15px;
+
+        &:last-of-type {
+            margin-bottom: 0;
+        }
+
+        &:first-of-type,
+        &:last-of-type,
+        &:not(:first-of-type):not(:last-of-type) {
+            border-radius: 8px;
+        }
+
+        .card-header {
+            padding: 0.75rem 1.25rem;
+            margin-bottom: 0;
+            background-color: #fff;
+            border-bottom: 1px solid transparent;
+
+            h2 {
+                margin-bottom: 0;
+                display: -webkit-flex;
+                display: -ms-flex;
+                display: flex;
+                align-items: center;
+            }
+
+            i {
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 153.59%;
+                color: #828282;
+                min-width: 155px;
+            }
+
+            button {
+                display: -webkit-flex;
+                display: -ms-flex;
+                display: flex;
+                align-items: center;
+                width: 100%;
+                justify-content: space-between;
+
+                span {
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 22px;
+                    color: #557FAF;
+                }
+
+                img {
+                    display: inline-block;
+                    margin-left: 15px;
+                    transition: 0.2s;
+                }
+            }
+        }
+
+        .card-body {
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 150%;
+            color: #828282;
+        }
+    }
+
+    .collapse~.card-header {
+        background-color: red;
+    }
+
+    .collapse {
+        &~.card-header {
+            background-color: red;
+
+            img {
+                transform: rotateX(0deg);
+            }
+        }
+
+        &.show ~ .card-header img {
+            transform: rotateX(180deg);
+        }
+    }
+}
