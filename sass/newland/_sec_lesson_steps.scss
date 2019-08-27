@@ -1,31 +1,102 @@
 .sec_lesson_steps {
     padding: 76px 0 84px;
     background: #fbf3e9;
+    overflow: hidden;
 
     .sec_title {
-        margin-bottom: 26px;
+        margin-bottom: 49px;
     }
 
     .card_profile {
-        padding: 50px 0 48px;
+        padding: 66px 46px 61px 53px;
+        display: flex;
+        flex-direction: row;
 
-        i {
-            max-width: 285px;
-            min-height: 250px;
+        .icon {
+            height: 294px;
+            min-width: 377px;
+            background: none;
+            border: none;
+            border-radius: 0;
+            position: relative;
+            margin: 0;
+
+            img {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                display: inline-block;
+            }
+        }
+
+        .text {
+            margin-left: 25px;
+            text-align: left;
+        }
+
+        h3 {
+            font-weight: 500;
+            font-size: 23px;
+            line-height: 153.59%;
+            margin-bottom: 26px;
+            max-width: 485px;
         }
 
         p {
-            min-height: 42px;
-            font-weight: 600;
-            max-width: 261px;
+            font-weight: 500;
+            font-size: 13px;
+            line-height: 170%;
+            color: #828282;
+            max-width: 482px;
         }
     }
 
     .abs_pic {
         left: 50%;
-        top: 50%;
+        top: 105%;
         transform: translate(-50%, -50%);
-        width: 113%;
+        width: 123%;
+    }
+}
+
+.lSSlideOuter {
+    display: flex;
+    flex-direction: column-reverse;
+
+    .lSPager.lSpg > li a {
+        background: #FFFFFF;
+        border: 2px solid #A2A2A2;
+        width: 20px;
+        height: 20px;
+        box-sizing: content-box;
+        position: relative;
+    }
+
+    .lSPager.lSpg > li.active a,
+    .lSPager.lSpg > li:hover a {
+        background-color: #FFFFFF;
+
+        &::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: inline-block;
+            width: 14px;
+            height: 14px;
+            background: #099E18;
+            border: 1px solid #828282;
+            box-sizing: border-box;
+            border-radius: 50%;
+        }
+    }
+
+    .lSPager.lSpg > li:hover a {
+        &::after {
+            opacity: 0.3;
+        }
     }
 }
 
