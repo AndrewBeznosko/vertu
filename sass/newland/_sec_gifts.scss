@@ -1,0 +1,51 @@
+.sec_gifts {
+    padding: 104px 0 74px;
+
+    .sec_title {
+        margin-bottom: 78px;
+    }
+
+    .card_wrapp {
+        margin-bottom: 30px;
+    }
+
+    .card_profile {
+        height: 100%;
+
+        img {
+            display: inline-block;
+            margin-bottom: 44px;
+        }
+
+        h3 {
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 130%;
+            margin-top: 0;
+            margin-bottom: 13px;
+        }
+
+        p {
+            max-width: 290px;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 150%;
+            color: #4f4f4f;
+        }
+    }
+    // abs_pic
+    .dubl_line {
+        top: 22%;
+        left: 4%;
+    }
+
+    .circle_orange {
+        top: 2%;
+        left: 100%;
+    }
+
+    .circle {
+        top: 94%;
+        left: 60%;
+    }
+}
