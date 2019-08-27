@@ -97,6 +97,14 @@
         color: #4f4f4f;
         border-color: #F0A744;
     }
+    @media (max-width: 767.98px) {
+        display: flex;
+        flex-direction: column;
+
+        .nav-link {
+            margin-right: 0;
+        }
+    }
 }
 @media (max-width: 767.98px) {
     .sec_tabs {

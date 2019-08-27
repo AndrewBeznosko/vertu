@@ -108,6 +108,13 @@
 @media (max-width: 767.98px) {
     .sec_profile {
         overflow: hidden;
+        padding: 40px 0 0;
+
+        .sec_title h2 {
+            font-size: 30px;
+            margin-bottom: 20px;
+            margin-top: 15px;
+        }
 
         h1 {
             font-size: 32px;
@@ -116,6 +123,7 @@
 
         .undertitle {
             font-size: 16px;
+            text-align: center;
 
             i {
                 margin-top: 10px;
@@ -145,12 +153,13 @@
         }
 
         .img_wrapp {
-            height: 400px;
+            height: 0;
 
             img {
                 width: 100%;
                 right: initial;
-                left: 50%;
+                left: 76%;
+                bottom: -220px;
                 transform: translateX(-50%);
                 max-width: 345px;
             }
