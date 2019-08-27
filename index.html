@@ -582,6 +582,73 @@
     </section>
     <!-- / sec_success_stories -->
 
+    <!-- sec_9 -->
+    <section class="sec sec_lesson_steps">
+        <div class="container">
+            <div class="sec_title">
+                <img src="img/sec_9/title_label.svg" alt="title_label">
+                <h2>Как будет проходить ваше обучение?</h2>
+                <p>Вот, что говорят успешные онлайн предприниматели, известные <br> эксперты и авторы обучающих программ о нашем проекте</p>
+            </div>
+            <div class="sleder_wrapp row">
+                <span class="arrow-prev">
+                    <svg width="15" height="28" viewBox="0 0 15 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M14.0532 27.2416C14.4224 26.8724 14.4224 26.2724 14.0532 25.9032L2.26144 14.1346L14.0532 2.34284C14.4224 1.97363 14.4224 1.37366 14.0532 1.00445C13.684 0.635236 13.084 0.635236 12.7148 1.00445L0.276925 13.4423C0.0923196 13.6269 1.54154e-05 13.8577 1.54184e-05 14.1115C1.54211e-05 14.3423 0.0923197 14.5961 0.276925 14.7807L12.7148 27.2185C13.084 27.6108 13.684 27.6108 14.0532 27.2416Z"
+                            fill="#BDBDBD" />
+                    </svg>
+                </span>
+                <span class="arrow-next">
+                    <svg width="15" height="28" viewBox="0 0 15 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M14.0532 27.2416C14.4224 26.8724 14.4224 26.2724 14.0532 25.9032L2.26144 14.1346L14.0532 2.34284C14.4224 1.97363 14.4224 1.37366 14.0532 1.00445C13.684 0.635236 13.084 0.635236 12.7148 1.00445L0.276925 13.4423C0.0923196 13.6269 1.54154e-05 13.8577 1.54184e-05 14.1115C1.54211e-05 14.3423 0.0923197 14.5961 0.276925 14.7807L12.7148 27.2185C13.084 27.6108 13.684 27.6108 14.0532 27.2416Z"
+                            fill="#BDBDBD" />
+                    </svg>
+                </span>
+                <div class="sliderAuthors authors">
+                    <div class="col-md-4 py-5 px-4">
+                        <div class="card_profile">
+                            <div class="icon" style="background-image: url('img/sec_6/port_1.jpg');"></div>
+                            <h3>Константин Лашкевич</h3>
+                            <p>Инвестор IT, ed-tech, LMS, Практик корпоративного управления</p>
+                            <i>“Эта платформа, проект и команда - создают нечто космическое. На платформе собран весь инструментарий для продвижения личного бренда и полной упаковки продукта полного цикла, начиная от лендинга до награждения
+                                участников. Супер!”</i>
+                        </div>
+                    </div>
+                    <div class="col-md-4 py-5 px-4">
+                        <div class="card_profile">
+                            <div class="icon" style="background-image: url('img/sec_6/port_2.jpg');"></div>
+                            <h3>Ицхак Пинтосевич</h3>
+                            <p>Эксперт №1 в СНГ по мотивации <br> и раскрытию потенциала</p>
+                            <i>“Я давно искал возможность повысить доходимость учеников до конца курсов. Smart Expert - это то решение, которое мне отлично подходит. Геймификации, Инструменты маркетинга, продвижение личного бренда - это то, что нужно
+                                мне, моим экспертам и моей команде коучей IPACT. ”</i>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 py-5 px-4">
+                        <div class="card_profile">
+                            <div class="icon" style="background-image: url('img/sec_9/iomtov.jpg');"></div>
+                            <h3>Йом-Тов Шуфотинский</h3>
+                            <p>Автор курса “Семейные Финансы”</p>
+                            <i>“Я долго искал платформу для первого запуска своего курса “Семейные Финансы”. Smart Expert - отлично подошел для этого. Здесь я не только смог запустить свой курс, но также получил отличные инструменты для привлечения
+                                клиентов, как на обучающий продукт, так и на личные консультации. ”</i>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 py-5 px-4">
+                        <div class="card_profile">
+                            <div class="icon" style="background-image: url('img/sec_6/port_3.jpg');"></div>
+                            <h3>Айше Борсеитова</h3>
+                            <p>Школа английского языка <br> WOW-EFFECT</p>
+                            <i>“Мой марафон Английский за 30 дней на платформе Smart Expert - это нечто! У меня еще никогда небыло такой высокой вовлеченности учеников в процесс обучения. Smart Expert - это просто бомба для авторов курса!”</i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- / sec_9 -->
+
     <section id="my-projects" class="sec sec_cost">
         <img alt="" class="abs_pic brain" src="img/abs_pic/brain.svg">
         <div class="container">
@@ -738,7 +805,7 @@
 
             //DOC: http://sachinchoolur.github.io/lightslider/settings.html
 
-            $(".imageSlider").lightSlider({
+            var sliderAuthors = $('.sliderAuthors').lightSlider({
                 item: 1,
                 slideMargin: 0,
                 addClass: '',
@@ -752,30 +819,7 @@
                 pager: false,
                 pause: 3500,
                 keyPress: true,
-                controls: true,
-                prevHtml: '<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none"><path d="M14 28C21.7156 28 28 21.7156 28 14C28 6.28444 21.7156 -1.35795e-06 14 -6.8343e-07C6.28444 -8.9145e-09 -3.80578e-06 6.28445 -3.13127e-06 14C-2.45675e-06 21.7156 6.28444 28 14 28ZM15.8044 7.40444L17.7956 9.39555L13.1911 14L17.7956 18.6044L15.8044 20.5956L9.20889 14L15.8044 7.40444Z" fill="#DBDBDB"></svg>',
-                nextHtml: '<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none"><path d="M14 28C21.7156 28 28 21.7156 28 14C28 6.28444 21.7156 -1.35795e-06 14 -6.8343e-07C6.28444 -8.9145e-09 -3.80578e-06 6.28445 -3.13127e-06 14C-2.45675e-06 21.7156 6.28444 28 14 28ZM15.8044 7.40444L17.7956 9.39555L13.1911 14L17.7956 18.6044L15.8044 20.5956L9.20889 14L15.8044 7.40444Z" fill="#DBDBDB"></svg>',
-                enableTouch: true,
-                enableDrag: true,
-                freeMove: true,
-                responsive: [],
-
-            });
-            $('.sliderAuthors').lightSlider({
-                item: 3,
-                slideMargin: 0,
-                addClass: '',
-                mode: "slide", //fade
-                useCSS: true,
-                cssEasing: 'ease', //'cubic-bezier(0.25, 0, 0.25, 1)',//
-                easing: 'linear', //'for jquery animation',////
-                speed: 400, //ms'
-                auto: true,
-                loop: true,
-                pager: false,
-                pause: 3500,
-                keyPress: true,
-                controls: true,
+                controls: false,
                 prevHtml: '<svg width="15" height="28" viewBox="0 0 15 28" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14.0532 27.2416C14.4224 26.8724 14.4224 26.2724 14.0532 25.9032L2.26144 14.1346L14.0532 2.34284C14.4224 1.97363 14.4224 1.37366 14.0532 1.00445C13.684 0.635236 13.084 0.635236 12.7148 1.00445L0.276925 13.4423C0.0923196 13.6269 1.54154e-05 13.8577 1.54184e-05 14.1115C1.54211e-05 14.3423 0.0923197 14.5961 0.276925 14.7807L12.7148 27.2185C13.084 27.6108 13.684 27.6108 14.0532 27.2416Z" fill="#BDBDBD"/></svg>',
                 nextHtml: '<svg width="15" height="28" viewBox="0 0 15 28" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14.0532 27.2416C14.4224 26.8724 14.4224 26.2724 14.0532 25.9032L2.26144 14.1346L14.0532 2.34284C14.4224 1.97363 14.4224 1.37366 14.0532 1.00445C13.684 0.635236 13.084 0.635236 12.7148 1.00445L0.276925 13.4423C0.0923196 13.6269 1.54154e-05 13.8577 1.54184e-05 14.1115C1.54211e-05 14.3423 0.0923197 14.5961 0.276925 14.7807L12.7148 27.2185C13.084 27.6108 13.684 27.6108 14.0532 27.2416Z" fill="#BDBDBD"/></svg>',
                 enableTouch: true,
@@ -784,12 +828,18 @@
                 responsive: [{
                     breakpoint: 767.98,
                     settings: {
+                        controls: true,
                         item: 1,
                     }
                 }]
-
+            });
+            $('.sleder_wrapp .arrow-prev').click(function() {
+                sliderAuthors.goToPrevSlide();
             });
 
+            $('.sleder_wrapp .arrow-next').click(function() {
+                sliderAuthors.goToNextSlide();
+            });
             // scrollToSection
             // Select all links with hashes
             $('a[href*="#"]')
