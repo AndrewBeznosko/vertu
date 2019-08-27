@@ -55,11 +55,22 @@
     .for_business_owners .media .icon {
         background-image: url("../img/sec_tabs/for_business_owners.svg");
     }
+    // abs_pic
+    .circle {
+        top: 30%;
+        left: 90%;
+        width: 30px;
+    }
+
+    .dubl_line {
+        top: 22%;
+        left: 7%;
+    }
 }
 
 .nav-pills {
     margin-bottom: 40px;
-    
+
     .nav-link {
         padding-left: 0;
         padding-right: 0;
