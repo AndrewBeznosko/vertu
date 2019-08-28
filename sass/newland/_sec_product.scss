@@ -113,6 +113,7 @@
         h1 {
             font-size: 24px;
             margin: 15px 0;
+            text-align: center;
         }
 
         .undertitle_wrapp {
@@ -147,6 +148,8 @@
 
         .img_wrapp {
             height: 300px;
+            margin-bottom: 30px;
+            margin-top: 21px;
 
             img {
                 width: 100%;
@@ -154,6 +157,7 @@
                 left: 50%;
                 transform: translateX(-50%);
                 max-width: 345px;
+                filter: none;
             }
         }
 
@@ -169,7 +173,15 @@
         // abs icons
         .dubl_line_vertical {
             right: 5%;
-            top: 22%;
+            top: 56%;
+        }
+
+        .col-md-4 {
+            order: 0;
+        }
+
+        .col-md-8 {
+            order: 2;
         }
     }
 }
