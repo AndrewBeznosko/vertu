@@ -83,11 +83,13 @@
         margin-right: 72px;
         color: #828282;
         cursor: pointer;
+        text-decoration: none;
 
         &:hover {
             background-color: transparent;
             color: #4f4f4f;
             border-color: rgba(240, 167, 68, 0.2);
+            text-decoration: none;
         }
     }
 
@@ -123,6 +125,10 @@
             .icon {
                 margin-right: 15px;
             }
+        }
+
+        .abs_pic {
+            display: none;
         }
     }
 }

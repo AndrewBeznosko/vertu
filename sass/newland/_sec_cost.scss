@@ -216,15 +216,22 @@
             .b-card-body {
                 margin: 0;
                 flex-direction: column;
+                align-items: flex-start;
 
                 .right {
                     margin-top: 30px;
+                    text-align: center;
+                    width: 100%;
                 }
 
                 .list {
                     margin: 0;
                 }
             }
+        }
+
+        .dubl_line {
+            display: none;
         }
     }
 }
