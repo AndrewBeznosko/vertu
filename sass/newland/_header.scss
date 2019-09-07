@@ -90,11 +90,15 @@
     display: flex;
     align-items: center;
     background-color: #ffffff;
-    padding: 3px 17px 5px;
+    padding: 0;
 
     span {
         color: #4f4f4f;
         font-weight: 700;
+    }
+
+    img {
+        max-width: 170px;
     }
 }
 
