@@ -37,7 +37,7 @@
             position: absolute;
             bottom: 0;
             right: -40px;
-            width: 490px;
+            width: 550px;
             filter: drop-shadow(20px 20px 25px rgba(0,0,0,0.3));
         }
     }
@@ -140,7 +140,7 @@
         }
 
         .img_wrapp {
-            height: 400px;
+            height: 300px;
 
             img {
                 width: 100%;
@@ -148,7 +148,7 @@
                 left: 50%;
                 transform: translateX(-50%);
                 max-width: 345px;
-                bottom: -100px;
+                bottom: 0;
             }
         }
         // abs icons
