@@ -1,6 +1,7 @@
 .sec_your_mentor {
     padding: 81px 0 0;
     background-color: #fbf3e9;
+    overflow: hidden;
     @media (min-width: 1200px) {
         .container {
             max-width: 1120px;
@@ -34,9 +35,10 @@
 
         img {
             position: absolute;
-            bottom: 0;
+            top: -30px;
             left: 0;
-            filter: drop-shadow(20px 20px 25px rgba(0, 0, 0, 0.3));
+            filter: drop-shadow(20px 20px 25px rgba(0,0,0,0.3));
+            width: 400px;
         }
     }
 
