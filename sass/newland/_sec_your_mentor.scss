@@ -76,14 +76,16 @@
             height: 360px;
 
             img {
-                max-width: 400px;
+                max-width: 300px;
+                left: 50%;
+                transform: translateX(-50%);
             }
         }
 
         .btn-success {
             border-radius: 2px;
             padding: 10px;
-            margin: 25px 0 130px;
+            margin: 25px 0 0;
             font-size: 18px;
         }
 
