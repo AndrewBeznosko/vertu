@@ -42,7 +42,7 @@
             position: absolute;
             bottom: 0;
             right: -40px;
-            width: 470px;
+            width: 420px;
             filter: drop-shadow(20px 20px 25px rgba(0,0,0,0.3));
         }
     }
@@ -144,6 +144,7 @@
             flex-wrap: wrap;
             margin: 0;
             padding: 0 15px;
+            justify-content: space-around;
 
             img {
                 display: inline-block;
@@ -162,6 +163,7 @@
                 bottom: -220px;
                 transform: translateX(-50%);
                 max-width: 345px;
+                display: none;
             }
         }
         // abs icons
