@@ -362,7 +362,8 @@
     }
 
     .sec_my_projects .card .date_wrap {
-        margin: 0 0 10px 10px;
+        float: initial;
+        margin: 0 0 10px 0px;
     }
 
     .date_wrap .item:first-child {
