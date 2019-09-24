@@ -18,6 +18,11 @@
         margin-bottom: 20px;
         transition: all 0.2s;
 
+        img {
+            height: 70px;
+            width: auto;
+        }
+
         .icon {
             display: block;
             background-image: url("../img/sec_your_result/ok.svg");
