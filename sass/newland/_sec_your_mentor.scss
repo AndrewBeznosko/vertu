@@ -22,22 +22,22 @@
         font-size: 20px;
         padding: 15px;
         width: 100%;
-        margin-top: 38px;
+        margin-top: 25px;
         border-radius: 5px;
         box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.07);
-        margin-bottom: 149px;
+        margin-bottom: 100px;
     }
 
     .img_wrapp {
         position: relative;
-        height: 570px;
+        height: 430px;
 
         img {
 
             position: absolute;
             bottom: 0;
             left: 0;
-            width: 520px;
+            width: 430px;
             filter: drop-shadow(20px 20px 25px rgba(0, 0, 0, 0.3));
         }
     }
@@ -61,6 +61,7 @@
     @media (max-width: 767.98px) {
         padding: 30px 0 0;
 
+
         .sec_title {
             margin-bottom: 45px;
 
@@ -78,14 +79,14 @@
             height: 360px;
 
             img {
-                max-width: 400px;
+                max-width: 360px;
             }
         }
 
         .btn-success {
             border-radius: 2px;
             padding: 10px;
-            margin: 25px 0 130px;
+            margin: 25px 0 30px;
             font-size: 18px;
         }
 
