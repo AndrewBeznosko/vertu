@@ -16,6 +16,7 @@
         transform: rotate(180deg);
     }
 
+
     .dubl_line2 {
         top: -55px;
         right: -260px;
@@ -60,7 +61,7 @@
             text-align: center;
 
             img {
-                max-width: 220px;
+                max-width: 175px;
             }
 
         }
@@ -325,7 +326,6 @@
     .sec_my_projects .card {
         padding: 20px;
     }
-
     .sec_my_projects .card .media {
         flex-direction: column;
     }
@@ -365,6 +365,8 @@
     }
 
     .sec_my_projects .card .date_wrap {
+
+      float: initial;
         margin: 0 0 10px 10px;
     }
 
