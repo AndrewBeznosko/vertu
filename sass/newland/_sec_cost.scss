@@ -119,8 +119,8 @@
         }
 
         .date_wrap {
-            float: right;
-            margin: 0 0 10px 20px;
+            float: left;
+            margin: 0 0 30px 20px;
         }
 
         .media-body {
@@ -238,6 +238,7 @@
 
 .date_wrap {
     display: flex;
+
 
     .item {
         &:first-child {
