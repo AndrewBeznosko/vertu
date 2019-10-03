@@ -155,11 +155,26 @@
       bottom: 0;
     }
   }
+
+  .drop-link-text {
+    color: #E5C17C;
+    padding: 0 20%;
+    font-size: 18px;
+    font-weight: 400;
+  }
 }
 
 @media (max-width: 767.98px) {
 
   .sec_reason {
+    .drop-link-text {
+      padding: 0 2%;
+    }
+
+    h2 {
+      font-size: 20px;
+    }
+
     .reason {
       height: 150px;
       padding: 0 0 0 100px;
@@ -218,7 +233,6 @@
     }
 
 
-
     .img_wrapp {
       height: 400px;
 
@@ -237,4 +251,9 @@
       top: 3%;
     }
   }
+}
+
+.btn-success-2:hover {
+  background-color: #E5C17D;
+  border-color: #4f4f4f;
 }
