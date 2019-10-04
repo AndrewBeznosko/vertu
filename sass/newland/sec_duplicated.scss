@@ -4,6 +4,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: -55%;
+  padding: 60px 0 100px 0;
 
   .container {
     max-width: 1300px;
@@ -11,11 +12,13 @@
 
   .block-grid {
     .block-grid_item {
-      height: 120px;
+      display: flex;
+      align-items: center;
+      height: 150px;
       position: relative;
-      -webkit-box-shadow: 0px 0px 22px -11px rgba(0, 0, 0, 0.75);
-      -moz-box-shadow: 0px 0px 22px -11px rgba(0, 0, 0, 0.75);
-      box-shadow: 0px 0px 22px -11px rgba(0, 0, 0, 0.75);
+      -webkit-box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+      -moz-box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+      box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
       padding: 20px 50px;
 
       img {
@@ -26,6 +29,12 @@
         padding-left: 100px;
         display: inline-block;
         margin: 0;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 150%;
+        color: #828282;
       }
 
       &:nth-child(odd) {
@@ -39,13 +48,24 @@
   }
 
   h2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 140%;
+    /* or 45px */
+    text-align: center;
+    text-transform: uppercase;
     color: #4F4F4F;
-    font-size: 28px;
   }
 
   h3 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 140%;
     color: #828282;
-    font-size: 15px;
   }
 
 }
@@ -54,7 +74,7 @@
   .sec_duplicated {
     .block-grid {
       .block-grid_item {
-        height: 200px;
+        height: 240px;
         padding: 20px 15px 35px 15px;
         display: flex;
         flex-direction: column;
