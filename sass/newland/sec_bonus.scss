@@ -4,32 +4,28 @@
 
   h2 {
     color: #FCFCFC;
-    font-family: Montserrat;
     font-style: normal;
     font-weight: 600;
     font-size: 30px;
     line-height: 140%;
-    /* or 42px */
-    text-align: right;
     text-transform: uppercase;
   }
 
   h3 {
     color: #E5C17C;
-    font-family: Montserrat;
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
     line-height: 140%;
-    /* identical to box height, or 28px */
-
-    text-align: right;
   }
 
   .btn-success-2 {
     border-radius: 0;
     color: white;
-    padding: 8px 22px;
+    padding: 13.5px 30px;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 21px;
   }
 
   .row {

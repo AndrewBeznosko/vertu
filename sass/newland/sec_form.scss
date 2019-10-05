@@ -2,12 +2,10 @@
   background-color: #242323;
 
   h2 {
-    font-family: Montserrat;
     font-style: normal;
     font-weight: 600;
     font-size: 32px;
-    line-height: 140%;
-    /* or 45px */
+    line-height: 45px;
     color: #FCFCFC;
     text-transform: uppercase;
   }
@@ -25,7 +23,6 @@
     margin-top: 30px;
 
     label {
-      font-family: Montserrat;
       font-style: normal;
       font-weight: 600;
       font-size: 13px;
@@ -36,7 +33,6 @@
     .form-control {
       padding: 27px 13px;
       border-radius: 0;
-      font-family: Montserrat;
       font-style: normal;
       font-weight: 500;
       font-size: 13px;

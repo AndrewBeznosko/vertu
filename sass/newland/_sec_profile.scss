@@ -4,6 +4,11 @@
   padding: 133px 0 0;
   background-position-y: 15%;
 
+  .container {
+
+    max-width: 1200px;
+  }
+
   .my-pb-5 {
     padding-bottom: 90px;
   }
@@ -11,15 +16,32 @@
   .my-header-btn {
     a {
       padding: 10px 45px;
+      font-family: Montserrat, sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 21px;
       color: #FFFFFF;
       border-radius: 0;
     }
   }
 
-  h1 {
-    font-size: 36px;
+  .undertitle {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+
     text-transform: uppercase;
-    margin-bottom: 29px;
+  }
+
+  h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 53px;
+
+    text-transform: uppercase;
   }
 
   @media (min-width: 1200px) {
@@ -133,14 +155,8 @@
     display: inline-block;
     position: relative;
     padding: 0 30px 0 130px;
-
-    &:nth-child(odd) {
-      margin-right: 25px;
-    }
-
-    &:nth-child(even) {
-      margin-left: 25px;
-    }
+    min-width: 48%;
+    max-width: 48%;
 
     p {
       display: inline-block;
@@ -178,6 +194,8 @@
     .reason {
       height: 150px;
       padding: 0 0 0 100px;
+      min-width: unset;
+      max-width: unset;
 
       &:nth-child(odd) {
         margin-right: 0;
@@ -257,3 +275,5 @@
   background-color: #E5C17D;
   border-color: #4f4f4f;
 }
+
+
