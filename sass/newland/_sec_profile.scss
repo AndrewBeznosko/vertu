@@ -203,8 +203,9 @@
       padding: 0 2%;
     }
 
-    h2 {
-      font-size: 14px;
+    .sec-header {
+      font-size: 18px;
+      line-height: 23px;
     }
 
     .reason {
@@ -226,6 +227,9 @@
   .sec_profile {
     padding: 23px 0 0;
     overflow: hidden;
+    background-size: unset;
+    background-position-x: 45%;
+    background-repeat: no-repeat;
 
 
     h1 {
@@ -277,7 +281,7 @@
         right: initial;
         left: 50%;
         transform: translateX(-50%);
-        max-width: 345px;
+        max-width: 260px;
       }
     }
 
