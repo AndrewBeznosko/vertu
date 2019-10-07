@@ -15,7 +15,7 @@
 
   .my-header-btn {
     a {
-      padding: 10px 45px;
+      padding: 14px 45px;
       font-family: Montserrat, sans-serif;
       font-style: normal;
       font-weight: bold;
@@ -140,23 +140,31 @@
 .sec_reason {
   background-color: #242323;
 
-  h2 {
-    font-size: 28px;
-    color: #ffffff;
+  .sec-header {
+    margin: 85px 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 45px;
     text-align: center;
     text-transform: uppercase;
+    color: #ffffff;
+
   }
 
   .reason {
     background-color: #F2F2F2;
     height: 135px;
-    color: black;
-    font-weight: 600;
     display: inline-block;
     position: relative;
     padding: 0 30px 0 130px;
     min-width: 48%;
     max-width: 48%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #333333;
 
     p {
       display: inline-block;
@@ -170,13 +178,21 @@
       left: 5px;
       bottom: 0;
     }
+
+
+  }
+
+  .arrow-box {
+    margin-bottom: 35px;
   }
 
   .drop-link-text {
     color: #E5C17C;
-    padding: 0 20%;
-    font-size: 18px;
-    font-weight: 400;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
   }
 }
 
