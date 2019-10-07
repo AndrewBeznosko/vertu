@@ -1,6 +1,10 @@
 .sec_form {
   background-color: #242323;
 
+  .row {
+    padding: 3rem 0;
+  }
+
   h2 {
     font-style: normal;
     font-weight: 600;
@@ -53,12 +57,17 @@
 
 @media (max-width: 776px) {
   .sec_form {
+    .row {
+      padding: 0;
+    }
+
     .img-box {
       display: none;
     }
 
     h2 {
-      font-size: 23px;
+      font-size: 21px;
+      line-height: 26px;
     }
   }
 }

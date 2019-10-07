@@ -33,3 +33,31 @@
   }
 }
 
+@media screen and (max-width: 767px) {
+  .sec_bonus {
+    background-color: #242323;
+
+    .row {
+      padding-bottom: 0;
+      flex-direction: column-reverse !important;
+      h2 {
+        font-size: 20px;
+        line-height: 25px;
+        margin: 20px 0;
+      }
+
+      h3 {
+        font-size: 19px;
+        line-height: 23px;
+      }
+
+      .btn-success-2 {
+        font-size: 17px;
+        padding: 10.5px 25px;
+      }
+
+
+    }
+  }
+}
+

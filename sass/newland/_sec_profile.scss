@@ -188,7 +188,7 @@
     }
 
     h2 {
-      font-size: 20px;
+      font-size: 14px;
     }
 
     .reason {
@@ -197,13 +197,14 @@
       min-width: unset;
       max-width: unset;
 
-      &:nth-child(odd) {
-        margin-right: 0;
+      p {
+        font-size: 14px;
       }
 
-      &:nth-child(even) {
-        margin-left: 0;
-      }
+
+    }
+    .drop-link-text {
+      font-size: 16px;
     }
   }
   .sec_profile {
@@ -212,8 +213,9 @@
 
 
     h1 {
-      font-size: 26px;
+      font-size: 19px;
       margin-bottom: 25px;
+      line-height: 23px;
     }
 
     .my-pb-5 {
@@ -221,7 +223,7 @@
     }
 
     .undertitle {
-      font-size: 16px;
+      font-size: 14px;
 
       i {
         margin-top: 10px;
@@ -252,7 +254,7 @@
 
 
     .img_wrapp {
-      height: 400px;
+      height: 250px;
 
       img {
         width: 100%;
