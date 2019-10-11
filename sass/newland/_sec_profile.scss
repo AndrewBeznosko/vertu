@@ -140,6 +140,11 @@
 .sec_reason {
   background-color: #242323;
 
+  .container {
+    background: url("../img/sec_reasons/bg.png") no-repeat center;
+    background-size: auto 85%;
+  }
+
   .sec-header {
     margin: 85px 0;
     font-style: normal;
@@ -154,10 +159,11 @@
 
   .reason {
     background-color: #F2F2F2;
-    height: 135px;
-    display: inline-block;
+    height: 150px;
+    display: flex;
+    align-items: center;
     position: relative;
-    padding: 0 30px 0 130px;
+    padding: 20px 50px;
     min-width: 48%;
     max-width: 48%;
     font-style: normal;
@@ -167,16 +173,19 @@
     color: #333333;
 
     p {
+      padding-left: 100px;
       display: inline-block;
-      vertical-align: center;
       margin: 0;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 150%;
+      color: #828282;
 
     }
 
     img {
       position: absolute;
-      left: 5px;
-      bottom: 0;
     }
 
 
@@ -220,6 +229,7 @@
 
 
     }
+
     .drop-link-text {
       font-size: 16px;
     }
