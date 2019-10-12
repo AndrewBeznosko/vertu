@@ -4,6 +4,7 @@ body {
     padding-top: 49px;
     color: #4f4f4f;
 }
+
 @media (min-width: 1200px) {
     .container {
         max-width: 1146px;
@@ -16,10 +17,12 @@ body {
     .container {
         position: relative;
     }
+
     @media (max-width: 767.98px) {
         overflow: hidden;
     }
 }
+
 // abcolute icons
 
 .abs_pic {
@@ -42,6 +45,7 @@ body {
 .dubl_stone_3 {
     transform: rotateX(-180deg);
 }
+
 // END absolute icons
 
 .btn {
@@ -140,6 +144,7 @@ h2 {
         color: #828282;
         margin: 0;
     }
+
     @media (max-width: 767.98px) {
         img {
             height: 6px;
@@ -164,13 +169,13 @@ h2 {
     width: 100%;
     padding-top: 60.78%;
     background-image: url("../img/slide_bg.svg");
-    box-shadow: 0 0 1.5625rem rgba(0,0,0,0.15);
+    box-shadow: 0 0 1.5625rem rgba(0, 0, 0, 0.15);
     background-size: cover;
     border-radius: 0.25rem;
     overflow: hidden;
     position: relative;
 
-    & > img,
+    &>img,
     .lSSlideOuter {
         display: inline-block;
         position: absolute;
@@ -181,13 +186,14 @@ h2 {
         transform: translateX(-50%);
     }
 }
+
 //slider styles
 
-.lSAction > a {
+.lSAction>a {
     width: 1.75rem;
     height: 1.75rem;
     background-size: cover;
-    background-position: center!important;
+    background-position: center !important;
 
     &:hover svg path {
         fill: #dbdbdb;
@@ -255,6 +261,7 @@ h2 {
         color: #828282;
         margin-top: 38px;
     }
+
     @media (max-width: 767.98px) {
         position: relative;
         text-align: left;
@@ -330,6 +337,7 @@ h2 {
         width: 167px;
     }
 }
+
 @media (max-width: 767.98px) {
     body {
         padding-top: 40px;
@@ -353,6 +361,7 @@ h2 {
     border-radius: 10px;
     border: none;
 }
+
 // table styles
 
 .table-responsive {
@@ -388,6 +397,7 @@ h2 {
     }
 
     tr {
+
         td,
         th {
             &:first-of-type {
@@ -425,11 +435,12 @@ h2 {
         color: #A2A2A2;
     }
 }
+
 @media (max-width: 767.98px) {
     .table_wrapp {
         border-radius: 8px;
         padding-bottom: 5px;
-        box-shadow: 0 0 25px rgba(0,0,0,0.15);
+        box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);
         padding: 5px;
         background: #FFFFFF;
         z-index: 46;
@@ -504,5 +515,30 @@ h2 {
             left: 50%;
             transform: translate(-50%, -50%);
         }
+    }
+}
+
+
+.btn-video-modal {
+    display: flex;
+    align-items: center;
+    padding: 15px 23px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    color: #828282;
+    border-radius: 5px;
+    border: solid 2px transparent;
+    width: 250px;
+    cursor: pointer;
+
+    img {
+        display: inline-block;
+        margin-right: 14px;
+    }
+
+    &:hover {
+        border-color: #58B58B;
     }
 }

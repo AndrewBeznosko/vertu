@@ -1,13 +1,24 @@
 .sec_product {
     background-color: #daede5;
-    padding: 31px 0 0;
+    background-image: url('../img/lms_booster/sec_product_bg.svg'); 
+    background-position: center 103%;
+    background-repeat: no-repeat;
+    padding: 101px 0 0;
     overflow: hidden;
 
     h1 {
-        font-size: 46px;
+        font-style: normal;
+        font-weight: 600; 
+        font-size: 34px;
+        line-height: 140%;
         text-transform: uppercase;
-        margin-bottom: 29px;
+        margin-bottom: 79px;
+
+        b {
+            font-weight: bold;
+        }
     }
+
     @media (min-width: 1200px) {
         .container {
             max-width: 1120px;
@@ -44,15 +55,46 @@
             position: absolute;
             bottom: 0;
             right: 0;
-            width: 413px;
-            filter: drop-shadow(20px 20px 25px rgba(0,0,0,0.3));
+            width: 458px;
+            // filter: drop-shadow(20px 20px 25px rgba(0, 0, 0, 0.3));
         }
     }
 
     .card {
-        padding: 18px 30px 26px 25px;
-        max-width: 549px;
-        margin-bottom: 78px;
+        padding: 18px 22px 31px 23px;
+        max-width: 555px;
+        margin-bottom: 0;
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 130%;
+            display: flex;
+            align-items: flex-start;
+            color: #828282;
+
+            &:not(:last-of-type) {
+                margin-bottom: 11px;
+            }
+
+            img {
+                width: 18px;
+                height: auto;
+                display: inline-block;
+                margin-top: 3px;
+                margin-right: 17px;
+            }
+
+            b {
+                font-size: 20px;
+            }
+        }
 
         p {
             font-style: normal;
@@ -62,10 +104,22 @@
             color: #828282;
             padding: 0;
             margin: 0;
+
+            &.title {
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 130%;
+                margin-bottom: 25px;
+
+                b {
+                    font-size: 19px;
+                    font-weight: 600;
+                }
+            }
         }
 
         &__footer {
-            margin-top: 16px;
+            margin-top: 31px;
             display: -webkit-flex;
             display: -ms-flex;
             display: flex;
@@ -81,14 +135,16 @@
 
             .btn-success {
                 font-weight: 600;
-                font-size: 16px;
+                font-size: 18px;
                 line-height: 130%;
-                padding: 15px 28px;
+                padding: 12.5px 28px;
                 width: 245px;
                 border-radius: 5px;
+                box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.07);
             }
         }
     }
+
     // abs pic
     .circle {
         top: 34%;
@@ -105,7 +161,13 @@
         right: -8%;
         top: 6%;
     }
+
+    .btn-video-modal {
+        margin-top: 25px;
+        margin-bottom: 48px;
+    }
 }
+
 @media (max-width: 767.98px) {
     .sec_product {
         overflow: hidden;
@@ -170,6 +232,7 @@
                 font-size: 24px;
             }
         }
+
         // abs icons
         .dubl_line_vertical {
             right: 5%;
