@@ -1,0 +1,35 @@
+.sec_fear {
+    position: relative;
+    padding: 76px 0 126px;
+
+    .img_wrapp {
+        position: relative;
+        height: 100%;
+
+        img {
+            position: absolute;
+            right: -30px;
+            bottom: 0px;
+        }
+    }
+
+    .sec_title.title-left {
+        .upper-title {
+            margin-bottom: 78px;
+            margin-top: 0;
+        }
+
+        h2 {
+            margin-bottom: 55px;
+        }
+
+        .under-title {
+            color: #5C5B5B;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 140%;
+            margin-bottom: 51px;
+        }
+    }
+}

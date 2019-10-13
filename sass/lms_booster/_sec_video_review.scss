@@ -1,0 +1,21 @@
+.sec_video_review {
+    padding: 76px 0 84px;
+    background: #fbf3e9;
+    overflow: hidden;
+
+    .sec_title {
+        margin-bottom: 49px;
+    }
+
+    .card {
+        background: #FFFFFF;
+        box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+        border-radius: 15px;
+        padding: 45px 48px;
+    }
+
+    .card_profile {
+        box-shadow: none;
+        padding: 0;
+    }
+}

@@ -1,0 +1,52 @@
+.sec_about_author {
+    padding-top: 64px;
+
+    .sec_title p {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 140%;
+        color: #4f4f4f;
+        padding-top: 23px;
+        padding-bottom: 71px;
+    }
+
+    .custom-list {
+        max-width: 620px;
+
+        li {
+            font-size: 18px;
+
+            &:not(:last-of-type) {
+                margin-bottom: 17px;
+            }
+        }
+    }
+
+    .btn {
+        max-width: 425px;
+        width: 100%;
+        margin-top: 18px;
+        margin-bottom: 38px;
+    }
+
+    .text-orange {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 130%;
+        margin-bottom: 81px;
+    }
+
+    .img_wrapp {
+        position: relative;
+        height: 100%;
+
+        img {
+            position: absolute;
+            right: 20px;
+            bottom: 0;
+            max-width: 370px;
+        }
+    }
+}
