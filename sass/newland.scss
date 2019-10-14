@@ -1,36 +1,16 @@
-@import "newland/fonts";
-@import "newland/lightslider";
-@import "newland/common";
-@import "newland/header";
-@import "newland/sec_product";
-@import "newland/sec_goal";
-@import "newland/sec_about_course";
-@import "newland/sec_programm";
-@import "newland/sec_your_result";
-@import "newland/sec_are_you_ready";
-@import "newland/sec_tabs";
-@import "newland/sec_gifts";
-@import "newland/sec_cost";
-@import "newland/sec_profile";
-@import "newland/sec_offer";
-@import "newland/sec_my_projects";
-@import "newland/sec_my_contacts";
-@import "newland/sec_my_articles";
-@import "newland/sec_latest_events";
-@import "newland/sec_success_stories";
-@import "newland/sec_your_mentor";
-@import "newland/sec_3";
-@import "newland/sec_4";
-@import "newland/sec_5";
-@import "newland/sec_6";
-@import "newland/sec_7";
-@import "newland/sec_8";
-@import "newland/sec_lesson_steps";
-@import "newland/sec_10";
-@import "newland/sec_11";
-@import "newland/sec_12";
-@import "newland/footer";
+// ==============================================================
+// MAIN STYLE
+// ==============================================================
+@import "main/fonts";
+@import "main/lightslider";
+@import "main/common";
+@import "main/header";
+@import "main/footer";
 
+// ==============================================================
+// LANDING - lms_booster
+// ==============================================================
+@import "lms_booster/sec_product";
 @import "lms_booster/sec_practics";
 @import "lms_booster/sec_get-out-pit";
 @import "lms_booster/sec_what_results";
@@ -40,6 +20,7 @@
 @import "lms_booster/sec_about_author"; 
 @import "lms_booster/sec_video_author"; 
 @import "lms_booster/sec_video_review"; 
+@import "lms_booster/sec_programm"; 
 @import "lms_booster/sec_guarantee"; 
 @import "lms_booster/sec_you_will_get"; 
 @import "lms_booster/sec_best_students"; 
