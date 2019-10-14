@@ -1,0 +1,51 @@
+.sec_start_your_way {
+    padding: 82px 0 120px;
+
+    .sec_title {
+        h2 {
+            margin: 33px 0 64px;
+        }
+    }
+
+    .card {
+        padding: 28px 38px 56px;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+        border-radius: 15px;
+
+        .card-title {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 25px;
+            line-height: 140%;
+            color: #5C5B5B;
+            margin-bottom: 36px;
+        }
+    }
+
+    .text-block {
+        img {
+            display: inline-block;
+            vertical-align: middle;
+            margin-bottom: 44px;
+        }
+
+        p {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 140%;
+            margin: 0;
+            margin-bottom: 38px;
+            color: #828282;
+        }
+
+        h3 {
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 140%;
+            text-transform: uppercase;
+            color: #5C5B5B;
+        }
+    }
+}

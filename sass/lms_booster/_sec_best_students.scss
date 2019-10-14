@@ -1,0 +1,69 @@
+.sec_best_students {
+    position: relative;
+    padding: 0 0 258px;
+    background-color: #FBFBFB;
+
+    .img_wrapp {
+        position: relative;
+        height: 100%;
+
+        img {
+            position: absolute;
+            position: absolute;
+            right: 0px;
+            top: 60px;
+        }
+    }
+
+    .sec_title.title-left {
+        .upper-title {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 32px;
+            line-height: 140%;
+            margin: 0;
+            margin-bottom: 37px;
+            text-transform: uppercase;
+        }
+
+        .under-title {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 140%;
+            color: #5C5B5B;
+            margin-bottom: 50px;
+            text-transform: uppercase;
+        }
+
+        h2 {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 50px;
+            line-height: 140%;
+            margin: 0;
+            color: #5C5B5B;
+            text-transform: uppercase;
+        }
+    }
+
+    .bg-gradient {
+        position: relative;
+        z-index: 1;
+        padding-top: 67px;
+        padding-bottom: 60px;
+
+        &:after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: block;
+            background: linear-gradient(180deg, #FBFBFB 54.13%, rgba(255, 255, 255, 0) 100%), #D0D1D1;
+            opacity: 0.3;
+            z-index: -1;
+        }
+    }
+}

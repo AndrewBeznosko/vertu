@@ -5,6 +5,7 @@
     .sec_title {
         margin-bottom: 40px;
     }
+
     // abs_pic
     .dubl_line_vertical {
         left: -3%;
@@ -25,6 +26,7 @@
         top: 20%;
         left: 100%;
     }
+
     @media (max-width: 767.98px) {
         padding: 40px 0;
     }
@@ -34,11 +36,11 @@
     max-width: 886px;
     width: 100%;
 
-    & > .card {
+    &>.card {
         background: #FFFFFF;
-        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-        border-radius: 8px;
-        margin-bottom: 15px;
+        box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+        border-radius: 5px; 
+        margin-bottom: 20px;
 
         &:last-of-type {
             margin-bottom: 0;
@@ -47,7 +49,7 @@
         &:first-of-type,
         &:last-of-type,
         &:not(:first-of-type):not(:last-of-type) {
-            border-radius: 8px;
+            border-radius: 5px;
         }
 
         .card-header {
@@ -82,16 +84,23 @@
                 justify-content: space-between;
 
                 span {
-                    font-weight: 500;
-                    font-size: 18px;
-                    line-height: 22px;
-                    color: #557FAF;
+                    // font-weight: 500;
+                    // font-size: 18px;
+                    // line-height: 22px;
+                    // color: #557FAF;
                     text-align: left;
+
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 150%;
+                    color: #4f4f4f;
                 }
 
                 img {
                     display: inline-block;
                     margin-left: 15px;
+                    width: 16px;
+                    height: auto;
                     transition: 0.2s;
                 }
             }
@@ -118,12 +127,13 @@
             }
         }
 
-        &.show ~ .card-header img {
+        &.show~.card-header img {
             transform: rotateX(180deg);
         }
     }
+
     @media (max-width: 767.98px) {
-        & > .card .card-header {
+        &>.card .card-header {
             h2 {
                 flex-direction: column;
                 align-items: flex-start;
@@ -136,11 +146,12 @@
 
             button {
                 padding-left: 0;
+
                 span {
-                   font-size: 16px;
-                   line-height: 22px;
-                   text-align: left;
-               }
+                    font-size: 16px;
+                    line-height: 22px;
+                    text-align: left;
+                }
             }
         }
     }

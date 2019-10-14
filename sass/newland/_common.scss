@@ -42,6 +42,10 @@ body {
     color: #F0A744 !important;
 }
 
+.text-yellow {
+    color: #E5C17C !important;
+}
+
 // abcolute icons
 
 .abs_pic {
@@ -89,7 +93,19 @@ body {
     color: #FCFCFC;
     background: #58B58B;
     border-color: #58B58B;
-    padding: 11px 44px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 130%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 44px;
+
+    &.btn-lg {
+        font-size: 18px;
+        height: 60px;
+    }
 
     &:hover {
         background: #428c6b;
@@ -590,5 +606,67 @@ h2 {
         b {
             font-size: 20px;
         }
+    }
+}
+
+.b-form {
+    .form-group {
+        margin-bottom: 11px;
+    }
+
+    label {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 120%;
+        color: #828282;
+        margin-bottom: 6px;
+    }
+
+    .form-control {
+        height: 50px;
+        font-weight: 500;
+        color: #4f4f4f;
+        background: rgba(255, 255, 255, 0.2);
+        border: 1px solid #D6D6D6;
+        box-sizing: border-box;
+        border-radius: 5px;
+
+        &::-webkit-input-placeholder {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 153.59%;
+            color: #828282;
+        }
+
+        &::-moz-placeholder {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 153.59%;
+            color: #828282;
+        }
+
+        &:-ms-input-placeholder {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 153.59%;
+            color: #828282;
+        }
+
+        &:-moz-placeholder {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 153.59%;
+            color: #828282;
+        }
+    }
+
+    .btn {
+        margin-top: 10px;
+        display: inline-block;
     }
 }
