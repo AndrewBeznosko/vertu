@@ -5,24 +5,27 @@
     .sec_title h2 {
         margin-bottom: 63px;
     }
+    .circle{
+      width: 50px;
+      right: -51px;
+      top: 148px;
+    }
+    .dubl_line_vertical{
+      right: 15px;
+      top: 1106px;
+      transform: rotate(-90deg);
+    }
+    .dubl_line_vertical2{
+      left: -100px;
+      top: 476px;
+      transform: rotate(-90deg);
+    }
+
 }
 
 .media_wrapp {
-    .dubl_line_vertical{
-      right: -100px;
-      top: 42%;
-      transform: rotate(90deg);
-    }
-    .circle{
-      width: 22px;
-      left: -52px;
-      top: 34%;
-    }
-    .circle2{
-      width: 22px;
-      right: 12px;
-      top: 96%;
-    }
+
+
     .media {
         background: #FFFFFF;
         box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
