@@ -1,6 +1,23 @@
 .sec_video_author {
     padding: 73px 0 98px;
 
+    .circle{
+      width: 50px;
+      right: 20px;
+      top: 45%;
+    }
+    .dubl_line{
+      right: -70px;
+      top: 90%;
+      transform: rotate(-180deg);
+
+    }
+    .dubl_line_vertical{
+      left: 0px;
+      top: 60%;
+      transform: rotate(90deg);
+    }
+
     .sec_title h2 {
         margin-bottom: 58px;
     }

@@ -1,6 +1,22 @@
 .sec_programm {
     padding: 118px 0 131px;
     background-color: #fbf3e9;
+    .circle{
+      width: 50px;
+      right: -60px;
+      top: 86%;
+    }
+    .dubl_line_vertical{
+      left: -106px;
+      top: 67%;
+      transform: rotate(-90deg);
+
+    }
+    .dubl_line_vertical2{
+      right: -106px;
+      top: 52%;
+      transform: rotate(-90deg);
+    }
 
     .sec_title {
         margin-bottom: 60px;
