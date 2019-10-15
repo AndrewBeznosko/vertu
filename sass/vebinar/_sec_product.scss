@@ -2,24 +2,6 @@
     background-image: none;
     padding-top: 66px;
 
-    .circle{
-      width: 50px;
-      left: initial;
-      right: 408px;
-      top: 372px;
-    }
-    .dubl_line_vertical{
-      right: 15px;
-      top: 343px;
-      transform: rotate(90deg);
-    }
-    .circle_orange{
-      right: 10px;
-      top: 709px;
-      left: initial;
-    }
-
-
     .upper-title {
         font-style: normal;
         font-weight: bold;
@@ -86,5 +68,26 @@
     .card {
         margin-bottom: 103px;
         padding: 22px;
+    }
+
+    // abs_pic
+
+    .circle {
+        width: 50px;
+        left: initial;
+        right: 408px;
+        top: 372px;
+    }
+
+    .dubl_line_vertical {
+        right: -40px;
+        top: 250px;
+        transform: rotate(90deg);
+    }
+
+    .circle_orange {
+        right: 10px;
+        top: 709px;
+        left: initial;
     }
 }
