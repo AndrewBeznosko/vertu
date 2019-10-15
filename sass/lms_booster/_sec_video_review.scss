@@ -2,6 +2,22 @@
     padding: 76px 0 84px;
     background: #fbf3e9;
     overflow: hidden;
+    .circle{
+      width: 50px;
+      left: -60px;
+      top: 18%;
+    }
+    .dubl_line{
+      left: 0px;
+      top: 100%;
+      transform: rotate(-180deg);
+
+    }
+    .dubl_line_vertical{
+      right: -120px;
+      top: 25%;
+      transform: rotate(-90deg);
+    }
 
     .sec_title {
         margin-bottom: 49px;

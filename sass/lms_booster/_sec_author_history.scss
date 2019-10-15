@@ -1,6 +1,16 @@
 .sec_author_history {
     padding: 85px 0 112px;
 
+    .circle{
+      width: 50px;
+      left: -60px;
+      top: 7%;
+    }
+    .dubl_line{
+      left: 200px;
+      top: 92%;
+    }
+
     .sec_title h2 {
         margin-bottom: 75px;
     }
@@ -15,6 +25,6 @@
     }
 
     .btn {
-        margin-top: 30px; 
-    } 
+        margin-top: 30px;
+    }
 }
