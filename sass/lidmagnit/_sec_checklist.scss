@@ -1,0 +1,52 @@
+.sec_checklist {
+    padding-top: 51px;
+    padding-bottom: 73px;
+
+    .sec_title {
+        p {
+            text-align: left;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 140%;
+            color: #ffffff;
+            margin-bottom: 0;
+        }
+
+        h2 {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 30px;
+            line-height: 140%;
+            color: #FCFCFC;
+            text-transform: uppercase;
+            margin-bottom: 49px;
+            margin-top: 29px;
+            text-align: left;
+        }
+
+        .btn {
+            max-width: 249px;
+            width: 100%;
+        }
+    }
+
+    .flex-row-reverse {
+        .sec_title {
+            text-align: right;
+
+            p {
+                text-align: right;
+            }
+
+            h2 {
+                text-align: right;
+            }
+
+            .btn {
+                margin-left: auto;
+            }
+        }
+    }
+
+}
