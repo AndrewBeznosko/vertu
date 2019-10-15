@@ -821,7 +821,7 @@ h2 {
             margin-right: 12px;
         }
 
-        & > span {
+        &>span {
             font-family: Montserrat;
             font-style: normal;
             font-weight: 500;
@@ -861,7 +861,7 @@ h2 {
 // ==============================================================
 .border-image {
     display: block;
-    background-color: rgba(229,229,229,0.5);
+    background-color: rgba(229, 229, 229, 0.5);
     background-position: 0 0;
     background-repeat: no-repeat;
     background-size: cover;
@@ -881,7 +881,7 @@ h2 {
     display: flex;
     flex-direction: column;
 
-    .lSPager.lSpg > li a {
+    .lSPager.lSpg>li a {
         background: #FFFFFF;
         border: 2px solid #A2A2A2;
         width: 20px;
@@ -890,8 +890,8 @@ h2 {
         position: relative;
     }
 
-    .lSPager.lSpg > li.active a,
-    .lSPager.lSpg > li:hover a {
+    .lSPager.lSpg>li.active a,
+    .lSPager.lSpg>li:hover a {
         background-color: #FFFFFF;
 
         &::after {
@@ -910,7 +910,7 @@ h2 {
         }
     }
 
-    .lSPager.lSpg > li:hover a {
+    .lSPager.lSpg>li:hover a {
         &::after {
             opacity: 0.3;
         }
@@ -949,6 +949,7 @@ h2 {
     right: -40px;
     transform: translateY(-50%) rotateY(180deg);
 }
+
 // ==============================================================
 // nav-pills
 // ==============================================================
@@ -978,11 +979,12 @@ h2 {
     }
 
     .nav-link.active,
-    .show > .nav-link {
+    .show>.nav-link {
         background-color: transparent;
         color: #4f4f4f;
         border-color: #F0A744;
     }
+
     @media (max-width: 767.98px) {
         display: flex;
         flex-direction: column;
@@ -992,6 +994,7 @@ h2 {
         }
     }
 }
+
 // ==============================================================
 // accordion
 // ==============================================================
@@ -1002,7 +1005,7 @@ h2 {
     &>.card {
         background: #FFFFFF;
         box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
-        border-radius: 5px; 
+        border-radius: 5px;
         margin-bottom: 20px;
 
         &:last-of-type {
@@ -1119,9 +1122,102 @@ h2 {
         }
     }
 }
+
 // ==============================================================
-// 
+// media block
 // ==============================================================
+.media_wrapp {
+    .dubl_line_vertical {
+        right: -100px;
+        top: 42%;
+        transform: rotate(90deg);
+    }
+
+    .circle {
+        width: 22px;
+        left: -52px;
+        top: 34%;
+    }
+
+    .circle2 {
+        width: 22px;
+        right: 12px;
+        top: 96%;
+    }
+
+    .media {
+        background: #FFFFFF;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        padding: 22px 30px 22px 24px;
+        min-height: 96px;
+        display: -webkit-flex;
+        display: -ms-flex;
+        display: flex;
+        align-items: center;
+        height: 100%;
+        transition: all .2s;
+
+        .icon {
+            display: block;
+            background-image: url('../img/icons/ok-orange.svg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 50px;
+            min-width: 50px;
+            height: 50px;
+            margin-right: 35px;
+        }
+
+        p {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 150%;
+            color: #828282;
+            margin: 0;
+
+            b {
+                font-weight: 600;
+            }
+        }
+
+        &:hover {
+            transform: scale(1.02) translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+        }
+    }
+
+    .col-md-6 {
+        margin-bottom: 40px;
+    }
+
+    @media (max-width: 767.98px) {
+        .media {
+            box-shadow: 0 3px 7px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            padding: 15px;
+            align-items: flex-start;
+
+            p {
+                font-size: 15px;
+            }
+
+            .icon {
+                width: 25px;
+                min-width: 25px;
+                height: 25px;
+                margin-right: 15px;
+                margin-top: 5px;
+            }
+        }
+
+        .col-md-6 {
+            margin-bottom: 20px;
+        }
+    }
+}
+
 // ==============================================================
 // 
 // ==============================================================

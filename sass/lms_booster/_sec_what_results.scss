@@ -1,16 +1,22 @@
 .sec_what_results {
-    padding: 74px 0 67px;
-    .dubl_line_vertical{
-      left: -90px;
-      top: 68%;
-      transform: rotate(90deg);
-    }
-    .circle{
-      width: 50px;
-      right: 90px;
-      top: 68%;
-    }
-    .sec_title h2 {
-        margin-bottom: 66px;
-    }
+  padding: 74px 0 67px;
+
+  .sec_title h2 {
+    margin-bottom: 66px;
+  }
+
+  // abs_pic
+
+  .dubl_line_vertical {
+    left: -90px;
+    top: 68%;
+    transform: rotate(90deg);
+  }
+
+  .circle {
+    width: 50px;
+    right: -90px;
+    top: 36%;
+    left: initial;
+  }
 }
