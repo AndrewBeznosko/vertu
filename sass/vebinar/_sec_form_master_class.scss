@@ -1,6 +1,12 @@
 .sec_form_master_class {
     padding: 92px 0 65px;
 
+    .dubl_line_vertical{
+      left: -94px;
+      top: 276px;
+      transform: rotate(-90deg);
+    }
+
     h2 {
         font-style: normal;
         font-weight: bold;
@@ -30,6 +36,16 @@
             line-height: 140%;
             color: #FCFCFC;
             margin-bottom: 15px;
+        }
+        .circle{
+          width: 50px;
+          left: -104px;
+          top: 194px;
+        }
+        .dubl_line_vertical{
+          left: 330px;
+          top: 582px;
+          transform: rotate(-90deg);
         }
 
         h2 {
