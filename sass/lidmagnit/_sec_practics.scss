@@ -1,0 +1,36 @@
+.sec_practics {
+    position: relative;
+
+    .container {
+        z-index: 1;
+    }
+
+    &::after {
+        content: '';
+        position: absolute;
+        display: block;
+        background-image: url('../img/lidmagnit/sec_practics-bg.svg');
+        background-size: auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: 0;
+        opacity: .07;
+    }
+
+    .paragraph {
+        text-align: center;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 140%;
+        color: #4f4f4f;
+        margin-bottom: 43px;
+    }
+
+    &.media_wrapp .media .icon {
+        background-image: url('../img/icons/ok-orange.svg');
+    }
+}

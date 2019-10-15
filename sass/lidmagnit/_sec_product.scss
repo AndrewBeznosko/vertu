@@ -1,0 +1,47 @@
+.sec_product {
+    background-image: none;
+    padding-top: 62px;
+
+    h1 {
+        font-weight: 600;
+        font-size: 34px;
+        line-height: 140%;
+        text-transform: uppercase;
+        color: #4F4F4F;
+        text-transform: uppercase;
+        margin-bottom: 47px;
+    }
+
+    .card {
+        margin-bottom: 112px;
+        padding: 20px 22px 33px;
+        max-width: 643px;
+
+        p {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 150%;
+            color: #828282;
+            margin-bottom: 24px;
+
+            b {
+                text-transform: uppercase;
+                font-weight: 600;
+                color: #4F4F4F;
+            }
+        }
+
+        .btn {
+            width: auto;
+            max-width: 245px;
+        }
+    }
+
+    .img_wrapp img {
+        bottom: 0;
+        right: -80px;
+        width: 465px;
+        filter: drop-shadow(20px 20px 25px rgba(0, 0, 0, 0.3));
+    }
+}
