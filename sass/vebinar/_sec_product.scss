@@ -90,4 +90,46 @@
         top: 709px;
         left: initial;
     }
+
+    @media (max-width: 767.98px) {
+        padding: 30px 0;
+
+        h1 {
+            font-size: 22px;
+            margin-bottom: 0;
+        }
+
+        .upper-title {
+            font-size: 16px;
+            text-align: center;
+        }
+
+        .img_wrapp {
+            margin: 25px 0px;
+            height: 325px;
+
+            img {
+                max-width: 250px;
+            }
+        }
+
+        .undertitle {
+            font-size: 16px;
+            text-align: center;
+        }
+
+        .undertitle_wrapp .date_wrap {
+            margin-right: auto;
+            margin-left: auto;
+            margin-bottom: 30px;
+        }
+
+        .undertitle_wrapp {
+            margin-bottom: 0;
+        }
+
+        .card {
+            margin-bottom: 0;
+        }
+    }
 }
