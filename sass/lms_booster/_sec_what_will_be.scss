@@ -1,31 +1,42 @@
 .sec_what_will_be {
     padding: 92px 0 95px;
 
-    .circle{
-      width: 50px;
-      left: -5px;
-      top: 95%;
+    .circle {
+        width: 50px;
+        left: -5px;
+        top: 95%;
     }
-    .dubl_line_vertical{
-      right: -90px;
-      top: 40%;
+
+    .dubl_line_vertical {
+        right: -90px;
+        top: 40%;
     }
 
     .sec_title {
         h2 {
-            margin: 33px 0 71px;
+            margin-bottom: 71px;
+        }
+    }
+
+    @media (max-width: 767.98px) {
+        padding: 30px 0;
+
+        .sec_title h2 {
+            margin-bottom: 40px;
         }
     }
 }
-.sec_what_will_be_1{
-  .circle2{
-    width: 50px;
-    right: 5px;
-    top: 1px;
-  }
-  .dubl_line_vertical{
-    left: 72px;
-    top: 531px;
-    transform: rotate(-90deg);
-  }
+
+.sec_what_will_be_1 {
+    .circle2 {
+        width: 50px;
+        right: 5px;
+        top: 1px;
+    }
+
+    .dubl_line_vertical {
+        left: 72px;
+        top: 531px;
+        transform: rotate(-90deg);
+    }
 }

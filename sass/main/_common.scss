@@ -669,6 +669,13 @@ h2 {
         margin-top: 10px;
         display: inline-block;
     }
+
+    @media (max-width: 767.98px) {
+        .btn {
+            padding: 15px;
+            margin-top: 15px;
+        }
+    }
 }
 
 // ==============================================================
@@ -1066,6 +1073,7 @@ h2 {
                     display: inline-block;
                     margin-left: 15px;
                     width: 16px;
+                    min-width: 16px;
                     height: auto;
                     transition: 0.2s;
                 }
@@ -1099,24 +1107,28 @@ h2 {
     }
 
     @media (max-width: 767.98px) {
-        &>.card .card-header {
-            h2 {
-                flex-direction: column;
-                align-items: flex-start;
-                font-size: 13px;
-            }
+        &>.card {
+            box-shadow: 0 3px 7px rgba(0, 0, 0, 0.1);
 
-            i {
-                font-size: 14px;
-            }
+            .card-header {
+                h2 {
+                    flex-direction: column;
+                    align-items: flex-start;
+                    font-size: 13px;
+                }
 
-            button {
-                padding-left: 0;
+                i {
+                    font-size: 14px;
+                }
 
-                span {
-                    font-size: 16px;
-                    line-height: 22px;
-                    text-align: left;
+                button {
+                    padding-left: 0;
+
+                    span {
+                        font-size: 16px;
+                        line-height: 22px;
+                        text-align: left;
+                    }
                 }
             }
         }
@@ -1258,6 +1270,7 @@ h2 {
         text-transform: uppercase;
     }
 }
+
 // ==============================================================
 // 
 // ==============================================================

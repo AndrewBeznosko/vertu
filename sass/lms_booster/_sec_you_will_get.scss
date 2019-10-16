@@ -1,22 +1,26 @@
 .sec_you_will_get {
-  padding: 54px 0 62px;
+    padding: 54px 0 62px;
 
-  .sec_title h2 {
-    margin-bottom: 49px;
-  }
+    .sec_title h2 {
+        margin-bottom: 49px;
+    }
 
-  // abs_pic
+    // abs_pic
 
-  .dubl_line_vertical {
-    left: -100px;
-    top: 76%;
-    transform: rotate(-90deg);
+    .dubl_line_vertical {
+        left: -100px;
+        top: 76%;
+        transform: rotate(-90deg);
 
-  }
+    }
 
-  .dubl_line_vertical2 {
-    right: -100px;
-    top: 42%;
-    transform: rotate(-90deg);
-  }
+    .dubl_line_vertical2 {
+        right: -100px;
+        top: 42%;
+        transform: rotate(-90deg);
+    }
+
+    @media (max-width: 767.98px) {
+        padding: 30px 0;
+    }
 }

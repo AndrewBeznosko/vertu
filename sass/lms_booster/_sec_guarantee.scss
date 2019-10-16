@@ -66,12 +66,37 @@
     }
 
     @media (max-width: 767.98px) {
-        .bg-gradient {
+        padding-bottom: 0; 
 
+        .bg-gradient {
+            padding-top: 0;
+            padding-bottom: 30px;
         }
 
-        .sec_title.title-left .upper-title {
-            
+        .sec_title.title-left {
+            .upper-title {
+                font-size: 19px;
+                margin-bottom: 15px;
+            }
+
+            .under-title {
+                font-size: 16px;
+                margin-bottom: 15px;
+            }
+
+            h2 {
+                font-size: 22px;
+            }
+        }
+
+        .img_wrapp {
+            text-align: center;
+            margin: 0 0 30px;
+
+            img {
+                position: initial;
+                max-width: 200px;
+            }
         }
     }
 }

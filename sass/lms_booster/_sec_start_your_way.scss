@@ -1,25 +1,27 @@
 .sec_start_your_way {
     padding: 82px 0 120px;
 
-    .circle{
-      width: 50px;
-      right: -100px;
-      top: -3%;
+    .circle {
+        width: 50px;
+        right: -100px;
+        top: -3%;
     }
-    .dubl_line{
-      right: 160px;
-      top: 103%;
-      transform: rotate(180deg);
+
+    .dubl_line {
+        right: 160px;
+        top: 103%;
+        transform: rotate(180deg);
     }
-    .dubl_line_vertical{
-      left: -10px;
-      top: 40%;
-      transform: rotate(90deg);
+
+    .dubl_line_vertical {
+        left: -10px;
+        top: 40%;
+        transform: rotate(90deg);
     }
 
     .sec_title {
         h2 {
-            margin: 33px 0 64px;
+            margin-bottom: 64px;
         }
     }
 
@@ -62,6 +64,43 @@
             line-height: 140%;
             text-transform: uppercase;
             color: #5C5B5B;
+        }
+    }
+
+    @media (max-width: 767.98px) {
+        padding: 30px 0;
+
+        .sec_title h2 {
+            margin-bottom: 40px;
+        }
+
+        .text-block {
+            img {
+                max-width: 170px;
+            }
+
+            p {
+                font-size: 16px;
+                margin-bottom: 20px;
+            }
+
+            h3 {
+                margin-bottom: 30px;
+                font-size: 18px;
+            }
+        }
+
+        .card {
+            padding: 20px 15px;
+            margin-bottom: 20px;
+            box-shadow: none;
+            border: 1px solid #d6d6d6;
+            border-radius: 8px;
+
+            .card-title {
+                font-size: 19px;
+                margin-bottom: 20px;
+            }
         }
     }
 }

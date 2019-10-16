@@ -1,25 +1,34 @@
 .sec_faq {
-  padding: 84px 0 140px;
+    padding: 84px 0 140px;
 
-  .circle {
-    width: 50px;
-    right: -30px;
-    top: 56%;
-  }
+    .circle {
+        width: 50px;
+        right: -30px;
+        top: 56%;
+    }
 
-  .dubl_line_vertical {
-    left: -50px;
-    top: 75%;
-    transform: rotate(-90deg);
-  }
+    .dubl_line_vertical {
+        left: -50px;
+        top: 75%;
+        transform: rotate(-90deg);
+    }
 
-  .sec_title h2 {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 34px;
-    line-height: 140%;
-    text-transform: uppercase;
-    margin: 0;
-    margin-bottom: 72px;
-  }
+    .sec_title h2 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 140%;
+        text-transform: uppercase;
+        margin: 0;
+        margin-bottom: 72px;
+    }
+
+    @media (max-width: 767.98px) {
+        padding: 30px 0;
+
+        .sec_title h2 {
+            font-size: 21px;
+            margin-bottom: 30px;
+        }
+    }
 }

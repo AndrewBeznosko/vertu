@@ -66,4 +66,38 @@
             z-index: -1;
         }
     }
+
+    @media (max-width: 767.98px) {
+        padding-bottom: 0;
+
+        .bg-gradient {
+            padding: 30px 0;
+        }
+
+        .img_wrapp {
+            margin-bottom: 30px;
+            text-align: center;
+
+            img {
+                position: initial;
+                max-width: 250px;
+            }
+        }
+
+        .sec_title.title-left {
+            .upper-title {
+                font-size: 19px;
+                margin-bottom: 15px;
+            }
+
+            .under-title {
+                font-size: 15px;
+                margin-bottom: 25px;
+            }
+
+            h2 {
+                font-size: 21px;
+            }
+        }
+    }
 }
