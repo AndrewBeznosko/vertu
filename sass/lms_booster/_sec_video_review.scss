@@ -1,53 +1,89 @@
 .sec_video_review {
-  padding: 76px 0 84px;
-  background: #fbf3e9;
-  overflow: hidden;
+    padding: 76px 0 84px;
+    background: #fbf3e9;
+    overflow: hidden;
 
-  .circle {
-    width: 50px;
-    left: -60px;
-    top: 18%;
-  }
+    .circle {
+        width: 50px;
+        left: -60px;
+        top: 18%;
+    }
 
-  .dubl_line {
-    left: 0px;
-    top: 100%;
-    transform: rotate(-180deg);
+    .dubl_line {
+        left: 0px;
+        top: 100%;
+        transform: rotate(-180deg);
 
-  }
+    }
 
-  .dubl_line_vertical {
-    right: -120px;
-    top: 25%;
-    transform: rotate(-90deg);
-  }
+    .dubl_line_vertical {
+        right: -120px;
+        top: 25%;
+        transform: rotate(-90deg);
+    }
 
-  .sec_title {
-    margin-bottom: 49px;
-  }
+    .sec_title {
+        margin-bottom: 49px;
+    }
 
-  .card {
-    background: #FFFFFF;
-    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
-    border-radius: 15px;
-    padding: 45px 48px;
-  }
+    .card {
+        background: #FFFFFF;
+        box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+        border-radius: 15px;
+        padding: 45px 48px;
+    }
 
-  .card_profile {
-    box-shadow: none;
-    padding: 0;
-  }
+    .card_profile {
+        box-shadow: none;
+        padding: 0;
+    }
+
+    @media (max-width: 767.98px) {
+        padding: 30px 0;
+
+        .sec_title {
+            margin-bottom: 0;
+        }
+
+        .card {
+            padding: 15px;
+        }
+
+        .card_profile {
+            margin-bottom: 25px;
+        }
+
+        .card_profile {
+            .icon {
+                width: 70px;
+                min-width: 70px;
+                height: 70px;
+                border-width: 2px;
+                margin: 0;
+            }
+
+            h3 {
+                height: 70px;
+                display: flex;
+                align-items: center;
+                margin-left: 90px;
+                max-width: 170px;
+                margin-bottom: 10px;
+            }
+        }
+    }
 }
 
-.sec_video_review_1{
-    .circle{
-      width: 50px;
-      left: -105px;
-      top: 75px;
+.sec_video_review_1 {
+    .circle {
+        width: 50px;
+        left: -105px;
+        top: 75px;
     }
-    .dubl_line_vertical{
-      right: -81px;
-      top: 582px;
-      transform: rotate(-90deg);
+
+    .dubl_line_vertical {
+        right: -81px;
+        top: 582px;
+        transform: rotate(-90deg);
     }
 }

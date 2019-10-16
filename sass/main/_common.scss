@@ -382,7 +382,7 @@ h2 {
     .h2,
     h1,
     h2 {
-        font-size: 24px;
+        font-size: 19px;
     }
 
     br {
@@ -1198,6 +1198,7 @@ h2 {
             border-radius: 5px;
             padding: 15px;
             align-items: flex-start;
+            min-height: 0;
 
             p {
                 font-size: 15px;
@@ -1218,6 +1219,51 @@ h2 {
     }
 }
 
+// ==============================================================
+// .sec_title.title-left
+// ==============================================================
+.sec_title.title-left {
+    text-align: left;
+
+    img {
+        display: block;
+    }
+
+    .upper-title {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 140%;
+        color: #5C5B5B;
+        margin-bottom: 72px;
+        margin-top: 19px;
+    }
+
+    .under-title {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 140%;
+        color: #828282;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+    }
+
+    h2 {
+        margin: 0;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 38px;
+        line-height: 140%;
+        text-transform: uppercase;
+    }
+}
+// ==============================================================
+// 
+// ==============================================================
+// ==============================================================
+// 
+// ==============================================================
 // ==============================================================
 // 
 // ==============================================================

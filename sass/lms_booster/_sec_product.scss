@@ -1,6 +1,6 @@
 .sec_product {
     background-color: #daede5;
-    background-image: url('../img/lms_booster/sec_product_bg.svg'); 
+    background-image: url('../img/lms_booster/sec_product_bg.svg');
     background-position: center 103%;
     background-repeat: no-repeat;
     padding: 101px 0 0;
@@ -8,7 +8,7 @@
 
     h1 {
         font-style: normal;
-        font-weight: 600; 
+        font-weight: 600;
         font-size: 34px;
         line-height: 140%;
         text-transform: uppercase;
@@ -171,9 +171,10 @@
 @media (max-width: 767.98px) {
     .sec_product {
         overflow: hidden;
+        padding-top: 40px;
 
         h1 {
-            font-size: 24px;
+            font-size: 19px;
             margin: 15px 0;
             text-align: center;
         }
@@ -199,7 +200,7 @@
 
         .card {
             padding: 20px 15px;
-            margin-bottom: 40px;
+            margin-bottom: 20px;
             box-shadow: none;
             border: 1px solid #d6d6d6;
 
@@ -209,28 +210,39 @@
         }
 
         .img_wrapp {
-            height: 300px;
-            margin-bottom: 30px;
-            margin-top: 21px;
+            margin: 0;
+            height: 400px;
 
             img {
                 width: 100%;
                 right: initial;
                 left: 50%;
                 transform: translateX(-50%);
-                max-width: 345px;
+                max-width: 290px;
                 filter: none;
             }
         }
 
         .card__footer {
+            flex-wrap: wrap;
+
             .btn-success {
                 padding: 15px;
+                width: 100%;
+
+                &:not(:last-of-type) {
+                    margin-bottom: 10px;
+                }
             }
 
             .price {
                 font-size: 24px;
             }
+        }
+
+        .btn-video-modal {
+            margin: 0;
+            margin-bottom: 15px;
         }
 
         // abs icons

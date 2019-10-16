@@ -1,14 +1,17 @@
 .sec_about_author {
     padding-top: 64px;
-    .circle{
-      width: 50px;
-      left: 552px;
-      top: 77%;
+
+    .circle {
+        width: 50px;
+        left: 552px;
+        top: 77%;
     }
-    .dubl_line{
-      right: -5px;
-      top: 31%;
+
+    .dubl_line {
+        right: -5px;
+        top: 31%;
     }
+
     .sec_title p {
         font-style: normal;
         font-weight: 500;
@@ -55,6 +58,31 @@
             right: 20px;
             bottom: 0;
             max-width: 370px;
+        }
+    }
+
+    @media (max-width: 767.98px) {
+        padding-top: 30px;
+
+        .sec_title p {
+            font-size: 16px;
+            padding-top: 15px;
+            padding-bottom: 40px;
+        }
+
+        .custom-list li {
+            font-size: 15px;
+            margin-bottom: 15px;
+        }
+
+        .img_wrapp {
+            display: none;
+        }
+
+        .text-orange {
+            font-size: 16px;
+            margin: 0 0 30px;
+            text-align: center;
         }
     }
 }
