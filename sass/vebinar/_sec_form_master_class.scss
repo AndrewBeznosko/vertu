@@ -1,10 +1,10 @@
 .sec_form_master_class {
     padding: 92px 0 65px;
 
-    .dubl_line_vertical{
-      left: -94px;
-      top: 276px;
-      transform: rotate(-90deg);
+    .dubl_line_vertical {
+        left: -94px;
+        top: 276px;
+        transform: rotate(-90deg);
     }
 
     h2 {
@@ -37,15 +37,17 @@
             color: #FCFCFC;
             margin-bottom: 15px;
         }
-        .circle{
-          width: 50px;
-          left: -104px;
-          top: 194px;
+
+        .circle {
+            width: 50px;
+            left: -104px;
+            top: 194px;
         }
-        .dubl_line_vertical{
-          left: 330px;
-          top: 582px;
-          transform: rotate(-90deg);
+
+        .dubl_line_vertical {
+            left: 330px;
+            top: 582px;
+            transform: rotate(-90deg);
         }
 
         h2 {
@@ -61,6 +63,26 @@
             line-height: 140%;
             color: #FCFCFC;
             margin-bottom: 40px;
+        }
+    }
+
+    @media (max-width: 767.98px) {
+        padding: 30px 0;
+
+        h2 {
+            font-size: 23px;
+        }
+
+        .text-center {
+            position: relative;
+            height: 300px;
+
+            img {
+                position: absolute;
+                display: inline-block;
+                transform: rotate(-90deg) translateY(40px) translateX(80%);
+                width: 200px;
+            }
         }
     }
 }

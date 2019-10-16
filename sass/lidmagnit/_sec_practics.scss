@@ -33,4 +33,15 @@
     &.media_wrapp .media .icon {
         background-image: url('../img/icons/ok-orange.svg');
     }
+
+    @media (max-width: 767.98px) {
+        .paragraph {
+                font-size: 18px;
+                margin-bottom: 20px;
+        }
+
+        .text-center img {
+            max-width: 70px; 
+        }
+    }
 }

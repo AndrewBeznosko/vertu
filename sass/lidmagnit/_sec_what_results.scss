@@ -21,4 +21,18 @@
         color: #000000;
         margin-bottom: 24px;
     }
+
+    @media (max-width: 767.98px) {
+        padding: 30px 0;
+
+        .sec_title p {
+            font-size: 16px;
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+
+        .circle {
+            display: none;
+        }
+    }
 }
