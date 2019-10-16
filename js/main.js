@@ -1,4 +1,23 @@
-$(document).ready(function () {
+$(document).ready(function() {
+
+    // intlTelInput
+    $("input.phone").intlTelInput(
+        {
+          utilsScript: 'js/utils.js',  
+          defaultCountry: 'auto',
+          separateDialCode: false,
+          nationalMode: false,
+          initialCountry: 'auto',
+          geoIpLookup: function(callback)
+          {
+            $.get("https://ipinfo.io", function() {}, "jsonp").always(function(resp)
+            {
+              var countryCode = (resp && resp.country) ? resp.country : "";
+              callback(countryCode);
+            });
+          },
+          preferredCountries: ['ua', 'ru', 'by', 'kz']
+        });
 
     //DOC: http://sachinchoolur.github.io/lightslider/settings.html
 
@@ -30,11 +49,11 @@ $(document).ready(function () {
             }
         }]
     });
-    $('.sleder_wrapp .arrow-prev').click(function () {
+    $('.sleder_wrapp .arrow-prev').click(function() {
         sliderAuthors.goToPrevSlide();
     });
 
-    $('.sleder_wrapp .arrow-next').click(function () {
+    $('.sleder_wrapp .arrow-next').click(function() {
         sliderAuthors.goToNextSlide();
     });
     // scrollToSection
@@ -43,7 +62,7 @@ $(document).ready(function () {
         // Remove links that don't actually link to anything
         .not('[href="#"]')
         .not('[href="#0"]')
-        .click(function (event) {
+        .click(function(event) {
             // On-page links
             if (
                 location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') &&
@@ -58,7 +77,7 @@ $(document).ready(function () {
                     event.preventDefault();
                     $('html, body').animate({
                         scrollTop: target.offset().top
-                    }, 500, function () {
+                    }, 500, function() {
                         // Callback after animation
                         // Must change focus!
                         var $target = $(target);
@@ -74,10 +93,4 @@ $(document).ready(function () {
                 }
             }
         });
-        $('body').on('hidden.bs.modal', '.modal', function() {
-      var getIframe = $(this).find('iframe');
-      var videoURL = getIframe.prop('src');
-      getIframe.prop('src', '');
-      getIframe.prop('src', videoURL);
-      });
 });

@@ -7,10 +7,35 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Smart Expert - онлайн сообщество для развития, продвижения и монетизации экспертных знаний</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/intlTelInput.min.css">
     <link rel="stylesheet" href="css/newland.css">
+
+    <!-- Google Tag Manager -->
+    <!-- <script>
+    (function(w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+            'gtm.start': new Date().getTime(),
+            event: 'gtm.js'
+        });
+        var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s),
+            dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        і
+        j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-TX62L9J');
+    </script> -->
+    <!-- End Google Tag Manager -->
 </head>
 
 <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TX62L9J" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
     <!-- fixed header -->
     <nav class="navbar navbar-expand-md fixed-top">
         <a class="navbar-brand" href="#"><img src="img/nav/logo.png" alt=""></a>
@@ -1054,19 +1079,25 @@
                 <div class="col-md-6">
                     <div class="card">
                         <h3 class="card-title">Оставь контакты и получи профессиональную консультацию</h3>
-                        <form class="b-form">
+                        <form action="https://app.getresponse.com/add_subscriber.html" accept-charset="utf-8" method="post" class="b-form">
                             <div class="form-group">
                                 <label for="InputName" class="text-yellow">Имя</label>
-                                <input type="text" class="form-control" id="InputName" aria-describedby="InputName" placeholder="Введите ваше имя">
+                                <input type="text" name="name" class="form-control" id="InputName" aria-describedby="InputName" placeholder="Введите ваше имя" minlength="2" required>
                             </div>
                             <div class="form-group">
                                 <label for="InputPhone" class="text-yellow">Номер телефона</label>
-                                <input type="tel" class="form-control" id="InputPhone" aria-describedby="InputPhone" placeholder="Введите ваш телефон">
+                                <input type="text" name="custom_mobile_phone" class="form-control phone" id="InputPhone" aria-describedby="InputPhone" placeholder="Введите ваш телефон" autocomplete="off"  required>
                             </div>
                             <div class="form-group">
                                 <label for="InputEmail" class="text-yellow">E-mail</label>
-                                <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" placeholder="Введите ваш Email ">
+                                <input type="email" name="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" placeholder="Введите ваш Email " required>
                             </div>
+                            <!-- Токен списка -->
+                            <!-- Получить API ID на: https://app.getresponse.com/campaign_list.html -->
+                            <input type="hidden" name="campaign_token" value="KTMBb" />
+                            <!-- Добавить подписчика в цикл на определенный день (по желанию) -->
+                            <input type="hidden" name="start_day" value="0" />
+                            <!-- Кнопка подписаться -->
                             <button type="submit" class="btn btn-success w-100">Получить консультации</button>
                         </form>
                     </div>
@@ -1239,6 +1270,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
     <script src="js/lightslider.min.js"></script>
+    <script src="js/intlTelInput.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 
