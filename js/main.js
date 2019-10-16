@@ -74,4 +74,10 @@ $(document).ready(function () {
                 }
             }
         });
+        $('body').on('hidden.bs.modal', '.modal', function() {
+      var getIframe = $(this).find('iframe');
+      var videoURL = getIframe.prop('src');
+      getIframe.prop('src', '');
+      getIframe.prop('src', videoURL);
+      });
 });
