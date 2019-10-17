@@ -1,0 +1,132 @@
+.sec_tariffs {
+    padding: 57px 0 71px;
+
+    .sec_title {
+        h2 {
+            margin-bottom: 35px;
+        }
+
+        p {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 140%;
+            text-align: center;
+            color: #828282;
+            margin-bottom: 45px;
+        }
+    }
+
+    tbody {
+        tr {
+            td {
+                text-align: center;
+                vertical-align: middle;
+
+                img {
+                    width: 18px;
+                    min-width: 18px;
+                    height: 18px;
+                }
+            }
+
+            th {
+                padding-left: 22px;
+                padding-right: 22px;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 120%;
+                color: #828282;
+            }
+
+            td,
+            th {
+                border-bottom: transparent;
+                border-top: transparent;
+                background-image: linear-gradient(to right, #D6D6D6 50%, rgba(255, 255, 255, 0) 0%);
+                background-position: bottom;
+                background-size: 10px 1px;
+                background-repeat: repeat-x;
+            }
+
+            &:last-of-type {
+
+                td,
+                th {
+                    background-image: none;
+                }
+            }
+
+        }
+    }
+
+    tfoot {
+
+        th,
+        td {
+            border-bottom-color: transparent;
+        }
+
+        .text-green {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 130%;
+            text-align: center;
+            color: #58B58B;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .price {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 32px;
+            line-height: 130%;
+            text-align: center;
+            color: #58B58B;
+            display: block;
+            margin-bottom: 15px;
+        }
+
+        .text-gray {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 130%;
+            text-align: center;
+            color: #828282;
+            margin-top: 15px;
+            display: block;
+        }
+
+        .btn-success {
+            height: 40px;
+            width: 170px;
+            font-weight: 600;
+            color: #FCFCFC;
+        }
+    }
+
+    tbody,
+    tfoot {
+        th {
+            border-left-color: transparent;
+        }
+
+        td {
+            &:last-of-type {
+                border-right-color: transparent;
+            }
+        }
+    }
+
+    @media (max-width: 767.98px) {
+        padding: 30px 0;
+
+        .sec_title h2 {
+            margin-bottom: 40px;
+        }
+    }
+}

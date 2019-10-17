@@ -1,17 +1,6 @@
 .sec_what_will_be {
     padding: 92px 0 95px;
 
-    .circle {
-        width: 50px;
-        left: -5px;
-        top: 95%;
-    }
-
-    .dubl_line_vertical {
-        right: -90px;
-        top: 40%;
-    }
-
     .sec_title {
         h2 {
             margin-bottom: 71px;
@@ -24,6 +13,19 @@
         .sec_title h2 {
             margin-bottom: 40px;
         }
+    }
+
+    // abs_pic
+
+    .circle {
+        width: 50px;
+        left: -5px;
+        top: 95%;
+    }
+
+    .dubl_line_vertical {
+        right: -90px;
+        top: 40%;
     }
 }
 
