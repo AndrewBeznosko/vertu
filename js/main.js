@@ -1,26 +1,61 @@
 $(document).ready(function() {
 
+    // ==============================================================
     // intlTelInput
-    $("input.phone").intlTelInput(
-        {
-          utilsScript: 'js/utils.js',  
-          defaultCountry: 'auto',
-          separateDialCode: false,
-          nationalMode: false,
-          initialCountry: 'auto',
-          geoIpLookup: function(callback)
-          {
-            $.get("https://ipinfo.io", function() {}, "jsonp").always(function(resp)
-            {
-              var countryCode = (resp && resp.country) ? resp.country : "";
-              callback(countryCode);
+    // ==============================================================
+    $("input.phone").intlTelInput({
+        utilsScript: 'js/utils.js',
+        defaultCountry: 'auto',
+        separateDialCode: false,
+        nationalMode: false,
+        initialCountry: 'auto',
+        geoIpLookup: function(callback) {
+            $.get("https://ipinfo.io", function() {}, "jsonp").always(function(resp) {
+                var countryCode = (resp && resp.country) ? resp.country : "";
+                callback(countryCode);
             });
-          },
-          preferredCountries: ['ua', 'ru', 'by', 'kz']
+        },
+        preferredCountries: ['ua', 'ru', 'by', 'kz']
+    });
+
+    // ==============================================================
+    // countdown
+    // ==============================================================
+    $(".simpleCountdown").each(function() {
+        var myDate = new Date();
+
+        function returnEndDate(d, h, m) {
+            myDate.setDate(myDate.getDate() + d);
+            myDate.setHours(myDate.getHours() + h);
+            myDate.setMinutes(myDate.getMinutes() + m);
+            return myDate;
+        }
+        var note = $('#note');
+
+        if ($(this).data('cookies') == 'yep') {
+            if ($.cookie("timer")) {
+                var dateEnd = $.cookie("timer");
+            } else {
+                var extraDate = $(this).data('extra').split(',');
+                var dateEnd = returnEndDate(Number(extraDate[0]), Number(extraDate[1]), Number(extraDate[2]));
+                $.cookie("timer", dateEnd, {
+                    expires: null
+                });
+            };
+            var ts = new Date(dateEnd);
+        } else {
+            var staticDate = $(this).data('date').split(',');
+            var ts = new Date(Number(staticDate[0]), Number(staticDate[1]), Number(staticDate[2]), Number(staticDate[3]));
+        };
+        $(this).countdown({
+            timestamp: ts
         });
 
-    //DOC: http://sachinchoolur.github.io/lightslider/settings.html
+    });
 
+    // ==============================================================
+    // slider
+    // ==============================================================
     var sliderAuthors = $('.sliderAuthors').lightSlider({
         item: 1,
         slideMargin: 0,
@@ -56,7 +91,10 @@ $(document).ready(function() {
     $('.sleder_wrapp .arrow-next').click(function() {
         sliderAuthors.goToNextSlide();
     });
+
+    // ==============================================================
     // scrollToSection
+    // ==============================================================
     // Select all links with hashes
     $('a[href*="#"]')
         // Remove links that don't actually link to anything

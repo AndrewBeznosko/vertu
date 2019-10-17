@@ -1,0 +1,104 @@
+.timer__title {
+    display: block;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 130%;
+    text-align: center;
+    color: #828282;
+    margin-bottom: 12px;
+}
+
+/*Параметры контейнера */
+.countdownHolder {
+    margin: 0 auto;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 130%;
+    text-align: center;
+    color: #A2A2A2;
+}
+
+.countdownHolder .position {
+    display: inline-block;
+    height: 62px;
+    overflow: hidden;
+    position: relative;
+    width: 33px;
+}
+
+.countdownHolder .digit {
+    position: absolute;
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: #A2A2A2;
+}
+
+.countdownHolder .countDays,
+.countdownHolder .countHours,
+.countdownHolder .countMinutes,
+.countdownHolder .countSeconds {
+    max-width: 70px;
+    display: flex;
+}
+
+.countdownHolder .countDiv {
+    display: none;
+    width: 16px;
+    height: 1.6em;
+    position: relative;
+}
+
+.countdownHolder .countDiv:before,
+.countdownHolder .countDiv:after {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background-color: #444;
+    border-radius: 50%;
+    left: 50%;
+    margin-left: -3px;
+    top: 0.5em;
+    box-shadow: 1px 1px 1px rgba(4, 4, 4, 0.5);
+    content: '';
+}
+
+.countdownHolder .countDiv:after {
+    top: 0.9em;
+}
+
+.countdownHolder .textdigit {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 130%;
+    text-align: center;
+    color: #A2A2A2;
+    margin: 0;
+}
+
+.subm {
+    cursor: pointer;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    transition: all 0.3s linear;
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+.simpleCountdown>div:not(:last-of-type) {
+    padding-right: 32px;
+    position: relative;
+
+    &::after {
+        content: ':';
+        position: absolute;
+        top: 0;
+        // transform: translateY(-50%);
+        right: 11px;
+    }
+}
