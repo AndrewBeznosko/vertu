@@ -34,9 +34,21 @@
 
         img {
             position: absolute;
+            width: 500px;
             bottom: 0;
             left: 0;
             filter: drop-shadow(20px 20px 25px rgba(0, 0, 0, 0.3));
+        }
+    }
+    .img_wrapp2 {
+        position: relative;
+        height: 525px;
+
+        img {
+            position: relative;
+            bottom: 0;
+            left: 0;
+            width: 525px;
         }
     }
 
@@ -76,7 +88,16 @@
             height: 360px;
 
             img {
-                max-width: 400px;
+                max-width: 350px;
+            }
+        }
+        .img_wrapp2 {
+            height: 360px;
+
+            img {
+                bottom: 0;
+                left: 0;
+                width: 320px;
             }
         }
 
