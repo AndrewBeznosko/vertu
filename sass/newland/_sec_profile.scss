@@ -36,8 +36,8 @@
         img {
             position: absolute;
             bottom: 0;
-            right: -25px;
-            width: 300px;
+            right: 0px;
+            width: 320px;
             filter: drop-shadow(20px 20px 25px rgba(0,0,0,0.3));
         }
     }
@@ -45,7 +45,7 @@
     .card {
         padding: 25px 28px 23px 23px;
         max-width: 561px;
-        margin-bottom: 58px;
+        margin-bottom: 116px;
 
         ul {
             list-style: none;
