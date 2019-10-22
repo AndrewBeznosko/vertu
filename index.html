@@ -38,7 +38,7 @@
 
     <!-- fixed header -->
     <nav class="navbar navbar-expand-md fixed-top">
-        <a class="navbar-brand" href="#"><img src="img/nav/logo.png" alt=""></a>
+        <a class="navbar-brand page-scroll" href="#"><img src="img/nav/logo.png" alt=""></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon">
                 <img src="img/nav/burger.svg" alt="burger">
@@ -48,16 +48,16 @@
         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#about_author">Мой опыт</a>
+                    <a class="nav-link page-scroll" href="#about_author">Мой опыт</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#my_expertise">Моя экспертность</a>
+                    <a class="nav-link page-scroll" href="#my_expertise">Моя экспертность</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#video_review">Отзывы</a>
+                    <a class="nav-link page-scroll" href="#video_review">Отзывы</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#ya_nastavnik">Я - наставник</a>
+                    <a class="nav-link page-scroll" href="#ya_nastavnik">Я - наставник</a>
                 </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
@@ -1145,7 +1145,7 @@
             <div class="row justify-content-center">
                 <div class="col-md-6">
                     <div class="embed-responsive embed-responsive-16by9">
-                        <iframe src="https://www.youtube.com/embed/ZdODCz6y0kE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe id="video" src="https://www.youtube.com/embed/ZdODCz6y0kE?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -1168,7 +1168,7 @@
                         моментов, достигаторства и стремления идти вперед. Но были еще и падения...после которых я мог
                         легко сдаться и не добиться ничего! Но обо всем по порядку...
                     </p>
-                    <a href="" class="btn btn-success w-100" data-toggle="modal" data-target="#textModal">Полная История</a>
+                    <a id="play-video" href="" class="btn btn-success w-100">Полная История</a>
                 </div>
             </div>
         </div>
@@ -1307,7 +1307,7 @@
                             </div>
                             <div class="form-group">
                                 <label for="InputPhone" class="text-yellow">Номер телефона</label>
-                                <input type="text" name="custom_mobile_phone" class="form-control phone" id="InputPhone" aria-describedby="InputPhone" placeholder="Введите ваш телефон" autocomplete="off" required>
+                                <input type="text" name="custom_mobile_phone" class="form-control phone" id="InputPhone" aria-describedby="InputPhone" placeholder="Введите ваш телефон" autocomplete="off" required minlength="10" maxlength="15">
                             </div>
                             <div class="form-group">
                                 <label for="InputEmail" class="text-yellow">E-mail</label>
@@ -1337,19 +1337,19 @@
                 <h2 class="text-white">Часто задаваемые вопросы</h2>
             </div>
             <div class="d-flex flex-wrap justify-content-center">
-                <div class="accordion" id="accordion">
+                <div class="accordion" id="accordion2">
                     <div class="card">
                         <div class="card-header" id="headingOne">
                             <h2>
                                 <button class="btn btn-link" type="button" data-toggle="collapse"
-                                    data-target="#collapse_1" aria-expanded="true" aria-controls="collapse_1">
+                                    data-target="#collapse_11" aria-expanded="true" aria-controls="collapse_11">
                                     <span>Как правильно поставить цель и составить план ее достижения?</span><img
                                         src="img/icons/accordion-arrow.svg" alt="">
                                 </button>
                             </h2>
                         </div>
 
-                        <div id="collapse_1" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div id="collapse_11" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion2">
                             <div class="card-body">
                                 Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
                                 squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck
@@ -1366,14 +1366,14 @@
                         <div class="card-header" id="headingOne">
                             <h2>
                                 <button class="btn btn-link" type="button" data-toggle="collapse"
-                                    data-target="#collapse_2" aria-expanded="true" aria-controls="collapse_2">
+                                    data-target="#collapse_22" aria-expanded="true" aria-controls="collapse_22">
                                     <span>Менеджмент Х-кратного роста</span><img src="img/icons/accordion-arrow.svg"
                                         alt="">
                                 </button>
                             </h2>
                         </div>
 
-                        <div id="collapse_2" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div id="collapse_22" class="collapse" aria-labelledby="headingOne" data-parent="#accordion2">
                             <div class="card-body">
                                 Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
                                 squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck
@@ -1390,14 +1390,14 @@
                         <div class="card-header" id="headingOne">
                             <h2>
                                 <button class="btn btn-link" type="button" data-toggle="collapse"
-                                    data-target="#collapse_3" aria-expanded="true" aria-controls="collapse_3">
+                                    data-target="#collapse_33" aria-expanded="true" aria-controls="collapse_33">
                                     <span>Челлендж: узнай свои слабые и сильные стороны</span><img
                                         src="img/icons/accordion-arrow.svg" alt="">
                                 </button>
                             </h2>
                         </div>
 
-                        <div id="collapse_3" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div id="collapse_33" class="collapse" aria-labelledby="headingOne" data-parent="#accordion2">
                             <div class="card-body">
                                 Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
                                 squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck
@@ -1410,6 +1410,11 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+            <div class="row justify-content-center mt-5">
+                <div class="col-md-6">
+                    <a href="#sec_tariffs" class="btn btn-success btn-lg w-100 px-1">Участвовать в LMS Booster</a>
                 </div>
             </div>
         </div>
@@ -1447,41 +1452,6 @@
             </div>
         </div>
     </div>
-
-    <!-- text Modal -->
-    <div class="modal fade" id="textModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-scrollable" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalScrollableTitle">Полная История</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
-                    <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
-                    <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
-                    <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
-                    <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
-                    <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
-                    <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
-                    <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
-                    <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
-                    <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
-                    <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
-                    <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">

@@ -1085,7 +1085,7 @@ h2 {
                     width: 16px;
                     min-width: 16px;
                     height: auto;
-                    transition: 0.2s;
+                    transition: 0.3s;
                 }
             }
         }
@@ -1114,6 +1114,11 @@ h2 {
         &.show~.card-header img {
             transform: rotateX(180deg);
         }
+    }
+
+    .card-header.show img {
+        display: inline-block;
+        transform: rotateX(180deg);
     }
 
     @media (max-width: 767.98px) {
@@ -1205,8 +1210,8 @@ h2 {
         }
 
         &:hover {
-            transform: scale(1.02) translateY(-2px);
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px rgba(0,0,0,0.15);
         }
     }
 
@@ -1237,6 +1242,14 @@ h2 {
 
         .col-md-6 {
             margin-bottom: 20px;
+        }
+    }
+
+    &.media_question {
+        .media{
+            .icon {
+            background-image: url('../img/icons/ok-question.svg');
+            }
         }
     }
 }

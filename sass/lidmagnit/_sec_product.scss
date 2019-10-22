@@ -46,11 +46,13 @@
     }
 
     @media (max-width: 767.98px) {
-        padding: 30px 0;
+        padding: 30px 0 0;
 
         h1 {
             font-size: 21px;
             margin: 0;
+            text-align: left;
+            margin-bottom: 30px; 
         }
 
         .img_wrapp {
@@ -74,5 +76,6 @@
                 max-width: 100%;
             }
         }
+
     }
 }

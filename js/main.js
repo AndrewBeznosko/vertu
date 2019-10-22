@@ -65,7 +65,7 @@ $(document).ready(function() {
         cssEasing: 'ease', //'cubic-bezier(0.25, 0, 0.25, 1)',//
         easing: 'linear', //'for jquery animation',////
         speed: 400, //ms'
-        auto: true,
+        auto: false,
         loop: true,
         pager: true,
         pause: 3500,
@@ -76,6 +76,12 @@ $(document).ready(function() {
         enableTouch: true,
         enableDrag: true,
         freeMove: true,
+        onBeforeSlide: function (el) {
+            $('#current').text(el.getCurrentSlideCount());
+            el.find('.embed-responsive').each(function() {
+                $(this).html($(this).html());
+            });
+        },
         responsive: [{
             breakpoint: 767.98,
             settings: {
@@ -131,4 +137,38 @@ $(document).ready(function() {
                 }
             }
         });
+
+    // ==============================================================
+    // stop video on modal close
+    // ==============================================================
+    $('body').on('hidden.bs.modal', '.modal', function() {
+        var getIframe = $(this).find('iframe');
+        var videoURL = getIframe.prop('src');
+        getIframe.prop('src', '');
+        getIframe.prop('src', videoURL);
+    });
+    // ==============================================================
+    // accordion arrow
+    // ==============================================================
+    $('.collapse.show').siblings('.card-header').addClass('show');
+    $('.accordion .collapse').on('show.bs.collapse', function() {
+        $(this).siblings('.card-header').addClass('show');
+    });
+
+    $('.accordion .collapse').on('hide.bs.collapse', function() {
+        $(this).siblings('.card-header').removeClass('show');
+    });
+    // ==============================================================
+    // play video on click
+    // ==============================================================
+    $('#play-video').on('click', function(ev) {
+        $("#video")[0].src += "&autoplay=1";
+        ev.preventDefault();
+    });
+    // ==============================================================
+    // Closes the Responsive Menu on Menu Item Click
+    // ==============================================================
+    $('.navbar-collapse ul li a.page-scroll').click(function() {
+        $('.navbar-toggler:visible').click();
+    });
 });
