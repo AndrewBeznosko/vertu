@@ -1,0 +1,137 @@
+// ==============================================================
+// imports
+// ==============================================================
+// -
+
+// ==============================================================
+// COMMON
+// ==============================================================
+.btn.btn-success::before {
+    content: '';
+    display: inline-block;
+    width: 28px;
+    height: 27.5px;
+    background-image: url('../img/icons/msngr.svg');
+    background-size: cover;
+    margin-right: 17px;
+}
+
+// ==============================================================
+// .sec_product
+// ==============================================================
+.sec_product {
+    padding-top: 114px;
+
+    h1 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 38px;
+        line-height: 140%;
+        color: #4f4f4f;
+        margin-bottom: 0;
+    }
+
+    .under_title {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 160%;
+        max-width: 685px;
+        margin: 35px 0 43px;
+        text-transform: uppercase;
+    }
+
+    .img_wrapp img {
+        width: 384px;
+    }
+
+    .card {
+        margin-bottom: 122px;
+        max-width: 575px;
+
+        h4 {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 28px;
+            line-height: 120%;
+            margin-bottom: 31px;
+            color: #828282;
+        }
+
+        span {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 13px;
+            line-height: 120%;
+            color: #828282;
+        }
+
+        p {
+            margin-top: 5px;
+            margin-bottom: 26px;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 160%;
+            color: #4f4f4f;
+            text-transform: uppercase;
+        }
+
+        .btn {
+            max-width: 100%;
+        }
+    }
+
+    // abs_pic
+
+    .circle2 {
+        width: 50px;
+        right: 325px;
+        top: 254px;
+    }
+
+    @media (max-width: 767.98px) {
+        padding-top: 30px;
+
+        h1 {
+            font-size: 24px;
+        }
+
+        .under_title {
+            font-size: 16px;
+            margin-top: 15px;
+        }
+
+        .card {
+            h4 {
+                font-size: 22px;
+                margin-bottom: 25px;
+            }
+
+            p {
+                font-size: 15px;
+            }
+        }
+    }
+}
+
+// ==============================================================
+// .sec_checklist
+// ==============================================================
+.sec_checklist {
+    .sec_title {
+        h2 {
+            margin: 0;
+        }
+
+        p {
+            margin: 19px 0 49px;
+        }
+
+        .btn {
+            max-width: 280px;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    }
+}

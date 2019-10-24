@@ -70,13 +70,6 @@
         padding: 22px;
     }
 
-    .col-md-4 {
-        order: 0;
-    }
-    .col-md-8 {
-        order: 2;
-    }
-
     // abs_pic
 
     .circle {
@@ -137,6 +130,13 @@
 
         .card {
             margin-bottom: 0;
+        }
+
+        .col-md-4 {
+            order: 0;
+        }
+        .col-md-8 {
+            order: 2;
         }
     }
 }
