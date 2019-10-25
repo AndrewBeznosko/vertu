@@ -76,7 +76,7 @@ $(document).ready(function() {
         enableTouch: true,
         enableDrag: true,
         freeMove: true,
-        onBeforeSlide: function (el) {
+        onBeforeSlide: function(el) {
             $('#current').text(el.getCurrentSlideCount());
             el.find('.embed-responsive').each(function() {
                 $(this).html($(this).html());
@@ -170,5 +170,15 @@ $(document).ready(function() {
     // ==============================================================
     $('.navbar-collapse ul li a.page-scroll').click(function() {
         $('.navbar-toggler:visible').click();
+    });
+    // ==============================================================
+    // bootstrap close menu on click outside
+    // ==============================================================
+    $(document).click(function(event) {
+        var clickover = $(event.target);
+        var _opened = $(".navbar-collapse").hasClass("show");
+        if (_opened === true && !clickover.hasClass("navbar-toggler")) {
+            $(".navbar-toggler").click();
+        }
     });
 });
