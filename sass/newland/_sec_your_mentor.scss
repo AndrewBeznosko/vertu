@@ -34,8 +34,9 @@
 
         img {
             position: absolute;
+            width: 580px;
             bottom: 0;
-            left: 0;
+            left: -75px;
             filter: drop-shadow(20px 20px 25px rgba(0, 0, 0, 0.3));
         }
     }
@@ -77,6 +78,7 @@
 
             img {
                 max-width: 400px;
+                left: -10px;
             }
         }
 
