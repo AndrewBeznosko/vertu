@@ -76,10 +76,17 @@ $(document).ready(function() {
         enableTouch: true,
         enableDrag: true,
         freeMove: true,
-        onBeforeSlide: function(el) {
-            $('#current').text(el.getCurrentSlideCount());
-            el.find('.embed-responsive').each(function() {
-                $(this).html($(this).html());
+        // onBeforeSlide: function(el) {
+        //     $('#current').text(el.getCurrentSlideCount());
+        //     el.find('.embed-responsive').each(function() {
+        //         $(this).html($(this).html());
+        //     });
+        // },
+        onBeforeSlide: function (el) {
+            el.find('iframe').each(function() {
+                var getVideoSrc = $(this).attr("src").replace("?autoplay=1", "");
+                // getVideoSrc.replace("?autoplay=1", "");
+                $(this).attr("src", getVideoSrc);
             });
         },
         responsive: [{
@@ -98,6 +105,17 @@ $(document).ready(function() {
         sliderAuthors.goToNextSlide();
     });
 
+    // ==============================================================
+    // js-iframe_swiping
+    // ==============================================================
+    var videoSrc;
+    $('.js-iframe_swiping').click(function() {
+        $(this).removeClass('active');
+
+        videoSrc = $(this).find("iframe").attr("src");
+        $(this).find("iframe").attr("src", '');
+        $(this).find("iframe").attr("src", videoSrc + "?autoplay=1");
+    });
     // ==============================================================
     // scrollToSection
     // ==============================================================
