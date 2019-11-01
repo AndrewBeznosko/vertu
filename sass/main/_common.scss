@@ -455,7 +455,7 @@ h2 {
         font-weight: 500;
         font-size: 13px;
         line-height: 130%;
-        color: #A2A2A2; 
+        color: #A2A2A2;
     }
 }
 
@@ -1196,6 +1196,8 @@ h2 {
             height: 50px;
             margin-right: 35px;
             border-radius: 50%;
+            box-sizing: content-box;
+            border: 1px solid #fff;
         }
 
         p {
@@ -1212,7 +1214,7 @@ h2 {
 
         &:hover {
             transform: translateY(-5px);
-            box-shadow: 0 10px 15px rgba(0,0,0,0.15);
+            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.15);
         }
     }
 
@@ -1247,9 +1249,9 @@ h2 {
     }
 
     &.media_question {
-        .media{
+        .media {
             .icon {
-            background-image: url('../img/icons/ok-question.svg');
+                background-image: url('../img/icons/ok-question.svg');
             }
         }
     }
@@ -1314,6 +1316,7 @@ h2 {
         z-index: -1;
     }
 }
+
 // ==============================================================
 // 
 // ==============================================================
