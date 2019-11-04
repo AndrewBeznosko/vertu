@@ -24,10 +24,10 @@
     .paragraph {
         text-align: center;
         font-weight: 500;
-        font-size: 24px;
+        font-size: 1.5rem;
         line-height: 140%;
         color: #4f4f4f;
-        margin-bottom: 43px;
+        margin-bottom: 2.6875rem;
     }
 
     &.media_wrapp .media .icon {
@@ -36,12 +36,12 @@
 
     @media (max-width: 767.98px) {
         .paragraph {
-                font-size: 18px;
-                margin-bottom: 20px;
+                font-size: 1.125rem;
+                margin-bottom: 1.25rem;
         }
 
         .text-center img {
-            max-width: 70px; 
+            max-width: 4.375rem; 
         }
     }
 }

@@ -2,11 +2,11 @@
     display: block;
     font-style: normal;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 0.875rem;
     line-height: 130%;
     text-align: center;
     color: #828282;
-    margin-bottom: 12px;
+    margin-bottom: 0.75rem;
 }
 
 /*Параметры контейнера */
@@ -15,7 +15,7 @@
     font-family: Montserrat;
     font-style: normal;
     font-weight: 300;
-    font-size: 48px;
+    font-size: 3rem;
     line-height: 130%;
     text-align: center;
     color: #A2A2A2;
@@ -23,10 +23,10 @@
 
 .countdownHolder .position {
     display: inline-block;
-    height: 62px;
+    height: 3.875rem;
     overflow: hidden;
     position: relative;
-    width: 33px;
+    width: 2.0625rem;
 }
 
 .countdownHolder .digit {
@@ -41,13 +41,13 @@
 .countdownHolder .countHours,
 .countdownHolder .countMinutes,
 .countdownHolder .countSeconds {
-    max-width: 70px;
+    max-width: 4.375rem;
     display: flex;
 }
 
 .countdownHolder .countDiv {
     display: none;
-    width: 16px;
+    width: 1rem;
     height: 1.6em;
     position: relative;
 }
@@ -55,14 +55,14 @@
 .countdownHolder .countDiv:before,
 .countdownHolder .countDiv:after {
     position: absolute;
-    width: 5px;
-    height: 5px;
+    width: 0.3125rem;
+    height: 0.3125rem;
     background-color: #444;
     border-radius: 50%;
     left: 50%;
-    margin-left: -3px;
+    margin-left: -0.1875rem;
     top: 0.5em;
-    box-shadow: 1px 1px 1px rgba(4, 4, 4, 0.5);
+    box-shadow: 0.0625rem 0.0625rem 0.0625rem rgba(4, 4, 4, 0.5);
     content: '';
 }
 
@@ -72,7 +72,7 @@
 
 .countdownHolder .textdigit {
     font-weight: 500;
-    font-size: 14px;
+    font-size: 0.875rem;
     line-height: 130%;
     text-align: center;
     color: #A2A2A2;
@@ -91,7 +91,7 @@
 }
 
 .simpleCountdown>div:not(:last-of-type) {
-    padding-right: 32px;
+    padding-right: 2rem;
     position: relative;
 
     &::after {
@@ -99,6 +99,6 @@
         position: absolute;
         top: 0;
         // transform: translateY(-50%);
-        right: 11px;
+        right: 0.6875rem;
     }
 }

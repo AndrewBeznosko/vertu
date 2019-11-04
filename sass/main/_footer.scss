@@ -1,9 +1,9 @@
 footer {
-    padding: 16px 0;
+    padding: 1rem 0;
     background: #000000;
-    @media (min-width: 1400px) {
+    @media (min-width: 87.5rem) {
         .container {
-            max-width: 1264px;
+            max-width: 79rem;
         }
     }
 
@@ -20,13 +20,13 @@ footer {
         a,
         span {
             font-weight: normal;
-            font-size: 12px;
+            font-size: 0.75rem;
             line-height: 170%;
             color: #BDBDBD;
         }
 
         a {
-            margin-left: 16px;
+            margin-left: 1rem;
 
             &:hover {
                 text-decoration: underline;
@@ -35,14 +35,14 @@ footer {
         }
     }
 }
-@media (max-width: 767.98px) {
+@media (max-width: 47.9988rem) {
     footer {
         nav {
             flex-direction: column-reverse;
             align-items: center;
 
             span {
-                margin: 15px 0 0;
+                margin: 0.9375rem 0 0;
             }
 
             a {

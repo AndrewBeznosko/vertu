@@ -1,26 +1,26 @@
 .sec_you_will_get {
-    padding: 54px 0 62px;
+    padding: 3.375rem 0 3.875rem;
 
     .sec_title h2 {
-        margin-bottom: 49px;
+        margin-bottom: 3.0625rem;
     }
 
     // abs_pic
 
     .dubl_line_vertical {
-        left: -100px;
+        left: -6.25rem;
         top: 76%;
         transform: rotate(-90deg);
 
     }
 
     .dubl_line_vertical2 {
-        right: -100px;
+        right: -6.25rem;
         top: 42%;
         transform: rotate(-90deg);
     }
 
     @media (max-width: 767.98px) {
-        padding: 30px 0;
+        padding: 1.875rem 0;
     }
 }

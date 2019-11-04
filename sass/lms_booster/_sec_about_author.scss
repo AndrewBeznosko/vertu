@@ -1,41 +1,41 @@
 .sec_about_author {
-    padding-top: 64px;
+    padding-top: 4rem;
 
     .sec_title p {
         font-style: normal;
         font-weight: 500;
-        font-size: 24px;
+        font-size: 1.5rem;
         line-height: 140%;
         color: #4f4f4f;
-        padding-top: 23px;
-        padding-bottom: 71px;
+        padding-top: 1.4375rem;
+        padding-bottom: 4.4375rem;
     }
 
     .custom-list {
-        max-width: 620px;
+        max-width: 38.75rem;
 
         li {
-            font-size: 18px;
+            font-size: 1.125rem;
 
             &:not(:last-of-type) {
-                margin-bottom: 17px;
+                margin-bottom: 1.0625rem;
             }
         }
     }
 
     .btn {
-        max-width: 425px;
+        max-width: 26.5625rem;
         width: 100%;
-        margin-top: 18px;
-        margin-bottom: 38px;
+        margin-top: 1.125rem;
+        margin-bottom: 2.375rem;
     }
 
     .text-orange {
         font-style: normal;
         font-weight: 500;
-        font-size: 18px;
+        font-size: 1.125rem;
         line-height: 130%;
-        margin-bottom: 81px;
+        margin-bottom: 5.0625rem;
     }
 
     .img_wrapp {
@@ -44,37 +44,37 @@
 
         img {
             position: absolute;
-            right: 20px;
+            right: 1.25rem;
             bottom: 0;
-            max-width: 370px;
+            max-width: 23.125rem;
         }
     }
 
     // abc_pic
 
     .circle {
-        width: 50px;
-        left: 552px;
+        width: 3.125rem;
+        left: 34.5rem;
         top: 77%;
     }
 
     .dubl_line {
-        right: -5px;
+        right: -0.3125rem;
         top: 31%;
     }
 
     @media (max-width: 767.98px) {
-        padding-top: 30px;
+        padding-top: 1.875rem;
 
         .sec_title p {
-            font-size: 16px;
-            padding-top: 15px;
-            padding-bottom: 40px;
+            font-size: 1rem;
+            padding-top: 0.9375rem;
+            padding-bottom: 2.5rem;
         }
 
         .custom-list li {
-            font-size: 15px;
-            margin-bottom: 15px;
+            font-size: 0.9375rem;
+            margin-bottom: 0.9375rem;
         }
 
         .img_wrapp {
@@ -82,8 +82,8 @@
         }
 
         .text-orange {
-            font-size: 16px;
-            margin: 0 0 30px;
+            font-size: 1rem;
+            margin: 0 0 1.875rem;
             text-align: center;
         }
 

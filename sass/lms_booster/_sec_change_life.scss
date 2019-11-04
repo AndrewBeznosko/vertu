@@ -1,46 +1,46 @@
 .sec_change_life {
-    padding: 74px 0 87px;
+    padding: 4.625rem 0 5.4375rem;
 
     .circle {
-        width: 50px;
+        width: 3.125rem;
         left: auto;
-        right: -40px;
+        right: -2.5rem;
         top: 85%;
     }
 
     .dubl_line_vertical {
-        left: 50px;
+        left: 3.125rem;
         top: 88%;
     }
 
     .sec_title {
         h2 {
-            margin-bottom: 31px;
+            margin-bottom: 1.9375rem;
             text-transform: uppercase;
             font-weight: 600;
-            font-size: 32px;
+            font-size: 2rem;
             line-height: 140%;
         }
 
         p {
-            margin-bottom: 58px;
+            margin-bottom: 3.625rem;
             font-weight: 600;
-            font-size: 20px;
+            font-size: 1.25rem;
             line-height: 140%;
         }
     }
 
     @media (max-width: 767.98px) {
-        padding: 30px 0;
+        padding: 1.875rem 0;
 
         .sec_title {
             h2 {
-                font-size: 19px;
+                font-size: 1.1875rem;
             }
 
             p {
-                font-size: 16px;
-                margin-bottom: 30px;
+                font-size: 1rem;
+                margin-bottom: 1.875rem;
             }
         }
     }

@@ -1,29 +1,29 @@
 .sec_product {
     background-image: none;
-    padding-top: 62px;
+    padding-top: 3.875rem;
 
     h1 {
         font-weight: 600;
-        font-size: 34px;
+        font-size: 2.125rem;
         line-height: 140%;
         text-transform: uppercase;
         color: #4F4F4F;
         text-transform: uppercase;
-        margin-bottom: 47px;
+        margin-bottom: 2.9375rem;
     }
 
     .card {
-        margin-bottom: 112px;
-        padding: 20px 22px 33px;
-        max-width: 643px;
+        margin-bottom: 7rem;
+        padding: 1.25rem 1.375rem 2.0625rem;
+        max-width: 40.1875rem;
 
         p {
             font-style: normal;
             font-weight: 500;
-            font-size: 20px;
+            font-size: 1.25rem;
             line-height: 150%;
             color: #828282;
-            margin-bottom: 24px;
+            margin-bottom: 1.5rem;
 
             b {
                 text-transform: uppercase;
@@ -34,29 +34,29 @@
 
         .btn {
             width: auto;
-            max-width: 245px;
+            max-width: 15.3125rem;
         }
     }
 
     .img_wrapp img {
         bottom: 0;
-        right: -80px;
-        width: 465px;
-        filter: drop-shadow(20px 20px 25px rgba(0, 0, 0, 0.3));
+        right: -5rem;
+        width: 29.0625rem;
+        filter: drop-shadow(1.25rem 1.25rem 1.5625rem rgba(0, 0, 0, 0.3));
     }
 
     @media (max-width: 767.98px) {
-        padding: 30px 0 0;
+        padding: 1.875rem 0 0;
 
         h1 {
-            font-size: 21px;
+            font-size: 1.3125rem;
             margin: 0;
             text-align: left;
-            margin-bottom: 30px; 
+            margin-bottom: 1.875rem; 
         }
 
         .img_wrapp {
-            height: 340px;
+            height: 21.25rem;
 
             img {
                 box-shadow: none;
@@ -65,11 +65,11 @@
         }
 
         .card {
-            padding: 15px;
+            padding: 0.9375rem;
             margin: 0;
 
             p {
-                font-size: 16px;
+                font-size: 1rem;
             }
 
             .btn {

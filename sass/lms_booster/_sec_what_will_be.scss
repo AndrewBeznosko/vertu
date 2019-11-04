@@ -1,44 +1,44 @@
 .sec_what_will_be {
-    padding: 92px 0 95px;
+    padding: 5.75rem 0 5.9375rem;
 
     .sec_title {
         h2 {
-            margin-bottom: 71px;
+            margin-bottom: 4.4375rem;
         }
     }
 
     @media (max-width: 767.98px) {
-        padding: 30px 0;
+        padding: 1.875rem 0;
 
         .sec_title h2 {
-            margin-bottom: 40px;
+            margin-bottom: 2.5rem;
         }
     }
 
     // abs_pic
 
     .circle {
-        width: 50px;
-        left: -5px;
+        width: 3.125rem;
+        left: -0.3125rem;
         top: 95%;
     }
 
     .dubl_line_vertical {
-        right: -90px;
+        right: -5.625rem;
         top: 40%;
     }
 }
 
 .sec_what_will_be_1 {
     .circle2 {
-        width: 50px;
-        right: 5px;
-        top: 1px;
+        width: 3.125rem;
+        right: 0.3125rem;
+        top: 0.0625rem;
     }
 
     .dubl_line_vertical {
-        left: 72px;
-        top: 531px;
+        left: 4.5rem;
+        top: 33.1875rem;
         transform: rotate(-90deg);
     }
 }

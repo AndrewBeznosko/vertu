@@ -1,6 +1,6 @@
 .sec_you_get_everything {
     position: relative;
-    padding: 0 0 187px;
+    padding: 0 0 11.6875rem;
     background-color: #FBFBFB;
 
     .img_wrapp {
@@ -9,27 +9,27 @@
 
         img {
             position: absolute;
-            right: 0px;
-            top: 0px;
+            right: 0rem;
+            top: 0rem;
         }
     }
 
     p {
         font-style: normal;
         font-weight: 600;
-        font-size: 30px;
+        font-size: 1.875rem;
         line-height: 140%;
         text-transform: uppercase;
         color: #5C5B5B;
         margin: 0;
-        margin-top: 57px;
+        margin-top: 3.5625rem;
     }
 
     .bg-gradient {
         position: relative;
         z-index: 1;
-        padding-top: 109px;
-        padding-bottom: 91px;
+        padding-top: 6.8125rem;
+        padding-bottom: 5.6875rem;
 
         &:after {
             content: '';
@@ -46,28 +46,28 @@
     }
 
     @media (max-width: 767.98px) {
-        padding: 0 0 40px;
+        padding: 0 0 2.5rem;
 
         .bg-gradient {
-            padding: 30px 0;
+            padding: 1.875rem 0;
         }
 
         .sec_title.title-left h2 {
-            font-size: 21px;
+            font-size: 1.3125rem;
         }
 
         p {
-            margin-top: 20px;
-            font-size: 17px;
+            margin-top: 1.25rem;
+            font-size: 1.0625rem;
         }
 
         .img_wrapp {
-            height: 132px;
+            height: 8.25rem;
             text-align: center;
-            margin-top: 40px;
+            margin-top: 2.5rem;
 
             img {
-                max-width: 300px;
+                max-width: 18.75rem;
                 position: initial;
             }
         }

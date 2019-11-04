@@ -3,16 +3,16 @@
     background-image: url('../img/lms_booster/sec_product_bg.svg');
     background-position: center 103%;
     background-repeat: no-repeat;
-    padding: 101px 0 0;
+    padding: 6.3125rem 0 0;
     overflow: hidden;
 
     h1 {
         font-style: normal;
         font-weight: 600;
-        font-size: 34px;
+        font-size: 2.125rem;
         line-height: 140%;
         text-transform: uppercase;
-        margin-bottom: 79px;
+        margin-bottom: 4.9375rem;
 
         b {
             font-weight: bold;
@@ -21,7 +21,7 @@
 
     @media (min-width: 1200px) {
         .container {
-            max-width: 1120px;
+            max-width: 70rem;
         }
     }
 
@@ -30,16 +30,16 @@
         display: -ms-flex;
         display: flex;
         align-items: center;
-        margin-bottom: 52px;
+        margin-bottom: 3.25rem;
 
         .date_wrap {
-            margin-right: 40px;
+            margin-right: 2.5rem;
         }
     }
 
     .undertitle {
         font-weight: 500;
-        font-size: 20px;
+        font-size: 1.25rem;
         line-height: 150%;
         text-transform: uppercase;
         color: #828282;
@@ -55,14 +55,14 @@
             position: absolute;
             bottom: 0;
             right: 0;
-            width: 458px;
-            // filter: drop-shadow(20px 20px 25px rgba(0, 0, 0, 0.3));
+            width: 28.625rem;
+            // filter: drop-shadow(1.25rem 1.25rem 1.5625rem rgba(0, 0, 0, 0.3));
         }
     }
 
     .card {
-        padding: 18px 22px 31px 23px;
-        max-width: 555px;
+        padding: 1.125rem 1.375rem 1.9375rem 1.4375rem;
+        max-width: 34.6875rem;
         margin-bottom: 0;
 
         ul {
@@ -73,33 +73,33 @@
 
         li {
             font-weight: 500;
-            font-size: 16px;
+            font-size: 1rem;
             line-height: 130%;
             display: flex;
             align-items: flex-start;
             color: #828282;
 
             &:not(:last-of-type) {
-                margin-bottom: 11px;
+                margin-bottom: 0.6875rem;
             }
 
             img {
-                width: 18px;
+                width: 1.125rem;
                 height: auto;
                 display: inline-block;
-                margin-top: 3px;
-                margin-right: 17px;
+                margin-top: 0.1875rem;
+                margin-right: 1.0625rem;
             }
 
             b {
-                font-size: 20px;
+                font-size: 1.25rem;
             }
         }
 
         p {
             font-style: normal;
             font-weight: 500;
-            font-size: 13px;
+            font-size: 0.8125rem;
             line-height: 153.59%;
             color: #828282;
             padding: 0;
@@ -107,19 +107,19 @@
 
             &.title {
                 font-weight: 600;
-                font-size: 16px;
+                font-size: 1rem;
                 line-height: 130%;
-                margin-bottom: 25px;
+                margin-bottom: 1.5625rem;
 
                 b {
-                    font-size: 19px;
+                    font-size: 1.1875rem;
                     font-weight: 600;
                 }
             }
         }
 
         &__footer {
-            margin-top: 31px;
+            margin-top: 1.9375rem;
             display: -webkit-flex;
             display: -ms-flex;
             display: flex;
@@ -128,19 +128,19 @@
 
             .price {
                 font-weight: 500;
-                font-size: 33px;
+                font-size: 2.0625rem;
                 line-height: 153.59%;
                 color: #58B58B;
             }
 
             .btn-success {
                 font-weight: 600;
-                font-size: 18px;
+                font-size: 1.125rem;
                 line-height: 130%;
-                padding: 12.5px 28px;
-                width: 245px;
-                border-radius: 5px;
-                box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.07);
+                padding: 0.7813rem 1.75rem;
+                width: 15.3125rem;
+                border-radius: 0.3125rem;
+                box-shadow: 0.0625rem 0.0625rem 0.125rem rgba(0, 0, 0, 0.07);
             }
         }
     }
@@ -163,63 +163,63 @@
     }
 
     .btn-video-modal {
-        margin-top: 25px;
-        margin-bottom: 48px;
+        margin-top: 1.5625rem;
+        margin-bottom: 3rem;
     }
 }
 
 @media (max-width: 767.98px) {
     .sec_product {
         overflow: hidden;
-        padding-top: 40px;
+        padding-top: 2.5rem;
 
         h1 {
-            font-size: 19px;
-            margin: 15px 0;
+            font-size: 1.1875rem;
+            margin: 0.9375rem 0;
             text-align: center;
-            margin-bottom: 40px;
+            margin-bottom: 2.5rem;
         }
 
         .undertitle_wrapp {
             flex-direction: column-reverse;
             justify-content: flex-start;
             align-items: flex-start;
-            margin-bottom: 35px;
+            margin-bottom: 2.1875rem;
 
             .date_wrap {
-                margin-top: 20px;
+                margin-top: 1.25rem;
             }
         }
 
         .undertitle {
-            font-size: 16px;
+            font-size: 1rem;
 
             i {
-                margin-top: 10px;
+                margin-top: 0.625rem;
             }
         }
 
         .card {
-            padding: 20px 15px;
-            margin-bottom: 20px;
+            padding: 1.25rem 0.9375rem;
+            margin-bottom: 1.25rem;
             box-shadow: none;
-            border: 1px solid #d6d6d6;
+            border: 0.0625rem solid #d6d6d6;
 
             p {
-                font-size: 14px;
+                font-size: 0.875rem;
             }
         }
 
         .img_wrapp {
             margin: 0;
-            height: 400px;
+            height: 25rem;
 
             img {
                 width: 100%;
                 right: initial;
                 left: 50%;
                 transform: translateX(-50%);
-                max-width: 290px;
+                max-width: 18.125rem;
                 filter: none;
             }
         }
@@ -228,22 +228,22 @@
             flex-wrap: wrap;
 
             .btn-success {
-                padding: 15px;
+                padding: 0.9375rem;
                 width: 100%;
 
                 &:not(:last-of-type) {
-                    margin-bottom: 10px;
+                    margin-bottom: 0.625rem;
                 }
             }
 
             .price {
-                font-size: 24px;
+                font-size: 1.5rem;
             }
         }
 
         .btn-video-modal {
             margin: 0;
-            margin-bottom: 15px;
+            margin-bottom: 0.9375rem;
         }
 
         // abs icons

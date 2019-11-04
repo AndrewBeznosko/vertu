@@ -1,12 +1,12 @@
 .navbar {
     background: #58B58B;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 0.3125rem rgba(0, 0, 0, 0.3);
     padding: 0;
 
     .btn {
-        border-radius: 3px;
-        padding: 8px 22px;
-        font-size: 13px;
+        border-radius: 0.1875rem;
+        padding: 0.5rem 1.375rem;
+        font-size: 0.8125rem;
     }
 
     .dropdown-toggle {
@@ -15,7 +15,7 @@
         }
 
         img {
-            margin-left: 5px;
+            margin-left: 0.3125rem;
             transition: 0.3s;
         }
     }
@@ -30,28 +30,28 @@
 }
 
 .dropdown-menu {
-    box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);
-    border-radius: 5px;
+    box-shadow: 0 0 1.5625rem rgba(0, 0, 0, 0.15);
+    border-radius: 0.3125rem;
     border: none;
-    margin-top: 25px;
-    padding: 10px 0;
+    margin-top: 1.5625rem;
+    padding: 0.625rem 0;
 
     &::after {
         content: '';
         position: absolute;
         bottom: 100%;
-        left: 55px;
+        left: 3.4375rem;
         width: 0;
         height: 0;
-        border-left: 10px solid transparent;
-        border-right: 10px solid transparent;
-        border-bottom: 10px solid #fff;
+        border-left: 0.625rem solid transparent;
+        border-right: 0.625rem solid transparent;
+        border-bottom: 0.625rem solid #fff;
     }
 
     a {
         color: #4f4f4f;
         font-weight: 600;
-        font-size: 15px;
+        font-size: 0.9375rem;
         line-height: 150%;
     }
 }
@@ -81,8 +81,8 @@
     }
 
     .navbar-expand-md .navbar-nav .nav-link {
-        padding-right: 16px;
-        padding-left: 16px;
+        padding-right: 1rem;
+        padding-left: 1rem;
     }
 }
 
@@ -90,12 +90,12 @@
     display: flex;
     align-items: center;
     background: #3A966C;
-    padding: 4px 18px 4px 10px;
+    padding: 0.25rem 1.125rem 0.25rem 0.625rem;
 }
 
 .nav-link {
     font-weight: 600;
-    font-size: 14px;
+    font-size: 0.875rem;
     line-height: 120%;
     padding: 1rem;
 
@@ -106,12 +106,12 @@
 }
 @media (max-width: 767.98px) {
     .navbar-brand {
-        padding-top: 3px;
-        padding-bottom: 5px;
+        padding-top: 0.1875rem;
+        padding-bottom: 0.3125rem;
     }
 
     .navbar .btn {
-        margin-right: 15px;
+        margin-right: 0.9375rem;
     }
 
     .nav-link:focus,
@@ -124,12 +124,12 @@
         margin: 0;
         box-shadow: none;
         border-radius: 0;
-        margin-left: -15px;
-        margin-right: -15px;
+        margin-left: -0.9375rem;
+        margin-right: -0.9375rem;
     }
 
     .dropdown-item {
-        padding: 0.25rem 1rem;
+        padding: 4px 16px;
     }
 
     .dropdown-menu::after {

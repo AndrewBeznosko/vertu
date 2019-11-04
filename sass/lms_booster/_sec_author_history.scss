@@ -1,43 +1,43 @@
 .sec_author_history {
-    padding: 85px 0 112px;
+    padding: 5.3125rem 0 7rem;
 
     .circle {
-        width: 50px;
-        left: -60px;
+        width: 3.125rem;
+        left: -3.75rem;
         top: 7%;
     }
 
     .dubl_line {
-        left: 200px;
+        left: 12.5rem;
         top: 92%;
     }
 
     .sec_title h2 {
-        margin-bottom: 75px;
+        margin-bottom: 4.6875rem;
     }
 
     p {
         font-style: normal;
         font-weight: 500;
-        font-size: 14px;
+        font-size: 0.875rem;
         line-height: 150%;
         color: #4f4f4f;
-        margin-bottom: 20px;
+        margin-bottom: 1.25rem;
     }
 
     .btn {
-        margin-top: 30px;
+        margin-top: 1.875rem;
     }
 
     @media (max-width: 767.98px) {
-        padding: 30px 0;
+        padding: 1.875rem 0;
 
         .sec_title h2 {
-            margin-bottom: 30px;
+            margin-bottom: 1.875rem;
         }
 
         .embed-responsive {
-            margin-bottom: 30px;
+            margin-bottom: 1.875rem;
         }
     }
 }

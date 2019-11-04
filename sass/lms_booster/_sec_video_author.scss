@@ -1,30 +1,30 @@
 .sec_video_author {
-    padding: 73px 0 98px;
+    padding: 4.5625rem 0 6.125rem;
 
     .circle {
-        width: 50px;
-        right: 20px;
+        width: 3.125rem;
+        right: 1.25rem;
         top: 45%;
     }
 
     .dubl_line {
-        right: -70px;
+        right: -4.375rem;
         top: 90%;
         transform: rotate(-180deg);
 
     }
 
     .dubl_line_vertical {
-        left: 0px;
+        left: 0rem;
         top: 60%;
         transform: rotate(90deg);
     }
 
     .sec_title h2 {
-        margin-bottom: 58px;
+        margin-bottom: 3.625rem;
     }
 
     @media (max-width: 767.98px) {
-        padding: 30px 0;
+        padding: 1.875rem 0;
     }
 }

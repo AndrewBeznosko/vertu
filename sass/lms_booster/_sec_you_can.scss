@@ -1,41 +1,41 @@
 .sec_you_can {
-    padding: 105px 0 76px;
+    padding: 6.5625rem 0 4.75rem;
 
     .dubl_line_vertical {
-        right: -90px;
+        right: -5.625rem;
         top: 42%;
         transform: rotate(-90deg);
     }
 
     .circle {
-        width: 50px;
-        left: -70px;
+        width: 3.125rem;
+        left: -4.375rem;
         top: 56%;
     }
 
     .sec_title h2 {
-        margin-bottom: 58px;
+        margin-bottom: 3.625rem;
     }
 
     .text-orange {
         margin: 0;
-        margin-bottom: 25px;
+        margin-bottom: 1.5625rem;
         font-style: normal;
         font-weight: 600;
-        font-size: 26px;
+        font-size: 1.625rem;
         line-height: 150%;
         color: #F0A744;
     }
 
     @media (max-width: 767.98px) {
-        padding: 30px 0;
+        padding: 1.875rem 0;
 
         .sec_title h2 {
-            margin-bottom: 30px;
+            margin-bottom: 1.875rem;
         }
 
         .text-orange {
-          font-size: 16px;  
+          font-size: 1rem;  
           text-align: center;
         }
     }

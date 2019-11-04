@@ -1,46 +1,46 @@
 .sec_prizes {
-    padding: 93px 0 112px;
+    padding: 5.8125rem 0 7rem;
 
     .circle {
-        width: 50px;
-        left: 950px;
+        width: 3.125rem;
+        left: 59.375rem;
         top: 71%;
     }
 
     .dubl_line {
-        right: -50px;
+        right: -3.125rem;
         top: 17%;
     }
 
     .dubl_line_vertical {
-        left: 100px;
+        left: 6.25rem;
         top: 78%;
         transform: rotate(-90deg);
     }
 
     .sec_title {
         h2 {
-            margin-bottom: 40px;
+            margin-bottom: 2.5rem;
         }
 
         p {
-            margin-bottom: 40px;
+            margin-bottom: 2.5rem;
             font-weight: 600;
-            font-size: 20px;
+            font-size: 1.25rem;
             line-height: 140%;
         }
     }
 
     @media (max-width: 767.98px) {
-        padding: 30px 0;
+        padding: 1.875rem 0;
 
         .sec_title p {
-            font-size: 16px;
+            font-size: 1rem;
         }
 
         .btn-success.btn-lg {
-            padding: 15px;
-            margin-top: 20px;
+            padding: 0.9375rem;
+            margin-top: 1.25rem;
         }
     }
 }

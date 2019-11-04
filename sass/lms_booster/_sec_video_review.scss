@@ -1,36 +1,36 @@
 .sec_video_review {
-    padding: 76px 0 84px;
+    padding: 4.75rem 0 5.25rem;
     background: #fbf3e9;
     overflow: hidden;
 
     .circle {
-        width: 50px;
-        left: -60px;
+        width: 3.125rem;
+        left: -3.75rem;
         top: 18%;
     }
 
     .dubl_line {
-        left: 0px;
+        left: 0rem;
         top: 100%;
         transform: rotate(-180deg);
 
     }
 
     .dubl_line_vertical {
-        right: -120px;
+        right: -7.5rem;
         top: 25%;
         transform: rotate(-90deg);
     }
 
     .sec_title {
-        margin-bottom: 49px;
+        margin-bottom: 3.0625rem;
     }
 
     .card {
         background: #FFFFFF;
-        box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
-        border-radius: 15px;
-        padding: 45px 48px;
+        box-shadow: 0rem 0rem 1.5625rem rgba(0, 0, 0, 0.15);
+        border-radius: 0.9375rem;
+        padding: 2.8125rem 3rem;
     }
 
     .card_profile {
@@ -39,36 +39,36 @@
     }
 
     @media (max-width: 767.98px) {
-        padding: 30px 0;
+        padding: 1.875rem 0;
 
         .sec_title {
             margin-bottom: 0;
         }
 
         .card {
-            padding: 15px;
+            padding: 0.9375rem;
         }
 
         .card_profile {
-            margin-bottom: 25px;
+            margin-bottom: 1.5625rem;
         }
 
         .card_profile {
             .icon {
-                width: 70px;
-                min-width: 70px;
-                height: 70px;
-                border-width: 2px;
+                width: 4.375rem;
+                min-width: 4.375rem;
+                height: 4.375rem;
+                border-width: 0.125rem;
                 margin: 0;
             }
 
             h3 {
-                height: 70px;
+                height: 4.375rem;
                 display: flex;
                 align-items: center;
-                margin-left: 90px;
-                max-width: 170px;
-                margin-bottom: 10px;
+                margin-left: 5.625rem;
+                max-width: 10.625rem;
+                margin-bottom: 0.625rem;
             }
         }
     }
@@ -76,14 +76,14 @@
 
 .sec_video_review_1 {
     .circle {
-        width: 50px;
-        left: -105px;
-        top: 75px;
+        width: 3.125rem;
+        left: -6.5625rem;
+        top: 4.6875rem;
     }
 
     .dubl_line_vertical {
-        right: -81px;
-        top: 582px;
+        right: -5.0625rem;
+        top: 36.375rem;
         transform: rotate(-90deg);
     }
 }
