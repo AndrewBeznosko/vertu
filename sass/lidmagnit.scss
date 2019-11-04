@@ -6,153 +6,178 @@
 @import "lidmagnit/sec_what_results";
 @import "lidmagnit/sec_checklist";
 @import "vebinar/sec_form_master_class";
+
 // ==============================================================
 // COMMON
 // ==============================================================
 .media_wrapp .media .icon {
     background-image: url('../img/icons/ok-yellow.svg');
 }
+
 // ==============================================================
 // absolute pictures
 // ==============================================================
-.sec_product{
+.sec_product {
 
-    .circle{
-      width: 22px;
-      left: 173px;
-      top: 440px;
+    .circle {
+        width: 22px;
+        left: 173px;
+        top: 440px;
     }
-    .circle2{
-      width: 50px;
-      right: 385px;
-      top: 154px;
+
+    .circle2 {
+        width: 50px;
+        right: 385px;
+        top: 154px;
     }
-    .circle_orange{
-      width: 29px;
-      right: 470px;
-      top: 486px;
-      left: initial;
+
+    .circle_orange {
+        width: 29px;
+        right: 470px;
+        top: 486px;
+        left: initial;
     }
-    .dubl_line_vertical{
-      right: -70px;
-      top: 8%;
+
+    .dubl_line_vertical {
+        right: -70px;
+        top: 8%;
     }
 }
 
-.sec_practics{
+.sec_practics {
 
-    .circle{
-      width: 50px;
-      left: -15px;
-      top: 543px;
+    .circle {
+        width: 50px;
+        left: -15px;
+        top: 543px;
     }
-    .dubl_line{
-      right: 20px;
-      top: 560px;
-      transform: rotate(180deg);
+
+    .dubl_line {
+        right: 20px;
+        top: 560px;
+        transform: rotate(180deg);
+    }
+
+}
+
+.sec_what_results {
+
+    .circle {
+        width: 50px;
+        left: 65px;
+        top: 197px;
+    }
+
+    .dubl_line {
+        left: 295px;
+        top: 648px;
+        transform: rotate(180deg);
     }
 
 }
 
-.sec_what_results{
+.sec_checklist {
 
-    .circle{
-      width: 50px;
-      left: 65px;
-      top: 197px;
+    .circle {
+        opacity: 0.1;
+        width: 50px;
+        left: 505px;
+        top: 284px;
     }
-    .dubl_line{
-      left: 295px;
-      top: 648px;
-      transform: rotate(180deg);
+}
+
+.sec_what_results_2 {
+
+    .circle {
+        width: 50px;
+        right: 105px;
+        top: 288px;
+        left: initial;
+    }
+
+    .dubl_line_vertical {
+        left: -90px;
+        top: 195px;
+        transform: rotate(-90deg);
     }
 
 }
-.sec_checklist{
 
-    .circle{
-      opacity: 0.1;
-      width: 50px;
-      left: 505px;
-      top: 284px;
+.sec_checklist_2 {
+
+    .circle {
+        opacity: 0.1;
+        width: 50px;
+        left: 600px;
+        top: 306px;
     }
 }
-.sec_what_results_2{
 
-    .circle{
-      width: 50px;
-      right: 105px;
-      top: 288px;
-      left: initial;
-    }
-    .dubl_line_vertical{
-      left: -90px;
-      top: 195px;
-      transform: rotate(-90deg);
+.sec_what_results_3 {
+
+    .circle {
+        width: 50px;
+        left: 10px;
+        top: 280px;
+        right: initial;
     }
 
-}
-.sec_checklist_2{
-
-    .circle{
-      opacity: 0.1;
-      width: 50px;
-      left: 600px;
-      top: 306px;
+    .dubl_line_vertical {
+        right: 0px;
+        top: 260px;
+        transform: rotate(-90deg);
+        left: initial;
+        display: none;
     }
-}
-.sec_what_results_3{
 
-    .circle{
-      width: 50px;
-      left: 10px;
-      top: 280px;
-      right: initial;
-    }
-    .dubl_line_vertical{
-      right: 0px;
-      top: 260px;
-      transform: rotate(-90deg);
-      left: initial;
-      display: none;
+    @media (max-width: 767.98px) {
+        .sec_title p {
+            font-size: 14px;
+            margin-top: 0;
+        }
     }
 }
-.sec_checklist_3{
 
-    .circle{
-      opacity: 0.1;
-      width: 50px;
-      left: 509px;
-      top: 340px;
+.sec_checklist_3 {
+
+    .circle {
+        opacity: 0.1;
+        width: 50px;
+        left: 509px;
+        top: 340px;
     }
 }
-.sec_video_review{
 
-    .circle{
-      width: 50px;
-      right: -101px;
-      top: 195px;
-      left: initial;
+.sec_video_review {
+
+    .circle {
+        width: 50px;
+        right: -101px;
+        top: 195px;
+        left: initial;
     }
-    .dubl_line_vertical{
-      left: -113px;
-      top: 550px;
-      transform: rotate(-90deg);
+
+    .dubl_line_vertical {
+        left: -113px;
+        top: 550px;
+        transform: rotate(-90deg);
     }
 }
-.sec_form_master_class{
 
-    .circle{
-      opacity: 0.1;
-      width: 50px;
-      left: -70px;
-      top: 80px;
+.sec_form_master_class {
+
+    .circle {
+        opacity: 0.1;
+        width: 50px;
+        left: -70px;
+        top: 80px;
     }
-    .dubl_line_vertical{
-      right: -113px;
-      top: 560px;
-      transform: rotate(-90deg);
-      left: initial;
+
+    .dubl_line_vertical {
+        right: -113px;
+        top: 560px;
+        transform: rotate(-90deg);
+        left: initial;
     }
 
 }

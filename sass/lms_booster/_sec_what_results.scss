@@ -47,4 +47,10 @@
         top: 98%;
         transform: rotate(180deg);
     }
+
+    @media (max-width: 767.98px) {
+        .circle {
+            display: none; 
+        }
+    }
 }
