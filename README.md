@@ -17,6 +17,7 @@ $ compass compile
 ``` bash
 Руби: http://www.ruby-lang.org/en/downloads/
 Компас: http://compass-style.org/install/
+Видео обяснялка: https://youtu.be/gLArCossYVA
 ```
 
 
