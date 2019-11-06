@@ -2,6 +2,14 @@
 	background: #daede5;
 	padding: 79px 0 81px;
 
+		.img_wrapp{
+			display: flex;
+			justify-content: center;
+			img{
+				width: 298px;
+			}
+		}
+
 	.main-txt {
 		h2 {
 			font-weight: 500;

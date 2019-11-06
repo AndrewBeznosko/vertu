@@ -40,6 +40,15 @@
             filter: drop-shadow(20px 20px 25px rgba(0, 0, 0, 0.3));
         }
     }
+    .img_wrapp2{
+        position: relative;
+        height: 298px;
+        display: flex;
+        justify-content: center;
+        img {
+            height: 298px;
+        }
+    }
 
     .circle {
         bottom: 54%;
