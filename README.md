@@ -14,10 +14,11 @@ $ compass compile
 ```
 
 # Ссылки по теме
-``` bash
-Руби: http://www.ruby-lang.org/en/downloads/
-Компас: http://compass-style.org/install/
-Видео обяснялка: https://youtu.be/gLArCossYVA
-```
+
+Руби: http://www.ruby-lang.org/en/downloads/  
+Компас: http://compass-style.org/install/  
+Installing Compass on Linux: https://ericdouglas.github.io/2016/08/21/Installing-Compass-on-Linux-Mint/    
+Видео обяснялка: https://youtu.be/gLArCossYVA   
+
 
 
