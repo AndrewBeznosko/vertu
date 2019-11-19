@@ -44,7 +44,7 @@
     }
 
     .card_txt {
-        max-width: 693px;
+        max-width: 645px;
         padding: 34px 37px 40px 39px;
 
         h4 {
@@ -56,7 +56,7 @@
 
         p {
             font-weight: 500;
-            font-size: 16px; 
+            font-size: 16px;
             line-height: 160%;
             color: #828282;
             margin: 0;
@@ -72,9 +72,24 @@
             font-size: 16px;
             line-height: 160%;
             color: #828282;
+            list-style: none;
 
             li {
                 margin-bottom: 7px;
+                display: flex;
+                align-items: flex-start;
+
+                &:not(:last-of-type) {
+                    margin-bottom: 14px;
+                }
+
+                img {
+                    width: 18px;
+                    height: auto;
+                    display: inline-block;
+                    margin-top: 3px;
+                    margin-right: 15px;
+                }
             }
         }
     }
@@ -151,6 +166,17 @@
                     margin: 0;
                 }
             }
+        }
+    }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+    .sec_about_course {
+        .sec_title {
+            margin-bottom: 40px;
+        }
+
+        .card_txt {
+            top: 20px;
         }
     }
 }
