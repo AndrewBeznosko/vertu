@@ -77,7 +77,8 @@
             height: 360px;
 
             img {
-                max-width: 400px;
+                max-width: 280px;
+                left: 50px;
             }
         }
 
@@ -96,6 +97,22 @@
         .dubl_line_vertical {
             top: 68%;
             left: 84%;
+        }
+    }
+}
+@media (min-width: 768px) and (max-width: 992px){
+    .sec_your_mentor{
+        .img_wrapp {
+            position: relative;
+            height: 430px;
+
+            img {
+                position: absolute;
+                width: 280px;
+                bottom: 0;
+                left: 0;
+                filter: drop-shadow(20px 20px 25px rgba(0, 0, 0, 0.3));
+            }
         }
     }
 }
