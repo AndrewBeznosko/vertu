@@ -88,10 +88,13 @@
 
 .navbar-brand {
     display: flex;
-    width: 120px;
+    width: 135px;
     align-items: center;
     background-color: #ffffff;
-    padding: 3px 17px 5px 12px;
+    padding: 3px 17px 5px 6px;
+    img {
+      max-width: 120px;
+    }
 }
 
 .nav-link {
