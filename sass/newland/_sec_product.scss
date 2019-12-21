@@ -43,8 +43,8 @@
         img {
             position: absolute;
             bottom: 0;
-            right: 0;
-            width: 413px;
+            right: -100px;
+            width: 800px;
             filter: drop-shadow(20px 20px 25px rgba(0,0,0,0.3));
         }
     }
@@ -167,7 +167,7 @@
             }
 
             .price {
-                font-size: 24px;
+                font-size: 13px;
             }
         }
         // abs icons
