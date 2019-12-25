@@ -43,15 +43,15 @@
         img {
             position: absolute;
             bottom: 0;
-            right: -100px;
-            width: 800px;
+            right: 20px;
+            width: 250px;
             filter: drop-shadow(20px 20px 25px rgba(0,0,0,0.3));
         }
     }
 
     .card {
         padding: 18px 30px 26px 25px;
-        max-width: 549px;
+        max-width: 649px;
         margin-bottom: 78px;
 
         p {
@@ -74,7 +74,7 @@
 
             .price {
                 font-weight: 500;
-                font-size: 18px;
+                font-size: 16px;
                 line-height: 153.59%;
                 color: #58B58B;
             }
@@ -156,7 +156,7 @@
                 right: initial;
                 left: 50%;
                 transform: translateX(-50%);
-                max-width: 345px;
+                max-width: 170px;
                 filter: none;
             }
         }
