@@ -133,12 +133,9 @@
             margin: 0 30px 0 0;
 
             li {
-                font-size: 14px;
-                line-height: 25px;
                 color: #828282;
                 position: relative;
                 padding-left: 15px;
-                font-weight: 500;
                 font-weight: 500;
                 font-size: 15px;
                 line-height: 150%;
@@ -191,12 +188,15 @@
 
                 .price {
                     font-weight: 500;
-                    font-size: 20px;
+                    font-size: 16px;
                     line-height: 130%;
                     color: #58B58B;
                     margin-bottom: 22px;
                     b {
-                      font-size: 22px;
+                      font-size: 20px;
+                    }
+                    span {
+                      font-size: 15px;
                     }
                 }
 
