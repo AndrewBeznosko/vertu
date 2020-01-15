@@ -193,7 +193,7 @@
                     color: #58B58B;
                     margin-bottom: 22px;
                     b {
-                      font-size: 20px;
+                      font-size: 18px;
                     }
                     span {
                       font-size: 15px;
@@ -303,6 +303,10 @@
 @media (max-width: 767.98px) {
     .sec_cost {
         padding: 45px 0 0;
+    }
+
+    .sec_cost br {
+      display: block;
     }
 
     .sec_cost .card {
