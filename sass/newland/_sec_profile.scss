@@ -42,7 +42,7 @@
             position: absolute;
             bottom: 0;
             right: -40px;
-            width: 490px;
+            width: 420px;
             filter: drop-shadow(20px 20px 25px rgba(0,0,0,0.3));
         }
     }
@@ -153,12 +153,12 @@
         }
 
         .img_wrapp {
-            height: 0;
+            height: 180px;
 
             img {
                 width: 100%;
                 right: initial;
-                left: 76%;
+                left: 50%;
                 bottom: -220px;
                 transform: translateX(-50%);
                 max-width: 345px;

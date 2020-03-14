@@ -44,7 +44,7 @@
             position: absolute;
             bottom: 0;
             right: 0;
-            width: 413px;
+            width: 360px;
             filter: drop-shadow(20px 20px 25px rgba(0,0,0,0.3));
         }
     }
@@ -74,9 +74,12 @@
 
             .price {
                 font-weight: 500;
-                font-size: 33px;
+                font-size: 20px;
                 line-height: 153.59%;
                 color: #58B58B;
+                b{
+                  font-size: 22px;
+                }
             }
 
             .btn-success {
@@ -156,7 +159,7 @@
                 right: initial;
                 left: 50%;
                 transform: translateX(-50%);
-                max-width: 345px;
+                max-width: 250px;
                 filter: none;
             }
         }

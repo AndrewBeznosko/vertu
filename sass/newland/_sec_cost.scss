@@ -191,10 +191,13 @@
 
                 .price {
                     font-weight: 500;
-                    font-size: 30px;
+                    font-size: 24px;
                     line-height: 130%;
                     color: #58B58B;
                     margin-bottom: 22px;
+                    b{
+                      font-size: 26px;
+                    }
                 }
 
                 .btn-success {
