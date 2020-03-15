@@ -165,8 +165,10 @@
         }
 
         .card__footer {
+            flex-wrap: wrap;
             .btn-success {
                 padding: 15px;
+                margin-top: 20px;
             }
 
             .price {
