@@ -92,6 +92,9 @@
     background-color: #ffffff;
     padding: 4px 18px 4px 10px;
     height: 50px;
+    img{
+      width: 200px;
+    }
 }
 
 .nav-link {
@@ -109,7 +112,9 @@
     .navbar-brand {
         padding-top: 3px;
         padding-bottom: 5px;
-        width: 230px;
+        img{
+          width: 230px;
+        }
     }
 
     .navbar .btn {

@@ -71,6 +71,7 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
+            flex-wrap: wrap;
 
             .price {
                 font-weight: 500;
@@ -89,6 +90,7 @@
                 padding: 15px 28px;
                 width: 245px;
                 border-radius: 5px;
+                margin-top: 16px;
             }
         }
     }
