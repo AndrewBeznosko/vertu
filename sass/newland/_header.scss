@@ -90,7 +90,10 @@
     display: flex;
     align-items: center;
     background-color: #ffffff;
-    padding: 4px 18px 4px 10px;
+    padding: 0px;
+    img {
+      max-width: 100px;
+    }
 }
 
 .nav-link {
