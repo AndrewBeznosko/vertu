@@ -54,14 +54,19 @@
         max-width: 549px;
         margin-bottom: 78px;
 
-        p {
-            font-style: normal;
-            font-weight: 500;
-            font-size: 13px;
-            line-height: 153.59%;
-            color: #828282;
-            padding: 0;
-            margin: 0;
+        .textblock {
+          max-height: 370px;
+          overflow-y: scroll;
+
+          p {
+              font-style: normal;
+              font-weight: 500;
+              font-size: 13px;
+              line-height: 153.59%;
+              color: #828282;
+              padding: 0;
+              margin: 0;
+          }
         }
 
         &__footer {
